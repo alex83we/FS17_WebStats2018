@@ -2352,6 +2352,42 @@ $mapconfig = array_merge ( $mapconfig, array (
 						) 
 				) 
 		),
+		'FabrikScript_Kuerbisfeld' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 30000,
+				'position' => '1188.871 0 888.013',
+				'showInProduction' => true,
+				'input' => array (
+						'emptypallet' => array (
+								'capacity' => 100000,
+								'factor' => 0.15,
+								'fillTypes' => 'emptypallet',
+								'showInStorage' => false 
+						),
+						'compost' => array (
+								'capacity' => 200000,
+								'factor' => 0.2,
+								'fillTypes' => 'compost',
+								'showInStorage' => false 
+						),
+						'Stroh' => array (
+								'capacity' => 200000,
+								'factor' => 0.25,
+								'fillTypes' => 'straw',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'kuerbis' => array (
+								'capacity' => 5000,
+								'factor' => 1,
+								'fillType' => 'kuerbis',
+								'palettArea' => '-1180.865 905.879 -1197.075 911.805',
+								'palettPlaces' => 22,
+								'showInStorage' => false 
+						) 
+				) 
+		),
 		'FabrikScript_potatoWasher' => array (
 				'locationType' => 'FabrikScript',
 				'ProdPerHour' => 6000,

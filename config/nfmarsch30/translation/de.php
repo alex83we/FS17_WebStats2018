@@ -240,7 +240,8 @@ $lang = array_merge ( $lang, array (
 		'zuckerpalette' => 'Zucker',
 		'sugarBeet' => 'Zuckerrüben',
 		'Tip_RSzucker' => 'Zuckerrüben',
-		'Bale150Straw' => 'Rundballen' 
+		'Bale150Straw' => 'Rundballen',
+		'kuerbis' => 'Kürbis' 
 ) );
 $lang = array_merge ( $lang, array (
 		'TipTrigger_BAHNHOF' => 'Bahnhof',
@@ -375,5 +376,6 @@ $lang = array_merge ( $lang, array (
 		'FabrikScript_Diesel_Raffinerie' => 'Diesel Raffinerie',
 		'FabrikScript_Speiseoel_Fabrik' => 'Speiseöl Fabrik',
 		'FabrikScript_compostlager2' => 'Kompostlager (Gewächshäuser)',
-		'FabrikScript_compostlager' => 'Kompostlager (Obstfarm)' 
+		'FabrikScript_compostlager' => 'Kompostlager (Obstfarm)',
+		'FabrikScript_Kuerbisfeld' => 'Kürbisfeld' 
 ) );
