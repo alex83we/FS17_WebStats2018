@@ -32,7 +32,7 @@ $mapconfig = array_merge ( $mapconfig, array (
 		),
 		'TipTrigger_HAFEN' => array (
 				'locationType' => 'TipTrigger',
-				'position' => '76 0 -989'
+				'position' => '-892 0 -959'
 		),
 		'TipTrigger_DEPOT' => array (
 				'locationType' => 'TipTrigger',
