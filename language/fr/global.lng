@@ -1,0 +1,155 @@
+//Translated to french
+
+//global
+CLOSE=Fermer
+SAVE=Sauver
+SUBMIT=Soumettre
+RESET=Réinitialiser
+SAVETIME=Date de sauvegarde
+DAY=Jour
+COMMODITY=Marchandise
+COMMODITIES=Marchandises
+PLANT=Usine de production
+PLANTS=Usines de production
+SETTINGS=Paramètres
+STOCK=Stock
+STOCKS=Stocks
+
+//install.tpl
+CHOOSE_LANGUAGE_LABEL=Sélectionnez la langue
+CHOOSE_LANGUAGE=Changement
+CONFIG_SAVED=Configuration enregistrée avec succès.
+CONTINUE=Continuer
+DESCRIPTON=Ce site Web pour Serveur Dédié et jeu local de Farming Simulator 17, permet d'afficher les joueurs, les véhicules, l'inventaire et les équipements de production. Les matières premières manquantes et les entrepôts de produits complets sont identifiés.
+INSTALL_TITLE=Installation
+DEDICATED=Serveur Dédié
+LOCAL=Jeu en local
+DS_LABEL1=Server IP-Adresse
+DS_PLACEHOLDE1=IP-Adresse
+DS_HELP_BLOCK1=IP-Adresse des Farming Simulator 17 Dedicated Servers.
+DS_LABEL2=Port du serveur
+DS_PLACEHOLDE2=Port
+DS_HELP_BLOCK2=Port de la Web-API, pas le port pour le client du jeux.
+DS_LABEL3=Code du Serveur
+DS_PLACEHOLDE3=Code
+DS_HELP_BLOCK3=Code d'accès API Web.
+DS_LABEL4=Carte
+DS_HELP_BLOCK4=Sélectionnez la carte installée sur le serveur.
+DS_LABEL5=Mot de passe WebStats
+DS_PLACEHOLDE5=Mot de passe
+DS_PLACEHOLDE6=Retaper le mot de passe
+DS_HELP_BLOCK5=Le mot de passe peut être utilisé pour modifié les paramètres du serveur et changer la carte.
+NO_INSTALL_1=Sur ce serveur Web FS17 Webstats ne peut malheureusement pas être utilisé avec un serveur dédié car la fonction <code> fsockopen () </ code> n'est pas prise en charge.
+NO_INSTALL_2=Vérifiez avec votre site Web si la fonction peut être activée dans <code> php.ini </ code>.
+INTRO1=Notez que dans Farming Simulator, le jeu n'est pas enregistré automatiquement. Le jeu doit être sauvegardé au préalable afin d'afficher les bonnes valeurs de stocks sur ce site. Sinon, installez le mod
+INTRO2= pour sauvegarder le jeu automatiquement toutes les 5 minutes.
+LINK_TEXT=Map Autosave
+LS_LABEL1=Chemin d'accès au jeu
+LS_PLACEHOLDE1=Chemin
+LS_HELP_BLOCK1=Par défaut, Farming Simulator enregistre les sauvegardes du jeu: <code> C: \ Users \ "deinusername" \ Documents \ My Games \ FarmingSimulator2017 \ savegamex </ code>
+LS_LABEL2=Carte
+LS_HELP_BLOCK2=Sélectionnez la carte du jeu.
+SAVE_CONFIG=Enregistrer la configuration
+ERROR_CODE=Le code saisi n'est pas valide.
+ERROR_PORT=Le port que vous avez entré n'est pas valide.
+ERROR_IP=L'adresse IP saisie n'est pas valide.
+ERROR_MAP=La carte est invalide.
+ERROR_OFFLINE=Le serveur est hors-ligne ou l'adresse IP est incorrecte.
+ERROR_SAVEGAME=Aucune sauvagarde n'a été trouvée sous le chemin spécifié.
+PASSWORD_MATCH=Les mots de passe ne correspondent pas.
+PASSWORD_SHORT=Le mot de passe doit comporter au moins 6 caractères.
+ERROR=Erreur!
+
+//index.tpl
+TPL_ERROR_1=Erreur durant le chargement de la page
+TPL_ERROR_2=Le fichier
+TPL_ERROR_3=n'existe pas.
+CON_ERROR_1=Erreur de connection
+CON_ERROR_2=Aucunes données ne peut être récupérées du serveur dédié. Vérifiez l'adresse du serveur ou votre connection à Internet. La fonction <code>fsockopen ()</code> doit être autorisée sur le serveur Web.
+INFO_1= Page Web permettant d'afficher le statut du serveur et de controler la production des usines et les niveaux de stocks.
+INFO_2=Conseils, aide et suggestions pour l'amélioration de
+LICENSE=License
+
+//navbar.tpl
+TOGGLE=Changer la navigation
+SERVER=Serveur
+STORAGE=Entrepot
+PRODUCTION=Production
+FACTORY=Usine
+INFO=Info
+
+//commodity.tpl
+DETAILVIEW=Vue détaillée
+CHOOSE_COMMODITY=Choisissez une marchandise
+PLACE=Localisation des entrepots
+AMOUNT=Montant
+WHOLE_AMOUNT=Stock total des entrepots
+DEMAND=demande
+WHOLE_DEMAND=demande totale
+ITEM_POSITIONS=Positions des Palettes / bales
+
+//factories.tpl
+CHOOSE_PLANT=Sélectionne une usines
+REQUIRED=Matières premières requises
+CAPACITY=Capacité
+REQUIRE_HOUR=Demande/heure
+REQUIRE_DAY=Demande/jour
+PRODUCED_GOODS=Marchandise produite
+PRODUCT_HOUR=Production/heure
+PRODUCT_DAY=Production/jour
+
+//production.tpl
+PRODUCTION_OVERVIEW=aperçu de la production
+RAW_MATERIALS=Matières premières
+PRODUCTS=produit
+MORE_DETAILS=plus de détails
+
+//storage.tpl
+CAUTION=Attention
+DETAILS=Détails
+PALLET=Palette
+PALETTES=Palettes
+BALE=Bale
+BALES=Bales
+INCORRECT_POSITIONS_TITLE=Position défectueuse des palettes et des balles
+INCORRECT_POSITIONS_TEXT=Les positions des balles ou des palettes suivantes dans le <code> vehicle.xml </ code> ne sont pas valides.
+INCORRECT_POSITION=position invalide
+SUGGESTION_POSITION=Suggestion de Position
+PLACE=Lieu
+QUANTITY=Quantité
+
+//options.tpl
+GENERAL=Général
+AUTO_RELOAD=rechargement automatique
+SORT_ORDER=Trié
+ALPHABETICALLY=alphabétiquement
+FILL_LEVEL=selon le niveau de remplissage
+SHOW=afficher
+HIDE=cacher
+VEHICLE_LOAD=Chargement du véhicule
+ONLY_PALETTS=Afficher seulement les palettes
+YES=oui
+NO=non
+SHOW_ZERO_STOCK=Affichage Zero Stock
+FULL_PRODUCT_STORAGE=Stock complet
+SORT_FULL_PRODUCTS=prendre en compte lors du tri
+IGNORE_FULL_PRODUCTS=ignorer lors du tri
+SHOW_HIDDEN_PLANTS=Afficher les usines
+MOD_MAP=Carte
+LAYOUT=Disposition
+3COLUMN=3 colonnes
+4COLUMN=4 colonnes
+SERVER_SETTINGS=Supprimer les paramètres du service
+ADMIN_AREA=gestion du serveur
+ADMIN_DESCRIPTION=Après avoir entré le mot de passe, les paramètres pour le serveur dédié ou le jeux local sont supprimés. FS17 WebStats peut alors être réinitialisé.
+ENTER_PASSWORD=Entrez votre mot de passe
+
+//animals.tpl
+ANIMALS=Animaux
+SHEEP_COUNT=Moutons
+PIG_COUNT=Cochons
+COW_COUNT=Vaches
+PRODUCTIVITY=Productivité
+REPRO_RATE=Naissance toutes les
+NEXT_ANIMAL=Prochaine naissance dans
+CLEANNESS=Propreté
