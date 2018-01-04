@@ -374,7 +374,7 @@ $mapconfig = array_merge ( $mapconfig, array (
 								'showInStorage' => true 
 						) 
 				) 
-		),       
+        ),     
 ) );
 
 // Fabrikscripte
@@ -1466,4 +1466,39 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),       
+) );
+$mapconfig = array_merge($mapconfig, array ( 
+        // AdBlue Tankstellen und AdBlue Hoftankstellen 
+        'adBlueStation_adBlueStationFarm_INSEL' => array (
+            'locationType' => 'AdBlue',
+            'position' => '-1418.386 0 -866.475'
+        ),
+        'adBlueStation_adBlueStationFarm_BGANORD' => array (
+            'locationType' => 'AdBlue',
+            'position' => '-181.312 0 -894.624'
+        ),
+        'adBlueStation_adBlueStationFarm_RINDERHOF' => array (
+            'locationType' => 'AdBlue',
+            'position' => '523.632 0 1607.84'
+        ),
+        'adBlueStation_adBlueStationFarm_HOFTANKSTELLE' => array (
+            'locationType' => 'AdBlue',
+            'position' => '135.05 0 194.973'
+        ),
+        'adBlueStation_adBlueStationFarm_EIERHOF' => array (
+            'locationType' => 'AdBlue',
+            'position' => '1458.802 0 -793.084'
+        ),
+        'adBlueStation_adBlueStationFarm_SandKies' => array (
+            'locationType' => 'AdBlue',
+            'position' => '1611.274 0 280.069'
+        ),
+        'adBlueStation_adBlueStationFarm_RAFFINERIE' => array (
+            'locationType' => 'AdBlue',
+            'position' => '-933.346 0 609.323'
+        ),
+        'adBlueStation_adBlueStationFarm_BGAMITTE' => array (
+            'locationType' => 'AdBlue',
+            'position' => '-404.266 0 624.61'
+        ),
 ) );

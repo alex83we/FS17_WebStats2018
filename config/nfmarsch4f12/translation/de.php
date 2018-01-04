@@ -263,6 +263,8 @@ $lang = array_merge ( $lang, array (
         'Cement' => 'Zement',
         'cement' => 'Zement',
         'Brueckenbau' => 'Brückenbau',
+        // Zusatz AdBlue nicht stan­dard­mä­ßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
+        'adblue' => 'AdBlue Tankstellen'
 ) );
 
 // TipTrigger
@@ -414,5 +416,14 @@ $lang = array_merge ( $lang, array (
         'FabrikScript_compostlager' => 'Kompostlager (Obstfarm)',
         // NFMARSCH4FACH 1.3
         'FabrikScript_Kuerbisfeld' => 'Kürbisfeld',
-        'FabrikScript_brueckenbau' => 'Brückenbau',       
+        'FabrikScript_brueckenbau' => 'Brückenbau',
+        // Zusatz AdBlue nicht stan­dard­mä­ßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
+        'adBlueStation_adBlueStationFarm_INSEL' => 'AdBlue Hoftankstelle Insel',
+        'adBlueStation_adBlueStationFarm_BGANORD' => 'AdBlue Hoftankstelle BGA Nord',
+        'adBlueStation_adBlueStationFarm_BGAMITTE' => 'AdBlue Hoftankstelle BGA Mitte',
+        'adBlueStation_adBlueStationFarm_RINDERHOF' => 'AdBlue Hoftankstelle Rinderhof',
+        'adBlueStation_adBlueStationFarm_HOFTANKSTELLE' => 'AdBlue Hoftankstelle Hoftankstelle',
+        'adBlueStation_adBlueStationFarm_RAFFINERIE' => 'AdBlue Hoftankstelle Raffinerie',
+        'adBlueStation_adBlueStationFarm_EIERHOF' => 'AdBlue Hoftankstelle Eierhof',
+        'adBlueStation_adBlueStationFarm_SandKies' => 'AdBlue Hoftankstelle SandKies',      
 ) );

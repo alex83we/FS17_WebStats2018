@@ -206,6 +206,11 @@ function readMapObject($object, $location, &$plants, &$mapconfig) {
 			$fillLevel = intval ( $object ['fillLevel'] );
 			addCommodity ( $fillType, $fillLevel, $location );
 			break;
+		case 'AdBlue' :
+			// AdBlue
+			$fillType = 'adblue';
+			$fillLevel = intval ( $object ['fillLevel'] );
+			addCommodity ( $fillType, $fillLevel, $location );	
 		case 'bunker' :
 			// Fahrsilos
 			$state = intval ( $object ['state'] );
