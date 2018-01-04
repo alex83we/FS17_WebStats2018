@@ -1888,6 +1888,81 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),
+        // Molkerei
+        'FabrikScript_Molkerei' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-543.739 0 323.553',
+            'showInProduction' => true,
+            'input' => array (
+                'Tip_RSmilk' => array (
+                    'capacity' => 300000,
+                    'factor' => 0.75,
+                    'fillTypes' => 'milk',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array (
+                    'capacity' => 100000,
+                    'factor' => 0.25,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palettepapier' => array (
+                    'capacity' => 100000,
+                    'factor' => 0.5,
+                    'fillTypes' => 'papier',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'palettebutter' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.25,
+                    'fillType' => 'butter',
+                    'palettArea' => '-519.359 263.98 -529.369 271.991',
+                    'palettPlaces' => 16,
+                    'showInStorage' => false
+                ),
+                'palettemilch' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.25,
+                    'fillType' => 'milch',
+                    'palettArea' => '-531.425 263.98 -541.398 271.991',
+                    'palettPlaces' => 16,
+                    'showInStorage' => false
+                ),
+                'palettesahne' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.25,
+                    'fillType' => 'sahne',
+                    'palettArea' => '-543.764 263.98 -553.773 271.991',
+                    'palettPlaces' => 16,
+                    'showInStorage' => false
+                ),
+                'palettequark' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.25,
+                    'fillType' => 'quark',
+                    'palettArea' => '-555.925 263.98 -565.935 271.991',
+                    'palettPlaces' => 16,
+                    'showInStorage' => false
+                ),
+                'paletteyogurt' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.25,
+                    'fillType' => 'yogurt',
+                    'palettArea' => '-568.152 263.98 -578.159 271.991',
+                    'palettPlaces' => 16,
+                    'showInStorage' => false
+                )
+            )
+        ),        
 ) );
 $mapconfig = array_merge($mapconfig, array ( 
         // AdBlue Tankstellen und AdBlue Hoftankstellen 
