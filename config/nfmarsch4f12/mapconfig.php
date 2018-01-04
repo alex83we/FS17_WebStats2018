@@ -1465,7 +1465,274 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => false
                 )
             )
-        ),       
+        ),
+        // Kuchen, Mehlfabrik, Metzgerei
+        'FabrikScript_Backerei_Kuchen' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-924.299 0 -1.427',
+            'showInProduction' => true,
+            'input' => array (
+                'emptypallet' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.12,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.12,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                ),
+                'Tip_mehl' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'mehl',
+                    'showInStorage' => false
+                ),
+                'Obstpalette' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'apfel kirsche pflaume birne',
+                    'showInStorage' => false
+                ),
+                'Zuckerpalette' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'zucker',
+                    'showInStorage' => false
+                ),
+                'Quarkpalette' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'quark',
+                    'showInStorage' => false
+                ),
+                'Sahnepalette' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.15,
+                    'fillTypes' => 'sahne',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Kuchen' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'kuchen',
+                    'palettArea' => '-923.846 -36.808 -926.628 -14.438',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Backerei_Brot' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-924.299 0 -1.427',
+            'showInProduction' => true,
+            'input' => array (
+                'emptypallet' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.15,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'Tip_mehl' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.8,
+                    'fillTypes' => 'mehl',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.9,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'brotpalette' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'brot',
+                    'palettArea' => '-940.412 -35.769 -943.275 -13.573',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Backerei_Backwaren' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-924.299 0 -1.427',
+            'showInProduction' => true,
+            'input' => array (
+                'emptypallet' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.12,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.12,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                ),
+                'Tip_mehl' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'mehl',
+                    'showInStorage' => false
+                ),
+                'zuckerpalette' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'zucker',
+                    'showInStorage' => false
+                ),
+                'Milchpalette' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'milch',
+                    'showInStorage' => false
+                ),
+                'Butterpalette' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.15,
+                    'fillTypes' => 'butter',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Backwaren' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'backwaren',
+                    'palettArea' => '-932.235 -36.318 935.099 -13.998',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_WeizenMehlfabrik' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-844.762 0 -80.583',
+            'showInProduction' => true,
+            'input' => array (
+                'Tip_RSwheat' => array (
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'wheat',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'mehlpalette' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.5,
+                    'fillType' => 'mehl',
+                    'palettArea' => '-836.101 -98.75 -837.643 -82.721',
+                    'palettPlaces' => 8,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_GersteMehlfabrik' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-844.762 0 -80.583',
+            'showInProduction' => true,
+            'input' => array (
+                'Tip_RSbarley' => array (
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'barley',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'mehlpalette' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.5,
+                    'fillType' => 'mehl',
+                    'palettArea' => '-844.222 -98.735 -845.646 -82.717',
+                    'palettPlaces' => 8,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_RoggenMehlfabrik' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-844.762 0 -80.583',
+            'showInProduction' => true,
+            'input' => array (
+                'Tip_RSrye' => array (
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'rye',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'mehlpalette' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.5,
+                    'fillType' => 'mehl',
+                    'palettArea' => '-852.268 -98.763 -853.681 -82.701',
+                    'palettPlaces' => 8,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Schlachterei' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 50,
+            'position' => '-597.573 0 -91.558',
+            'showInProduction' => true,
+            'input' => array (
+                'Tier_Anlieferung' => array (
+                    'capacity' => 400,
+                    'factor' => 0.4,
+                    'fillTypes' => 'pig cow sheep',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array (
+                    'capacity' => 260000,
+                    'factor' => 3,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array (
+                    'capacity' => 170000,
+                    'factor' => 3,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Wurst' => array (
+                    'capacity' => 5000,
+                    'factor' => 200,
+                    'fillType' => 'sausage',
+                    'palettArea' => '-617.909 -112.91 -601.946 -108.831',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                ),
+                'Fleisch' => array (
+                    'capacity' => 5000,
+                    'factor' => 200,
+                    'fillType' => 'meat',
+                    'palettArea' => '-617.909 -118.328 -601.946 -114.321',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                )
+            )
+        ),               
 ) );
 $mapconfig = array_merge($mapconfig, array ( 
         // AdBlue Tankstellen und AdBlue Hoftankstellen 
