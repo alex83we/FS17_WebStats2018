@@ -1732,7 +1732,162 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => false
                 )
             )
-        ),               
+        ),
+        // Brauerei, Raffinerie, Dieselproduktion
+        'FabrikScript_BrauereiKasten' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-950.976 0 465.115',
+            'showInProduction' => true,
+            'input' => array (
+                'Tip_RSbarley' => array (
+                    'capacity' => 500000,
+                    'factor' => 0.8,
+                    'fillTypes' => 'barley',
+                    'showInStorage' => false
+                ),
+                'hops' => array (
+                    'capacity' => 500000,
+                    'factor' => 0.8,
+                    'fillTypes' => 'hops',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array (
+                    'capacity' => 100000,
+                    'factor' => 0.25,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.4,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'bierpalettekasten' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.5,
+                    'fillType' => 'beer',
+                    'palettArea' => '-935.382 427.685 -945.41 417.693',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_BrauereiFass' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-950.976 0 465.115',
+            'showInProduction' => true,
+            'input' => array(
+                'Tip_RSwheat' => array(
+                    'capacity' => 500000,
+                    'factor' => 0.8,
+                    'fillTypes' => 'wheat',
+                    'showInStorage' => false
+                ),
+                'hops' => array(
+                    'capacity' => 500000,
+                    'factor' => 0.8,
+                    'fillTypes' => 'hops',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.25,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array(
+                    'capacity' => 200000,
+                    'factor' => 0.4,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'bierpalettefass' => array(
+                    'capacity' => 5000,
+                    'factor' => 0.5,
+                    'fillType' => 'beerf',
+                    'palettArea' => '-913.151 457.149 -923.191 467.512',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Speiseoel_Fabrik' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 7500,
+            'position' => '-921.561 0 561.889',
+            'showInProduction' => true,
+            'input' => array(
+                'Tip_RS' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'rape sunflower',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 120000,
+                    'factor' => 0.15,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.15,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'RS_compost' => array(
+                    'capacity' => 500000,
+                    'factor' => 0.3,
+                    'fillType' => 'compost',
+                    'showInStorage' => true
+                ),
+                'palettespeiseoel' => array(
+                    'capacity' => 5000,
+                    'factor' => 0.3,
+                    'fillType' => 'oel',
+                    'palettArea' => '-921.972 585.858 -931.981 595.864',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Diesel_Raffinerie' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 7500,
+            'position' => '-921.561 0 561.889',
+            'showInProduction' => true,
+            'input' => array(
+                'Tip_RS' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'rape sunflower',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'RS_compost' => array(
+                    'capacity' => 500000,
+                    'factor' => 0.3,
+                    'fillType' => 'compost',
+                    'showInStorage' => true
+                ),
+                'RM_Output' => array(
+                    'capacity' => 300000,
+                    'factor' => 0.6,
+                    'fillType' => 'fuel',
+                    'showInStorage' => true
+                )
+            )
+        ),
 ) );
 $mapconfig = array_merge($mapconfig, array ( 
         // AdBlue Tankstellen und AdBlue Hoftankstellen 
