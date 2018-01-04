@@ -2056,8 +2056,8 @@ $mapconfig = array_merge ( $mapconfig, array (
             )
         ),                             
 ) );
+// AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge($mapconfig, array ( 
-        // AdBlue Tankstellen und AdBlue Hoftankstellen 
         'adBlueStation_adBlueStationFarm_INSEL' => array (
             'locationType' => 'AdBlue',
             'position' => '-1418.386 0 -866.475'
@@ -2091,3 +2091,38 @@ $mapconfig = array_merge($mapconfig, array (
             'position' => '-404.266 0 624.61'
         ),
 ) );
+// Hoftankstellen
+$mapconfig = array_merge($mapconfig, array (
+    'fuelStation_Hoftankstelle' => array (
+        'locationType' => 'fuelStation',
+        'position' => '180 0 200'
+    ),
+    'fuelStation_Tankstelle_Raffinerie' => array (
+        'locationType' => 'fuelStation',
+        'position' => '-920 0 630'
+    ),
+    'fuelStation_Tankstelle_BGA_Nord' => array (
+        'locationType' => 'fuelStation',
+        'position' => '-180 0 -890'
+    ),
+    'fuelStation_Tankstelle_BGA_Sued' => array (
+        'locationType' => 'fuelStation',
+        'position' => '-400 0 630'
+    ),
+    'fuelStation_Hoftankstelle' => array (
+        'locationType' => 'fuelStation',
+        'position' => '180 0 200'
+    ),
+    'fuelStation_Tankstelle_Raffinerie' => array (
+        'locationType' => 'fuelStation',
+        'position' => '-920 0 630'
+    ),
+    'fuelStation_Tankstelle_BGA_Nord' => array (
+        'locationType' => 'fuelStation',
+        'position' => '-180 0 -890'
+    ),
+    'fuelStation_Tankstelle_BGA_Sued' => array (
+        'locationType' => 'fuelStation',
+        'position' => '-400 0 630'
+    )
+));
