@@ -2,7 +2,7 @@
 /**
  *
  * This file is part of the "FS17 Webstats" package.
- * Copyright (C) 2017  John Hawk <john.hawk@gmx.net>
+ * Copyright (C) 2017-2018 John Hawk <john.hawk@gmx.net>
  *
  * "FS17 Webstats" is free software: you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as published
@@ -239,9 +239,7 @@ $lang = array_merge ( $lang, array (
 		'Zuckerpalette' => 'Zucker',
 		'zuckerpalette' => 'Zucker',
 		'sugarBeet' => 'Zuckerrüben',
-		'Tip_RSzucker' => 'Zuckerrüben',
-		'Bale150Straw' => 'Rundballen',
-		'kuerbis' => 'Kürbis' 
+		'Tip_RSzucker' => 'Zuckerrüben' 
 ) );
 $lang = array_merge ( $lang, array (
 		'TipTrigger_BAHNHOF' => 'Bahnhof',
@@ -251,7 +249,6 @@ $lang = array_merge ( $lang, array (
 		'TipTrigger_GETREIDEHANDEL' => 'Getreidehandel',
 		'TipTrigger_SUPERMARKT' => 'Edeka',
 		'TipTrigger_SUPERMARKT1' => 'Lidl',
-		'TipTrigger_SUPERMARKT2' => 'Aldi',
 		'TipTrigger_STADION' => 'Stadion',
 		'TipTrigger_WOLLEVERKAUF' => 'Palettenverkauf',
 		'TipTrigger_WOLLEVERKAUF1' => 'Palettenverkauf (Hafen)',
@@ -262,8 +259,7 @@ $lang = array_merge ( $lang, array (
 		'TipTrigger_BIOGAS' => 'BGA Nord',
 		'TipTrigger_TANKE' => 'Araltankstelle 1',
 		'TipTrigger_TANKE2' => 'Araltankstelle 2',
-		'TipTrigger_BANK' => 'VR Bank',
-		'TipTrigger_GETREIDEAG' => 'Getreide AG' 
+		'TipTrigger_BANK' => 'VR Bank' 
 ) );
 $lang = array_merge ( $lang, array (
 		'FabrikScript_Backerei_Brot' => 'Bäckerei (Brot)',
@@ -376,6 +372,5 @@ $lang = array_merge ( $lang, array (
 		'FabrikScript_Diesel_Raffinerie' => 'Diesel Raffinerie',
 		'FabrikScript_Speiseoel_Fabrik' => 'Speiseöl Fabrik',
 		'FabrikScript_compostlager2' => 'Kompostlager (Gewächshäuser)',
-		'FabrikScript_compostlager' => 'Kompostlager (Obstfarm)',
-		'FabrikScript_Kuerbisfeld' => 'Kürbisfeld' 
+		'FabrikScript_compostlager' => 'Kompostlager (Obstfarm)' 
 ) );

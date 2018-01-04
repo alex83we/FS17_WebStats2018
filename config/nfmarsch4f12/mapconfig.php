@@ -1,0 +1,1279 @@
+<?php
+/**
+ *
+ * This file is part of the "FS17 Webstats" package.
+ * Copyright (C) 2017  John Hawk <john.hawk@gmx.net>
+ *
+ * "FS17 Webstats" is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published
+ * by the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * "FS17 Webstats" is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Mapconfig NF Marsch 4 Fach 1.2 by alex83we 
+ * 
+ */
+$mapVersion = 'NF Marsch 4 Fach 1.2';
+
+if (empty ( $mapconfig ) || ! is_array ( $mapconfig )) {
+	$mapconfig = array ();
+}
+
+// Farmsilo und Ställe
+$mapconfig = array_merge ( $mapconfig, array (
+        'TipTrigger_BAHNHOF' => array (
+            'locationType' => 'TipTrigger',
+            'position' => '-459 0 -100'
+        ),
+		'TipTrigger_HAFEN' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '-922 0 -988'
+		),
+		'TipTrigger_DEPOT' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '847 0 460'
+		),
+		'TipTrigger_RAIFFEISEN' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '467 0 -232'
+		),
+		'TipTrigger_GETREIDEHANDEL' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '270 0 -732'
+		),
+		'TipTrigger_SUPERMARKT' =>array (
+				'locationType' => 'TipTrigger',
+				'position' => '-511 0 -567'
+		),
+		'TipTrigger_SUPERMARKT1' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '-248 0 -658'
+		),
+		'TipTrigger_SUPERMARKT2' => array (
+			'locationType' => 'TipTrigger',
+			'position' => '1387 0 1280'
+		),
+		'TipTrigger_GETREIDEAG' => array (
+			'locationType' => 'TipTrigger',
+			'position' => '-349 0 1379'
+		),
+		'TipTrigger_STADION' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '-156 0 -741'
+		),
+		'TipTrigger_WOLLEVERKAUF' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '824 0 315'
+		),
+		'TipTrigger_WOLLEVERKAUF1' =>array (
+				'locationType' => 'TipTrigger',
+				'position' => '-891 0 -960'
+		),
+		'TipTrigger_SAWMILL' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '-867 0 723'
+		),
+		'TipTrigger_WASSERKAUF' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '-420 0 -342'
+		),
+		'TipTrigger_HEIZWERK' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '-746 0 758'
+		),
+		'TipTrigger_WINDROW_SALE' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '251 0 112'
+		),
+		'TipTrigger_BIOGAS' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '-145 0 -952'
+		),
+		'TipTrigger_TANKE' =>array (
+				'locationType' => 'TipTrigger',
+				'position' => '-191 0 -299'
+		),
+		'TipTrigger_TANKE2' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '782 0 -850'
+		),
+		'TipTrigger_TANKE3' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '1368 0 1126'
+		),
+		'TipTrigger_BANK' => array (
+				'locationType' => 'TipTrigger',
+				'position' => '-405 0 -470'
+        ),
+        'TipTrigger_STROHKRAFTWERK' => array (
+                'locationType' => 'TipTrigger',
+                'position' => '1426 0 -366'
+        ),
+        'TipTrigger_PFERDEHOF' => array (
+                'locationType' => 'TipTrigger',
+                'position' => '947 0 -1621'
+        ),
+        'Storage_storage1' => array (
+            'locationType' => 'storage',
+            'position' => '210 0 120' 
+        ),
+		'Storage_storage3' => array (
+            'locationType' => 'storage',
+            'position' => '625 0 1672' 
+        ),
+        'Storage_storage5' => array (
+            'locationType' => 'storage',
+            'position' => '1390 0 -667'
+        ),        
+		'Animals_cow' => array (
+            'locationType' => 'animal',
+            'position' => '36 0 200',
+            'reproRate' => 1200,
+            'input' => array (
+                    'water' => array (
+                            'trough_factor' => 35,
+                            'consumption_factor' => 35,
+                            'fillTypes' => 'water',
+                            'showInStorage' => false 
+                    ),
+                    'straw' => array (
+                            'trough_factor' => 70,
+                            'consumption_factor' => 70,
+                            'fillTypes' => 'straw',
+                            'showInStorage' => false 
+                    ),
+                    'grass_windrow' => array (
+                            'trough_factor' => 70,
+                            'consumption_factor' => 100,
+                            'fillTypes' => 'grass_windrow',
+                            'showInStorage' => false 
+                    ),
+                    'silage_dryGrass_windrow' => array (
+                            'trough_factor' => 175,
+                            'consumption_factor' => 175,
+                            'fillTypes' => 'silage dryGrass_windrow',
+                            'showInStorage' => false 
+                    ),
+                    'powerFood' => array (
+                            'trough_factor' => 105,
+                            'consumption_factor' => 105,
+                            'fillTypes' => 'powerFood',
+                            'showInStorage' => false 
+                    ) 
+            ),
+            'output' => array (
+                    'liquidManure' => array (
+                            'production_factor' => 250,
+                            'fillType' => 'liquidManure',
+                            'showInStorage' => true 
+                    ),
+                    'manure' => array (
+                            'production_factor' => 200,
+                            'fillType' => 'manure',
+                            'showInStorage' => true 
+                    ),
+                    'milk' => array (
+                            'production_factor' => 714,
+                            'fillType' => 'milk',
+                            'showInStorage' => true 
+                    ) 
+            
+            ),
+            'productivity' => array (
+                    'straw' => 10,
+                    'grass_windrow' => 18,
+                    'silage_dryGrass_windrow' => 45,
+                    'powerFood' => 27 
+            ) 
+        ),
+		'Animals_pig' => array (
+				'locationType' => 'animal',
+				'position' => '250 0 400',
+				'reproRate' => 144,
+				'input' => array (
+						'water' => array (
+								'trough_factor' => 10,
+								'consumption_factor' => 10,
+								'fillTypes' => 'water',
+								'showInStorage' => false 
+						),
+						'straw' => array (
+								'trough_factor' => 20,
+								'consumption_factor' => 20,
+								'fillTypes' => 'straw',
+								'showInStorage' => false 
+						),
+						'maize_pigFood' => array (
+								'trough_factor' => 45,
+								'consumption_factor' => 61,
+								'fillTypes' => 'maize pigFood',
+								'showInStorage' => false 
+						),
+						'wheat_barley_pigFood' => array (
+								'trough_factor' => 25,
+								'consumption_factor' => 23,
+								'fillTypes' => 'wheat barley pigFood',
+								'showInStorage' => false 
+						),
+						'rape_sunflower_soybean_pigFood' => array (
+								'trough_factor' => 18,
+								'consumption_factor' => 18,
+								'fillTypes' => 'rape sunflower soybean pigFood',
+								'showInStorage' => false 
+						),
+						'potato_sugarBeet_pigFood' => array (
+								'trough_factor' => 4.5,
+								'consumption_factor' => 5,
+								'fillTypes' => 'potato sugarBeet pigFood',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'liquidManure' => array (
+								'production_factor' => 65,
+								'fillType' => 'liquidManure',
+								'showInStorage' => true 
+						),
+						'manure' => array (
+								'production_factor' => 50,
+								'fillType' => 'manure',
+								'showInStorage' => true 
+						) 
+				),
+				'productivity' => array (
+						'straw' => 9.8,
+						'maize_pigFood' => 44.8,
+						'wheat_barley_pigFood' => 22.8,
+						'rape_sunflower_soybean_pigFood' => 17.8,
+						'potato_sugarBeet_pigFood' => 4.8 
+				) 
+		),
+		'Animals_sheep' => array (
+				'locationType' => 'animal',
+				'position' => '570 0 -19',
+				'reproRate' => 960,
+				'input' => array (
+						'water' => array (
+								'trough_factor' => 15,
+								'consumption_factor' => 15,
+								'fillTypes' => 'water',
+								'showInStorage' => false 
+						),
+						'grass_windrow_dryGrass_windrow' => array (
+								'trough_factor' => 30,
+								'consumption_factor' => 36,
+								'fillTypes' => 'grass_windrow dryGrass_windrow',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'woolPallet' => array (
+								'production_factor' => 24,
+								'capacity' => 2000,
+								'fillType' => 'woolPallet',
+								'palettArea' => '578.3 -25.7 594.8 -21.3',
+								'palettPlaces' => 15,
+								'showInStorage' => false 
+						) 
+				),
+				'productivity' => array (
+						'grass_windrow_dryGrass_windrow' => 90 
+				) 
+		),
+		'Bga' => array (
+				'locationType' => 'bga',
+				'ProdPerHour' => 1000,
+				'position' => '-250 0 650',
+				'showInProduction' => true,
+				'input' => array (
+						'silage' => array (
+								'capacity' => 50000,
+								'factor' => 360,
+								'fillTypes' => 'bunkerFillLevel',
+								'showInStorage' => false 
+						),
+						'liquidManure' => array (
+								'capacity' => '&infin;',
+								'factor' => 180,
+								'fillTypes' => 'liquidManureFillLevel',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'digestate' => array (
+								'capacity' => 800000,
+								'factor' => 87,
+								'fillTypes' => 'digestateSiloFillLevel',
+								'showInStorage' => true 
+						) 
+				) 
+		),
+		'BunkerSilo_silo001' => array (
+				'locationType' => 'bunker',
+				'position' => '-346 0 682' 
+		),
+		'BunkerSilo_silo002' => array (
+				'locationType' => 'bunker',
+				'position' => '-346 0 672' 
+		),
+		'BunkerSilo_silo003' => array (
+				'locationType' => 'bunker',
+				'position' => '-346 0 662' 
+		),
+		'BunkerSilo_silo004' => array (
+				'locationType' => 'bunker',
+				'position' => '-346 0 692' 
+		),
+		'BunkerSilo_silo005' => array (
+				'locationType' => 'bunker',
+				'position' => '-346 0 702' 
+		),
+		'BunkerSilo_cowSilo' => array (
+				'locationType' => 'bunker',
+				'position' => '-506 0 668' 
+		),
+		'BunkerSilo_Silo1' => array (
+				'locationType' => 'bunker',
+				'position' => '-66 0 -992' 
+		),
+		'BunkerSilo_Silo2' => array (
+				'locationType' => 'bunker',
+				'position' => '-66 0 -963' 
+        ), 
+		'BGASued' => array (
+				'locationType' => 'bga',
+				'ProdPerHour' => 1000,
+				'position' => '722 0 1657',
+				'showInProduction' => true,
+				'input' => array (
+						'silage' => array (
+								'capacity' => 50000,
+								'factor' => 360,
+								'fillTypes' => 'bunkerFillLevel',
+								'showInStorage' => false 
+						),
+						'liquidManure' => array (
+								'capacity' => 1500000,
+								'factor' => 180,
+								'fillTypes' => 'liquidManureFillLevel',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'digestate' => array (
+								'capacity' => 800000,
+								'factor' => 87,
+								'fillTypes' => 'digestateSiloFillLevel',
+								'showInStorage' => true 
+						) 
+				) 
+		),       
+) );
+
+// Fabrikscripte
+$mapconfig = array_merge ( $mapconfig, array ( 
+        'FabrikScript_KraftFutterHerstellung' => array (
+                'locationType' => 'FabrikScript',
+                'ProdPerHour' => 60000,
+                'position' => '578 0 -208',
+                'showInProduction' => true,
+                'input' => array (
+                        'Stroh' => array (
+                                'capacity' => 300000,
+                                'factor' => 0.3,
+                                'fillTypes' => 'straw',
+                                'showInStorage' => false 
+                        ),
+                        'Silage' => array (
+                                'capacity' => 300000,
+                                'factor' => 0.4,
+                                'fillTypes' => 'silage',
+                                'showInStorage' => false 
+                        ),
+                        'Gras' => array (
+                                'capacity' => 300000,
+                                'factor' => 0.3,
+                                'fillTypes' => 'grass_windrow dryGrass_windrow',
+                                'showInStorage' => false 
+                        ) 
+                ),
+                'output' => array (
+                        'Mischfutter' => array (
+                                'capacity' => 300000,
+                                'factor' => 1,
+                                'fillType' => 'forage',
+                                'showInStorage' => true 
+                        ) 
+                ) 
+        ),
+		'FabrikScript_Fabrik' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 16000,
+				'position' => '990 0 680',
+				'showInProduction' => true,
+				'input' => array (
+						'Brennstoffe' => array (
+								'capacity' => 75000,
+								'factor' => 0.4,
+								'fillTypes' => 'straw woodChips wool',
+								'showInStorage' => false 
+						),
+						'Holz' => array (
+								'capacity' => 400000,
+								'factor' => 1,
+								'fillTypes' => 'woodChips',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'woodChips' => array (
+								'capacity' => 150000,
+								'factor' => 0.9,
+								'fillType' => 'woodChips',
+								'showInStorage' => true 
+						),
+						'boardwood' => array (
+								'capacity' => 8000,
+								'factor' => 1,
+								'fillType' => 'boardwood',
+								'palettArea' => '960.1 663.1 961.7 683.3',
+								'palettPlaces' => 10,
+								'showInStorage' => false 
+						) 
+				) 
+		),
+		'FabrikScript_Holzhacker' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 50000,
+				'position' => '940 0 650',
+				'showInProduction' => true,
+				'input' => array (
+						'Holz' => array (
+								'capacity' => 400000,
+								'factor' => 1,
+								'fillTypes' => 'woodChips',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'woodChips' => array (
+								'capacity' => 150000,
+								'factor' => 0.9,
+								'fillType' => 'woodChips',
+								'showInStorage' => true 
+						) 
+				) 
+		),
+		'FabrikScript_Lager_Apfel' => array (
+			'locationType' => 'FabrikScript',
+			'ProdPerHour' => 14400001,
+			'position' => '-932 0 -475',
+			'showInProduction' => false,
+			'input' => array (
+					'Apfelpalette' => array (
+							'capacity' => 500000,
+							'factor' => 1,
+							'fillTypes' => 'apfel',
+							'showInStorage' => true 
+					) 
+			),
+			'output' => array (
+					'Apfelpalette' => array (
+							'capacity' => 5000,
+							'factor' => 1,
+							'fillType' => 'apfel',
+							'palettPlaces' => 999,
+							'showInStorage' => false 
+					) 
+				) 
+		),
+		'FabrikScript_Lager_Birne' => array (
+			'locationType' => 'FabrikScript',
+			'ProdPerHour' => 14400001,
+			'position' => '-932 0 -475',
+			'showInProduction' => false,
+			'input' => array (
+					'Birnenpalette' => array (
+							'capacity' => 500000,
+							'factor' => 1,
+							'fillTypes' => 'birne',
+							'showInStorage' => true 
+					) 
+			),
+			'output' => array (
+					'Birnenpalette' => array (
+							'capacity' => 5000,
+							'factor' => 1,
+							'fillType' => 'birne',
+							'palettPlaces' => 999,
+							'showInStorage' => false 
+					) 
+				) 
+		),
+		'FabrikScript_Lager_Pflaume' => array (
+			'locationType' => 'FabrikScript',
+			'ProdPerHour' => 14400001,
+			'position' => '-932 0 -475',
+			'showInProduction' => false,
+			'input' => array (
+					'Pflaumenpalette' => array (
+							'capacity' => 500000,
+							'factor' => 1,
+							'fillTypes' => 'pflaume',
+							'showInStorage' => true 
+					) 
+			),
+			'output' => array (
+					'Pflaumenpalette' => array (
+							'capacity' => 5000,
+							'factor' => 1,
+							'fillType' => 'pflaume',
+							'palettPlaces' => 999,
+							'showInStorage' => false 
+					) 
+				) 
+		),
+		'FabrikScript_Lager_Kirsche' => array (
+			'locationType' => 'FabrikScript',
+			'ProdPerHour' => 14400001,
+			'position' => '-932 0 -475',
+			'showInProduction' => false,
+			'input' => array (
+					'Kirschpalette' => array (
+							'capacity' => 500000,
+							'factor' => 1,
+							'fillTypes' => 'kirsche',
+							'showInStorage' => true 
+					) 
+			),
+			'output' => array (
+					'Kirschpalette' => array (
+							'capacity' => 5000,
+							'factor' => 1,
+							'fillType' => 'kirsche',
+							'palettPlaces' => 999,
+							'showInStorage' => false 
+					) 
+				) 
+		),
+		'FabrikScript_Lager_Bierkasten' => array (
+			'locationType' => 'FabrikScript',
+			'ProdPerHour' => 14400001,
+			'position' => '-932 0 -535',
+			'showInProduction' => false,
+			'input' => array (
+					'bierpalettekasten' => array (
+							'capacity' => 465000,
+							'factor' => 1,
+							'fillTypes' => 'beer',
+							'showInStorage' => true 
+					) 
+			),
+			'output' => array (
+					'bierpalettekasten' => array (
+							'capacity' => 5000,
+							'factor' => 1,
+							'fillType' => 'beer',
+							'palettPlaces' => 999,
+							'showInStorage' => false 
+					) 
+				) 
+		),
+		'FabrikScript_Lager_Bierfass' => array (
+			'locationType' => 'FabrikScript',
+			'ProdPerHour' => 14400001,
+			'position' => '-932 0 -535',
+			'showInProduction' => false,
+			'input' => array (
+					'bierpalettefass' => array (
+							'capacity' => 465000,
+							'factor' => 1,
+							'fillTypes' => 'beerf',
+							'showInStorage' => true 
+					) 
+			),
+			'output' => array (
+					'bierpalettefass' => array (
+							'capacity' => 5000,
+							'factor' => 1,
+							'fillType' => 'beerf',
+							'palettPlaces' => 999,
+							'showInStorage' => false 
+					) 
+				) 
+		),
+		'FabrikScript_Lager_obstler' => array (
+			'locationType' => 'FabrikScript',
+			'ProdPerHour' => 14400001,
+			'position' => '-932 0 -535',
+			'showInProduction' => false,
+			'input' => array (
+					'Obstler' => array (
+							'capacity' => 625000,
+							'factor' => 1,
+							'fillTypes' => 'obstler',
+							'showInStorage' => true 
+					) 
+			),
+			'output' => array (
+					'Obstler' => array (
+							'capacity' => 5000,
+							'factor' => 1,
+							'fillType' => 'obstler',
+							'palettPlaces' => 999,
+							'showInStorage' => false 
+					) 
+				) 
+		),
+		'FabrikScript_Lager_Korn' => array (
+			'locationType' => 'FabrikScript',
+			'ProdPerHour' => 14400001,
+			'position' => '-932 0 -535',
+			'showInProduction' => false,
+			'input' => array (
+					'Korn' => array (
+							'capacity' => 625000,
+							'factor' => 1,
+							'fillTypes' => 'korn',
+							'showInStorage' => true 
+					) 
+			),
+			'output' => array (
+					'Korn' => array (
+							'capacity' => 5000,
+							'factor' => 0.9,
+							'fillType' => 'korn',
+							'palettPlaces' => 999,
+							'showInStorage' => false 
+					) 
+				) 
+		),
+        'FabrikScript_Lager_Papier' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 50000000,
+            'position' => '-887.075 0 -475.602',
+            'showInProduction' => false,
+            'input' => array(
+                'palettepapier' => array(
+                    'capacity' => 340000,
+                    'factor' => 1,
+                    'fillTypes' => 'papier',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettepapier' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'papier',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Karton' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 50000000,
+            'position' => '-887.075 0 -475.602',
+            'showInProduction' => false,
+            'input' => array(
+                'palette_karton' => array(
+                    'capacity' => 330000,
+                    'factor' => 1,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palette_karton' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'karton',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Leerpaletten' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887.075 0 -475.602',
+            'showInProduction' => false,
+            'input' => array(
+                'emptypallet' => array(
+                    'capacity' => 335000,
+                    'factor' => 1,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'emptypallet' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'emptypallet',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Pellets' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887.075 0 -475.602',
+            'showInProduction' => false,
+            'input' => array(
+                'Pelletspalette' => array(
+                    'capacity' => 355000,
+                    'factor' => 1,
+                    'fillTypes' => 'pellets',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Pelletspalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'pellets',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Zucker' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -596',
+            'showInProduction' => false,
+            'input' => array(
+                'zuckerpalette' => array(
+                    'capacity' => 355000,
+                    'factor' => 1,
+                    'fillTypes' => 'zucker',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'zuckerpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'zucker',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Mehl' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -596',
+            'showInProduction' => false,
+            'input' => array(
+                'mehlpalette' => array(
+                    'capacity' => 355000,
+                    'factor' => 1,
+                    'fillTypes' => 'mehl',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'mehlpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'mehl',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Sahne' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -596',
+            'showInProduction' => false,
+            'input' => array(
+                'palettesahne' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'sahne',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettesahne' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'sahne',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Brot' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -596',
+            'showInProduction' => false,
+            'input' => array(
+                'brotpalette' => array(
+                    'capacity' => 480000,
+                    'factor' => 1,
+                    'fillTypes' => 'brot',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'brotpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'brot',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Milch' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -596',
+            'showInProduction' => false,
+            'input' => array(
+                'palettemilch' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'milch',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettemilch' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'milch',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Butter' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -596',
+            'showInProduction' => false,
+            'input' => array(
+                'palettebutter' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'butter',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettebutter' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'butter',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Quark' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -596',
+            'showInProduction' => false,
+            'input' => array(
+                'palettequark' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'quark',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettequark' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'quark',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Yogurt' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -596',
+            'showInProduction' => false,
+            'input' => array(
+                'paletteyogurt' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'yogurt',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'paletteyogurt' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'yogurt',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_kartoffelsack' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -676',
+            'showInProduction' => false,
+            'input' => array(
+                'palettekartoffelsack' => array(
+                    'capacity' => 355000,
+                    'factor' => 1,
+                    'fillTypes' => 'kartoffelsack',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettekartoffelsack' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'kartoffelsack',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Chips' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -676',
+            'showInProduction' => false,
+            'input' => array(
+                'palettechips' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'chips',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettechips' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'chips',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_pommes' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -676',
+            'showInProduction' => false,
+            'input' => array(
+                'palettepommes' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'pommes',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettepommes' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'pommes',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_washedPotato' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -676',
+            'showInProduction' => false,
+            'input' => array(
+                'washedPotato' => array(
+                    'capacity' => 660000,
+                    'factor' => 1,
+                    'fillTypes' => 'washedPotato',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'washedPotato' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'washedPotato',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Fisch' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -676',
+            'showInProduction' => false,
+            'input' => array(
+                'Fischpalette' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'fisch',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Fischpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'fisch',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Krabben' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -676',
+            'showInProduction' => false,
+            'input' => array(
+                'Krabbenpalette' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'krabben',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Krabbenpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'krabben',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+		),
+        'FabrikScript_Lager_Wurst' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -676',
+            'showInProduction' => false,
+            'input' => array(
+                'Wurst' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'sausage',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Wurst' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'sausage',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Fleisch' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -676',
+            'showInProduction' => false,
+            'input' => array(
+                'Fleisch' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'meat',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Fleisch' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'meat',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Blumenkohl' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -729',
+            'showInProduction' => false,
+            'input' => array(
+                'Blumenkohl' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'blumenkohl',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Blumenkohl' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'blumenkohl',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Tomaten' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -729',
+            'showInProduction' => false,
+            'input' => array(
+                'Tomatenpalette' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'tomaten',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Tomatenpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'tomaten',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Salat' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -729',
+            'showInProduction' => false,
+            'input' => array(
+                'Salatpalette' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'salat',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Salatpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'salat',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Rotkohl' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-932 0 -729',
+            'showInProduction' => false,
+            'input' => array(
+                'Rotkohlpalette' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'rotkohl',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Rotkohlpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'rotkohl',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Backwaren' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -729',
+            'showInProduction' => false,
+            'input' => array(
+                'Backwaren' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'backwaren',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Backwaren' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'backwaren',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_Kuchen' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -729',
+            'showInProduction' => false,
+            'input' => array(
+                'Kuchen' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'kuchen',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Kuchen' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'kuchen',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Lager_oel' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-887 0 -729',
+            'showInProduction' => false,
+            'input' => array(
+                'palettespeiseoel' => array(
+                    'capacity' => 625000,
+                    'factor' => 1,
+                    'fillTypes' => 'oel',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'palettespeiseoel' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'oel',
+                    'palettPlaces' => 999,
+                    'showInStorage' => false
+                )
+            )
+        ),		
+) );
