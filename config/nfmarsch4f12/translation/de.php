@@ -263,6 +263,7 @@ $lang = array_merge ( $lang, array (
         'Cement' => 'Zement',
         'cement' => 'Zement',
         'Brueckenbau' => 'Brückenbau',
+        'Stahlpalette' => 'Stahlpalette',
         // Zusatz AdBlue nicht stan­dard­mä­ßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
         'adblue' => 'AdBlue Tankstellen'
 ) );
@@ -417,6 +418,10 @@ $lang = array_merge ( $lang, array (
         // NFMARSCH4FACH 1.3
         'FabrikScript_Kuerbisfeld' => 'Kürbisfeld',
         'FabrikScript_brueckenbau' => 'Brückenbau',
+        'FabrikScript_kaufbretterpalette' => 'Kaufbretter Paletten',
+        'FabrikScript_kaufleerpalette' => 'Kaufleer Paletten',
+        'FabrikScript_kaufkartonpalette' => 'Kaufkarton Paletten',
+        'FabrikScript_kaufstahlpalette' => 'Kaufstahl Paletten',
         // Zusatz AdBlue nicht stan­dard­mä­ßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
         'adBlueStation_adBlueStationFarm_INSEL' => 'AdBlue Hoftankstelle Insel',
         'adBlueStation_adBlueStationFarm_BGANORD' => 'AdBlue Hoftankstelle BGA Nord',

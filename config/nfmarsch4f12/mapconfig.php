@@ -1888,7 +1888,7 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),
-        // Molkerei
+        // Molkerei, Baumarkt
         'FabrikScript_Molkerei' => array (
             'locationType' => 'FabrikScript',
             'ProdPerHour' => 5000,
@@ -1962,7 +1962,99 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => false
                 )
             )
-        ),        
+        ),
+        'FabrikScript_kaufbretterpalette' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-527.941 0 -569.763',
+            'showInProduction' => true,
+            'input' => array (
+                'geld' => array (
+                    'capacity' => 250000,
+                    'factor' => 1,
+                    'fillTypes' => 'geld',
+                    'showInStorage' => false
+                )
+            ),    
+            'output' => array (
+                'boardwood' => array (
+                    'capacity' => 8000,
+                    'factor' => 1.1,
+                    'fillType' => 'woodChips',
+                    'palettPlaces' => 31,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_kaufkartonpalette' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-527.941 0 -569.763',
+            'showInProduction' => true,
+            'input' => array (
+                'geld' => array (
+                    'capacity' => 250000,
+                    'factor' => 1,
+                    'fillTypes' => 'geld',
+                    'showInStorage' => false
+                )
+            ),    
+            'output' => array (
+                'palette_karton' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'karton',
+                    'palettPlaces' => 50,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_kaufleerpalette' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-527.941 0 -569.763',
+            'showInProduction' => true,
+            'input' => array (
+                'geld' => array (
+                    'capacity' => 250000,
+                    'factor' => 1,
+                    'fillTypes' => 'geld',
+                    'showInStorage' => false
+                )
+            ),    
+            'output' => array (
+                'emptypallet' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'emptypallet',
+                    'palettPlaces' => 50,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_kaufstahlpalette' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 14400001,
+            'position' => '-527.941 0 -569.763',
+            'showInProduction' => true,
+            'input' => array (
+                'geld' => array (
+                    'capacity' => 250000,
+                    'factor' => 1,
+                    'fillTypes' => 'geld',
+                    'showInStorage' => false
+                )
+            ),    
+            'output' => array (
+                'Stahlpalette' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.4,
+                    'fillType' => 'stahl',
+                    'palettPlaces' => 50,
+                    'showInStorage' => true
+                )
+            )
+        ),                             
 ) );
 $mapconfig = array_merge($mapconfig, array ( 
         // AdBlue Tankstellen und AdBlue Hoftankstellen 
