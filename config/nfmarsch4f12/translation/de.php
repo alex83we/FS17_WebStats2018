@@ -253,7 +253,16 @@ $lang = array_merge ( $lang, array (
         'gravel' => 'Kies',
         'palette_cement' => 'Zement',
         'palette_kurbis' => 'Kürbis',
-        'palette_stahl' => 'Stahl'
+        'palette_stahl' => 'Stahl',
+        'Stahl' => 'Stahl',
+        'Kies' => 'Kies',
+        'gavel' => 'Kies',
+        'Sand' => 'Sand',
+        'sand' => 'Sand',
+        'Zement' => 'Zement',
+        'Cement' => 'Zement',
+        'cement' => 'Zement',
+        'Brueckenbau' => 'Brückenbau',
 ) );
 
 // TipTrigger
@@ -403,5 +412,7 @@ $lang = array_merge ( $lang, array (
         'FabrikScript_Speiseoel_Fabrik' => 'Speiseöl Fabrik',
         'FabrikScript_compostlager2' => 'Kompostlager (Gewächshäuser)',
         'FabrikScript_compostlager' => 'Kompostlager (Obstfarm)',
-        'FabrikScript_Kuerbisfeld' => 'Kürbisfeld'       
+        // NFMARSCH4FACH 1.3
+        'FabrikScript_Kuerbisfeld' => 'Kürbisfeld',
+        'FabrikScript_brueckenbau' => 'Brückenbau',       
 ) );

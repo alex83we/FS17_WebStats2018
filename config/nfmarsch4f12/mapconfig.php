@@ -17,10 +17,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Mapconfig NF Marsch 4 Fach 1.2 by alex83we 
+ * Mapconfig NF Marsch 4 Fach 1.3 by alex83we 
  * 
  */
-$mapVersion = 'NF Marsch 4 Fach 1.2';
+$mapVersion = 'NF Marsch 4 Fach 1.3';
 
 if (empty ( $mapconfig ) || ! is_array ( $mapconfig )) {
 	$mapconfig = array ();
@@ -34,7 +34,7 @@ $mapconfig = array_merge ( $mapconfig, array (
         ),
 		'TipTrigger_HAFEN' => array (
 				'locationType' => 'TipTrigger',
-				'position' => '-922 0 -988'
+				'position' => '-922.415 0 -987.603'
 		),
 		'TipTrigger_DEPOT' => array (
 				'locationType' => 'TipTrigger',
@@ -74,7 +74,7 @@ $mapconfig = array_merge ( $mapconfig, array (
 		),
 		'TipTrigger_WOLLEVERKAUF1' =>array (
 				'locationType' => 'TipTrigger',
-				'position' => '-891 0 -960'
+				'position' => '-892.735 0 -956.924'
 		),
 		'TipTrigger_SAWMILL' => array (
 				'locationType' => 'TipTrigger',
@@ -470,7 +470,8 @@ $mapconfig = array_merge ( $mapconfig, array (
 								'showInStorage' => true 
 						) 
 				) 
-		),
+        ),
+        // Palettenlager
 		'FabrikScript_Lager_Apfel' => array (
 			'locationType' => 'FabrikScript',
 			'ProdPerHour' => 14400001,
@@ -1275,5 +1276,194 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => false
                 )
             )
-        ),		
+        ),
+        // Zellstoff, Brückenbaustelle, Fischerei, Zuckerfabrik, Kürbisfeld
+        'FabrikScript_Zellstoff_Fabrik' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 12500,
+            'position' => '-920.242 0 -829.986',
+            'showInProduction' => true,
+            'input' => array (
+                'Hackschnitzel' => array (
+                    'capacity' => 500000,
+                    'factor' => 0.5,
+                    'fillTypes' => 'woodChips',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array (
+                    'capacity' => 150000,
+                    'factor' => 0.25,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'palettepapier' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'papier',
+                    'palettArea' => '-966.681 -852.848 -962.675 -836.786',
+                    'palettPlaces' => 22,
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'karton',
+                    'palettArea' => '-966.602 -829.921 -972.684 -813.915',
+                    'palettPlaces' => 22,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Zuckerfabrik' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 15000,
+            'position' => '-794.264 0 -927.494',
+            'showInProduction' => true,
+            'input' => array (
+                'Tip_RSzucker' => array (
+                    'capacity' => 2000000,
+                    'factor' => 1,
+                    'fillTypes' => 'sugarBeet',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array (
+                    'capacity' => 500000,
+                    'factor' => 0.8,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'zuckerpalette' => array (
+                    'capacity' => 5000,
+                    'factor' => 0.5,
+                    'fillType' => 'zucker',
+                    'palettArea' => '-774.577 -929.294 -752.415 -925.181',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Fischerei' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 1000,
+            'position' => '-963 0 -963',
+            'showInProduction' => true,
+            'input' => array (
+                'emptypallet' => array (
+                    'capacity' => 120000,
+                    'factor' => 0.1,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'cm_inputFuel' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.75,
+                    'fillTypes' => 'fuel',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Krabben' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'krabben',
+                    'palettArea' => '-984.65 -991.154 -962.353 987.149',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                ),
+                'Fisch' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'fisch',
+                    'palettArea' => '-984.65 -978.865 -962.353 -974.934',
+                    'palettPlaces' => 21,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_brueckenbau' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '-1006.191 0 -777.625',
+            'showInProduction' => true,
+            'input' => array (
+                'Kies' => array (
+                    'capacity' => 200000,
+                    'factor' => 1,
+                    'fillTypes' => 'gravel',
+                    'showInStorage' => false
+                ),
+                'Stahl' => array (
+                    'capacity' => 100000,
+                    'factor' => 0.5,
+                    'fillTypes' => 'stahl',
+                    'showInStorage' => false
+                ),
+                'Sand' => array (
+                    'capacity' => 200000,
+                    'factor' => 1,
+                    'fillTypes' => 'sand',
+                    'showInStorage' => false
+                ),
+                'Zement' => array (
+                    'capacity' => 100000,
+                    'factor' => 0.5,
+                    'fillTypes' => 'cement',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Brueckenbau' => array (
+                    'capacity' => 200000,
+                    'factor' => 1,
+                    'fillType' => 'sand',
+                    'showInStorage' => true
+                )
+            )
+        ), 
+        'FabrikScript_Kuerbisfeld' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 1000,
+            'position' => '-1186.536 0 -886.479',
+            'showInProduction' => true,
+            'input' => array (
+                'Stroh' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.25,
+                    'fillTypes' => 'straw',
+                    'showInStorage' => false
+                ),
+                'compost' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.5,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array (
+                    'capacity' => 100000,
+                    'factor' => 0.15,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'kuerbis' => array (
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'kuerbis',
+                    'palettArea' => '-1181.038 -905.916 -962.353 -1197.085 -911.844',
+                    'palettPlaces' => 22,
+                    'showInStorage' => false
+                )
+            )
+        ),       
 ) );
