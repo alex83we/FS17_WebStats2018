@@ -2185,7 +2185,424 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => true
                 )
             )
-        ),                        
+        ), 
+        // Haupthof Produktionen
+        'FabrikScript_kartoffellager' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 1000000000,
+            'position' => '162.139 0 257.929',
+            'showInProduction' => false,
+            'input' => array(
+                'potato' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'potato',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'potato' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillType' => 'potato',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_zuckerrueben' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 1000000000,
+            'position' => '179.084 0 263.557',
+            'showInProduction' => false,
+            'input' => array(
+                'sugarBeet' => array(
+                    'capacity' => 600000,
+                    'factor' => 1,
+                    'fillTypes' => 'sugarBeet',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'sugarBeet' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillType' => 'sugarBeet',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_Duenger_Prod' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 10000,
+            'position' => '169.246 0 296.481',
+            'showInProduction' => true,
+            'input' => array(
+                'manure' => array(
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillTypes' => 'manure',
+                    'showInStorage' => false
+                ),
+                'liquidManure' => array(
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillTypes' => 'liquidManure',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'fertilizer' => array(
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillType' => 'fertilizer',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_Saat_Prod' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 10000,
+            'position' => '229.554 0 296.481',
+            'showInProduction' => true,
+            'input' => array(
+                'grain' => array(
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillTypes' => 'wheat maize barley rape',
+                    'showInStorage' => false
+                ),
+                'fertilizer' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'fertilizer',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'seeds' => array(
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillType' => 'seeds',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_Fertilizer' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 2147483647,
+            'position' => '205.038 0 288.965',
+            'showInProduction' => false,
+            'input' => array(
+                'FS_fertilizer' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'fertilizer',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'FS_fertilizer' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillType' => 'fertilizer',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_Saatgut' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 2147483647,
+            'position' => '235.911 0 289.532',
+            'showInProduction' => false,
+            'input' => array(
+                'FS_Seeds' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'seeds',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'FS_Seeds' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillType' => 'seeds',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_Schweinefutterstation' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 30000,
+            'position' => '179.159 0 335.085',
+            'showInProduction' => true,
+            'input' => array(
+                'Getreide' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.4,
+                    'fillTypes' => 'wheat barley maize oat rye',
+                    'showInStorage' => false
+                ),
+                'Raps Sonnenblume Soja' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'rape sunflower soybean',
+                    'showInStorage' => false
+                ),
+                'Erdfruechten' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.1,
+                    'fillTypes' => 'potato sugarBeet',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Schweinefutter' => array(
+                    'capacity' => 250000,
+                    'factor' => 0.935,
+                    'fillType' => 'pigFood',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_Schweinefutter' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 2147483647,
+            'position' => '179.163 0 365.591',
+            'showInProduction' => false,
+            'input' => array(
+                'Schweinefutter' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'pigFood',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Schweinefutter' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillType' => 'pigFood',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_HofladenApfel' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 60,
+            'position' => '223.861 0 81.651',
+            'showInProduction' => true,
+            'input' => array(
+                'Apfel' => array(
+                    'capacity' => 15000,
+                    'factor' => 1,
+                    'fillTypes' => 'apfel',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Geldkassette' => array(
+                    'capacity' => 25000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '220.7 80.5 220.9 80.7',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_HofladenBirne' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 60,
+            'position' => '223.861 0 81.651',
+            'showInProduction' => true,
+            'input' => array(
+                'Birne' => array(
+                    'capacity' => 15000,
+                    'factor' => 1,
+                    'fillTypes' => 'birne',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Geldkassette' => array(
+                    'capacity' => 25000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '220.7 83.2 220.9 83.4',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_HofladenPflaume' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 60,
+            'position' => '223.861 0 81.651',
+            'showInProduction' => true,
+            'input' => array(
+                'Pflaumen' => array(
+                    'capacity' => 15000,
+                    'factor' => 1,
+                    'fillTypes' => 'pflaume',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Geldkassette' => array(
+                    'capacity' => 25000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '227.7 83.2 227.9 83.4',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Hofladenkirsche' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 60,
+            'position' => '223.861 0 81.651',
+            'showInProduction' => true,
+            'input' => array(
+                'Kirschen' => array(
+                    'capacity' => 15000,
+                    'factor' => 1,
+                    'fillTypes' => 'kirsche',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Geldkassette' => array(
+                    'capacity' => 25000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '227.7 80.5 227.9 80.7',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Hofladentomaten' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 60,
+            'position' => '215.54 0 81.651',
+            'showInProduction' => true,
+            'input' => array(
+                'Tomaten' => array(
+                    'capacity' => 15000,
+                    'factor' => 1,
+                    'fillTypes' => 'tomaten',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Geldkassette' => array(
+                    'capacity' => 25000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '218.7 80.5 218.9 80.7',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Hofladensalat' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 60,
+            'position' => '215.54 0 81.651',
+            'showInProduction' => true,
+            'input' => array(
+                'Salat' => array(
+                    'capacity' => 15000,
+                    'factor' => 1,
+                    'fillTypes' => 'salat',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Geldkassette' => array(
+                    'capacity' => 25000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '218.7 83.2 218.9 83.4',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_HofladenBlumenkohl' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 60,
+            'position' => '215.54 0 81.651',
+            'showInProduction' => true,
+            'input' => array(
+                'Blumenkohl' => array(
+                    'capacity' => 15000,
+                    'factor' => 1,
+                    'fillTypes' => 'blumenkohl',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Geldkassette' => array(
+                    'capacity' => 25000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '211.9 80.5 212.1 80.7',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_HofladenRotkohl' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 60,
+            'position' => '215.54 0 81.651',
+            'showInProduction' => true,
+            'input' => array(
+                'Rotkohl' => array(
+                    'capacity' => 15000,
+                    'factor' => 1,
+                    'fillTypes' => 'rotkohl',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Geldkassette' => array(
+                    'capacity' => 25000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '211.9 83.1 212.1 83.3',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_geldboxen' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 100000,
+            'position' => '290 0 110',
+            'showInProduction' => true,
+            'input' => array(
+                'geld' => array(
+                    'capacity' => 250000,
+                    'factor' => 1,
+                    'fillTypes' => 'geld',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'geld' => array(
+                    'capacity' => 250000,
+                    'factor' => 1,
+                    'fillType' => 'geld',
+                    'palettArea' => '0 0 1 1',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge($mapconfig, array ( 
