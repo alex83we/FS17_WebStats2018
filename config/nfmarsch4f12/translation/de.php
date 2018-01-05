@@ -422,6 +422,11 @@ $lang = array_merge ( $lang, array (
         'FabrikScript_kaufleerpalette' => 'Kaufleer Paletten',
         'FabrikScript_kaufkartonpalette' => 'Kaufkarton Paletten',
         'FabrikScript_kaufstahlpalette' => 'Kaufstahl Paletten',
+        'BGASuedklein1' => 'BGA Süd Fahrsilo 1',
+        'BGASuedklein2' => 'BGA Süd Fahrsilo 2',
+        'BGASuedklein3' => 'BGA Süd Fahrsilo 3',
+        'BGASued2' => 'BGA Süd Fahrsilo 4',
+        'BGASued1' => 'BGA Süd Fahrsilo 5',
         // Zusatz AdBlue nicht stan­dard­mä­ßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
         'adBlueStation_adBlueStationFarm_INSEL' => 'AdBlue Hoftankstelle Insel',
         'adBlueStation_adBlueStationFarm_BGANORD' => 'AdBlue Hoftankstelle BGA Nord',

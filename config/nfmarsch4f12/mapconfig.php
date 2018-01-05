@@ -374,7 +374,28 @@ $mapconfig = array_merge ( $mapconfig, array (
 								'showInStorage' => true 
 						) 
 				) 
-        ),     
+        ),
+        // BGA Süd Fahrsilos
+		'BGASuedklein1' => array (
+				'locationType' => 'bunker',
+				'position' => '673.947 0 1640.135' 
+        ),
+		'BGASuedklein2' => array (
+				'locationType' => 'bunker',
+				'position' => '673.947 0 1630.579' 
+        ), 
+		'BGASuedklein3' => array (
+				'locationType' => 'bunker',
+				'position' => '673.947 0 1620.346' 
+        ),
+		'BGASued1' => array (
+				'locationType' => 'bunker',
+				'position' => '673.947 0 1687.588' 
+        ),
+		'BGASued2' => array (
+				'locationType' => 'bunker',
+				'position' => '673.947 0 1661.456' 
+        ),         
 ) );
 
 // Fabrikscripte
