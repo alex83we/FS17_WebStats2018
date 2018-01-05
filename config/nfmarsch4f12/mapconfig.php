@@ -2075,7 +2075,88 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => true
                 )
             )
-        ),                             
+        ),
+        // Kartoffelfabrik und Kartoffelwaschanlage 
+        'FabrikScript_Kartoffelfabrik' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 7500,
+            'position' => '-693.474 0 805.203',
+            'showInProduction' => true,
+            'input' => array(
+                'washedPotato' => array(
+                    'capacity' => 600000,
+                    'factor' => 0.6,
+                    'fillTypes' => 'washedPotato',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 280000,
+                    'factor' => 0.25,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array(
+                    'capacity' => 175000,
+                    'factor' => 0.15,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                ),
+                'palettespeiseoel' => array(
+                    'capacity' => 225000,
+                    'factor' => 0.15,
+                    'fillTypes' => 'oel',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'palettechips' => array(
+                    'capacity' => 5000,
+                    'factor' => 0.35,
+                    'fillType' => 'chips',
+                    'palettArea' => '-675.809 823.512 -671.801 807.507',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                ),
+                'palettepommes' => array(
+                    'capacity' => 5000,
+                    'factor' => 0.35,
+                    'fillType' => 'pommes',
+                    'palettArea' => '-694.898 823.512 -690.889 807.468',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                ),
+                'palettekartoffelsack' => array(
+                    'capacity' => 5000,
+                    'factor' => 0.35,
+                    'fillType' => 'kartoffelsack',
+                    'palettArea' => '-713.141 823.49 -709.131 807.468',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_kartoffellager2' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 1000000000,
+            'position' => '-670.29 0 769.079',
+            'showInProduction' => false,
+            'input' => array(
+                'potato' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'potato',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'potato' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillType' => 'potato',
+                    'showInStorage' => true
+                )
+            )
+        ),                            
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge($mapconfig, array ( 
