@@ -2723,6 +2723,175 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),
+        // Obstplantage
+        'FabrikScript_obst_apfel' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 800,
+            'position' => '925.391 0 -791.175',
+            'showInProduction' => true,
+            'input' => array(
+                'Compost' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Apfelpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'apfel',
+                    'palettArea' => '877.6 -880.3 893.8 -876.1',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_obst_birne' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 800,
+            'position' => '925.332 0 -851.349',
+            'showInProduction' => true,
+            'input' => array(
+                'Compost' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Birnenpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'birne',
+                    'palettArea' => '877.5 -893.1 893.8 -888.9',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_obst_kirsche' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 800,
+            'position' => '925.755 0 -911.122',
+            'showInProduction' => true,
+            'input' => array(
+                'Compost' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Kirschpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'kirsche',
+                    'palettArea' => '877.6 -906.3 893.8 -902.0',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_obst_pflaume' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 800,
+            'position' => '925.697 0 -970.193',
+            'showInProduction' => true,
+            'input' => array(
+                'Compost' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array(
+                    'capacity' => 100000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Pflaumenpalette' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'pflaume',
+                    'palettArea' => '877.6 -918.4 893.8 -914.2',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                )
+            )
+        ),
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge($mapconfig, array ( 
