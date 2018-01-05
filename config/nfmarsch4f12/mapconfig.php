@@ -2603,6 +2603,103 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),
+        // Brennerei
+        'FabrikScript_Brennerei_Korn' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 400,
+            'position' => '-135 0 -807',
+            'showInProduction' => true,
+            'input' => array(
+                'Getreide' => array(
+                    'capacity' => 250000,
+                    'factor' => 0.4,
+                    'fillTypes' => 'wheat rye oat barley',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array(
+                    'capacity' => 200000,
+                    'factor' => 0.5,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 120000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array(
+                    'capacity' => 70000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                ),
+                'zuckerpalette' => array(
+                    'capacity' => 70000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'zucker',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'palettekorn' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'korn',
+                    'palettArea' => '-144.2 -814.3 -139.9 -798.1',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Brennerei_Obstler' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 400,
+            'position' => '-85 0 -807',
+            'showInProduction' => true,
+            'input' => array(
+                'Obstpalette' => array(
+                    'capacity' => 90000,
+                    'factor' => 0.4,
+                    'fillTypes' => 'apfel kirsche pflaume birne',
+                    'showInStorage' => false
+                ),
+                'Tip_RSwater' => array(
+                    'capacity' => 200000,
+                    'factor' => 0.5,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 120000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                ),
+                'palette_karton' => array(
+                    'capacity' => 70000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'karton',
+                    'showInStorage' => false
+                ),
+                'zuckerpalette' => array(
+                    'capacity' => 70000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'zucker',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'paletteobstler' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'obstler',
+                    'palettArea' => '-83.4 -815.2 -79.1 -798.8',
+                    'palettPlaces' => 15,
+                    'showInStorage' => false
+                )
+            )
+        ),
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge($mapconfig, array ( 
