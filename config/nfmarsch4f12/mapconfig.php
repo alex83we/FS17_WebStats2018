@@ -2892,6 +2892,79 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),
+        // Baustelle
+        'FabrikScript_Kiesverkauf' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '1721.425 0 -966.909',
+            'showInProduction' => true,
+            'input' => array (
+                'Kies' => array (
+                    'capacity' => 300000,
+                    'factor' => 1,
+                    'fillTypes' => 'gravel',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Geldkassette' => array (
+                    'capacity' => 250000,
+                    'factor' => 0.4,
+                    'fillType' => 'geld',
+                    'palettArea' => '0 0 1 1',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Sandverkauf' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '1703.198 0 -873.27',
+            'showInProduction' => true,
+            'input' => array (
+                'Sand' => array (
+                    'capacity' => 300000,
+                    'factor' => 1,
+                    'fillTypes' => 'sand',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Geldkassette' => array (
+                    'capacity' => 250000,
+                    'factor' => 1,
+                    'fillType' => 'geld',
+                    'palettArea' => '0 0 1 1',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
+        'FabrikScript_Zementverkauf' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 5000,
+            'position' => '1692.588 0 -940.479',
+            'showInProduction' => true,
+            'input' => array (
+                'Zement' => array (
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillTypes' => 'cement',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Geldkassette' => array (
+                    'capacity' => 250000,
+                    'factor' => 3,
+                    'fillType' => 'geld',
+                    'palettArea' => '0 0 1 1',
+                    'palettPlaces' => 1,
+                    'showInStorage' => false
+                )
+            )
+        ),
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge($mapconfig, array ( 
