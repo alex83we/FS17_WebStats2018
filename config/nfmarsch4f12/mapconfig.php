@@ -2700,6 +2700,29 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),
+        // Komposter
+        'FabrikScript_compostMaster2k17' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 50000,
+            'position' => '2.436 0 -725.253',
+            'showInProduction' => true,
+            'input' => array(
+                'cm_inputWaste' => array(
+                    'capacity' => 300000,
+                    'factor' => 2,
+                    'fillTypes' => 'compost potato sugarBeet chaff silage grass grass_windrow dryGrass_windrow woodChips manure straw rye oat wheat barley rape',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'cm_outputCompost' => array(
+                    'capacity' => 300000,
+                    'factor' => 1,
+                    'fillType' => 'compost',
+                    'showInStorage' => true
+                )
+            )
+        ),
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge($mapconfig, array ( 
