@@ -2156,7 +2156,36 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => true
                 )
             )
-        ),                            
+        ),
+        // Kläranlage    
+        'FabrikScript_Klaerwerk' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 40000,
+            'position' => '-160 0 750',
+            'showInProduction' => true,
+            'input' => array(
+                'Tip_RS1' => array(
+                    'capacity' => 600000,
+                    'factor' => 1,
+                    'fillTypes' => 'liquidManure digestate',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'RS_compost1' => array(
+                    'capacity' => 500000,
+                    'factor' => 0.26,
+                    'fillType' => 'compost',
+                    'showInStorage' => true
+                ),
+                'RM_Output2' => array(
+                    'capacity' => 800000,
+                    'factor' => 0.65,
+                    'fillType' => 'water',
+                    'showInStorage' => true
+                )
+            )
+        ),                        
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge($mapconfig, array ( 
