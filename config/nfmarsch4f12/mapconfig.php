@@ -120,6 +120,14 @@ $mapconfig = array_merge ( $mapconfig, array (
                 'locationType' => 'TipTrigger',
                 'position' => '947 0 -1621'
         ),
+		'TipTrigger_BGA_Ost' => array (
+                'locationType' => 'TipTrigger',
+                'position' => '1300.6 0 -457.5'
+        ),
+		'TipTrigger_BGA_BUNKER1' => array (
+                'locationType' => 'TipTrigger',
+                'position' => '722 0 1657'
+        ),
         'Storage_storage1' => array (
             'locationType' => 'storage',
             'position' => '210 0 120' 
@@ -347,6 +355,7 @@ $mapconfig = array_merge ( $mapconfig, array (
 				'locationType' => 'bunker',
 				'position' => '-66 0 -963' 
         ), 
+		// BGA Süd
 		'BGASued' => array (
 				'locationType' => 'bga',
 				'ProdPerHour' => 1000,
@@ -395,7 +404,65 @@ $mapconfig = array_merge ( $mapconfig, array (
 		'BGASued2' => array (
 				'locationType' => 'bunker',
 				'position' => '673.947 0 1661.456' 
-        ),         
+        ),
+		// BGA Ost
+		'BGAOst' => array (
+				'locationType' => 'bga',
+				'ProdPerHour' => 1000,
+				'position' => '1300.6 0 -457.5',
+				'showInProduction' => true,
+				'input' => array (
+						'silage' => array (
+								'capacity' => 50000,
+								'factor' => 360,
+								'fillTypes' => 'bunkerFillLevel',
+								'showInStorage' => false 
+						),
+						'liquidManure' => array (
+								'capacity' => 2000000,
+								'factor' => 180,
+								'fillTypes' => 'liquidManureFillLevel',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'digestate' => array (
+								'capacity' => 800000,
+								'factor' => 87,
+								'fillTypes' => 'digestateSiloFillLevel',
+								'showInStorage' => true 
+						) 
+				) 
+        ),
+        // BGA Ost Fahrsilos
+		'BGA_Ost1' => array (
+				'locationType' => 'bunker',
+				'position' => '1388.851 0 -466.486' 
+        ),
+		'BGA_Ost2' => array (
+				'locationType' => 'bunker',
+				'position' => '1399.003 0 -466.486' 
+        ), 
+		'BGA_Ost3' => array (
+				'locationType' => 'bunker',
+				'position' => '1408.141 0 -466.486' 
+        ),
+		'BGA_Ost4' => array (
+				'locationType' => 'bunker',
+				'position' => '1379.177 0 -466.486' 
+        ), 
+		'BGA_Ost5' => array (
+				'locationType' => 'bunker',
+				'position' => '1368.678 0 -466.486' 
+        ),
+		'BGA_Ost_Keil1' => array (
+				'locationType' => 'bunker',
+				'position' => '1267.997 0 -363.235' 
+        ),
+		'BGA_Ost_Keil2' => array (
+				'locationType' => 'bunker',
+				'position' => '1236.37 0 -363.235' 
+        ),
 ) );
 
 // Fabrikscripte
@@ -3076,12 +3143,6 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             ),
             'output' => array (
-                'Mist' => array (
-                    'capacity' => 100000,
-                    'factor' => 1,
-                    'fillType' => 'manure',
-                    'showInStorage' => true
-                ),
                 'Eierpalette' => array (
                     'capacity' => 5000,
                     'factor' => 1,
@@ -3089,6 +3150,12 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'palettArea' => '1433.5 -602.8 1411.3 -606.9',
                     'palettPlaces' => 21,
                     'showInStorage' => false
+                ),
+				'Mist' => array (
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillType' => 'manure',
+                    'showInStorage' => true
                 )
             )
         ), 
@@ -3130,12 +3197,6 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             ),
             'output' => array (
-                'Mist' => array (
-                    'capacity' => 100000,
-                    'factor' => 1,
-                    'fillType' => 'manure',
-                    'showInStorage' => true
-                ),
                 'Eierpalette' => array (
                     'capacity' => 5000,
                     'factor' => 1,
@@ -3143,6 +3204,12 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'palettArea' => '1410.45 -688.85 1406.26 -666.63',
                     'palettPlaces' => 21,
                     'showInStorage' => false
+                ),
+				'Mist' => array (
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillType' => 'manure',
+                    'showInStorage' => true
                 )
             )
         ), 

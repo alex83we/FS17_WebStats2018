@@ -266,7 +266,15 @@ $lang = array_merge ( $lang, array (
         'Stahlpalette' => 'Stahlpalette',
         'Eierpalette' => 'Eier',
         'palette_eier' => 'Eier',
-        // Zusatz AdBlue nicht stan­dard­mä­ßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
+		'BGAOst' => 'BGA Ost',
+		'BGA_Ost1' => 'BGA Ost Fahrsilo 1',
+		'BGA_Ost2' => 'BGA Ost Fahrsilo 2',
+		'BGA_Ost3' => 'BGA Ost Fahrsilo 3',
+		'BGA_Ost4' => 'BGA Ost Fahrsilo 4',
+		'BGA_Ost5' => 'BGA Ost Fahrsilo 5',
+		'BGA_Ost_Keil1' => 'BGA Ost Keilsilo 1',
+		'BGA_Ost_Keil2' => 'BGA Ost Keilsilo 2',
+        // Zusatz AdBlue nicht standardmäßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
         'adblue' => 'AdBlue Tankstellen'
 ) );
 
