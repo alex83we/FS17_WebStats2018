@@ -449,7 +449,7 @@ $lang = array_merge ( $lang, array (
 		'FabrikScript_sand' => 'Sandgrube',
 		'FabrikScript_Rinderzucht' => 'Rinderzucht 1',
 		'FabrikScript_Rinderzucht2' => 'Rinderzucht 2',
-		'FabrikScript_Mischfutterstation' => 'Mischfutterstation (Rinderhof)'
+		'FabrikScript_Mischfutterstation' => 'Mischfutterstation (Rinderhof)',
         // Zusatz AdBlue nicht standardmäßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
         'adBlueStation_adBlueStationFarm_INSEL' => 'AdBlue Hoftankstelle Insel',
         'adBlueStation_adBlueStationFarm_BGANORD' => 'AdBlue Hoftankstelle BGA Nord',
