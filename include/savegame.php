@@ -155,7 +155,7 @@ foreach ( $careerVehicles->vehicle as $vehicle ) {
 foreach ( $careerVehicles->onCreateLoadedObject as $object ) {
 	$location = strval ( $object ['saveId'] );
 	// Verkaufspreise ermitteln
-	if ((strstr ($location, 'TipTrigger' ) !== false || $location == "Bga") && $location != 'TipTrigger_FARM_SILO') {
+	if ((strstr($location, 'TipTrigger') !== false || $location == "Bga") && strstr($location, 'TipTrigger_FARM_SILO') === false) {
 		$foreach = $object->stats;
 		$l_location = translate ( $location );
 		$tipTrigger [$l_location] = $location;
