@@ -3669,6 +3669,41 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),
+		// Mischfutterstation Rinderhof
+		'FabrikScript_Mischfutterstation' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 10000,
+            'position' => '598.282 0 1666.772',
+            'showInProduction' => true,
+            'input' => array (
+                'Stroh' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.35,
+                    'fillTypes' => 'straw',
+                    'showInStorage' => false
+                ),
+                'Silage' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'silage',
+                    'showInStorage' => false
+                ),
+                'Gras' => array (
+                    'capacity' => 200000,
+                    'factor' => 0.35,
+                    'fillTypes' => 'grass_windrow dryGrass_windrow',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'Mischfutter' => array (
+                    'capacity' => 300000,
+                    'factor' => 0.96,
+                    'fillType' => 'forage',
+                    'showInStorage' => true
+                )
+            )
+        ),
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge ($mapconfig, array ( 
