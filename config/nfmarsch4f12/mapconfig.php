@@ -3030,6 +3030,28 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => false
                 )
             )
+        ),		
+        'FabrikScript_compostlager' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 2147483647,
+            'position' => '907.071 0 -937.298',
+            'showInProduction' => false,
+            'input' => array(
+                'Compost' => array(
+                    'capacity' => 800000,
+                    'factor' => 1,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Compost' => array(
+                    'capacity' => 800000,
+                    'factor' => 1,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => true
+                )
+            )
         ),
         // Baustelle
         'FabrikScript_Kiesverkauf' => array (
@@ -3700,6 +3722,63 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'capacity' => 300000,
                     'factor' => 0.96,
                     'fillType' => 'forage',
+                    'showInStorage' => true
+                )
+            )
+        ),
+		// Dünger- Saatgutproduktion
+        'FabrikScript_Duenger_Prod2' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 10000,
+            'position' => '558.113 0 1666.111',
+            'showInProduction' => true,
+            'input' => array (
+                'manure' => array (
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillTypes' => 'manure',
+                    'showInStorage' => false
+                ),
+                'liquidManure' => array (
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillTypes' => 'liquidManure',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'fertilizer' => array (
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillType' => 'fertilizer',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_Saat_Prod2' => array (
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 10000,
+            'position' => '558.113 0 1630.44',
+            'showInProduction' => true,
+            'input' => array (
+                'grain' => array (
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillTypes' => 'wheat maize barley rape',
+                    'showInStorage' => false
+                ),
+                'fertilizer' => array (
+                    'capacity' => 100000,
+                    'factor' => 0.3,
+                    'fillTypes' => 'fertilizer',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array (
+                'seeds' => array (
+                    'capacity' => 100000,
+                    'factor' => 1,
+                    'fillType' => 'seeds',
                     'showInStorage' => true
                 )
             )
