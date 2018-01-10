@@ -3564,6 +3564,111 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ),
+		// Rinderzucht
+        'FabrikScript_Rinderzucht' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 2,
+            'position' => '712.782 0 1561.975',
+            'showInProduction' => true,
+            'input' => array(
+                'Stroh' => array(
+                    'capacity' => 500000,
+                    'factor' => 500,
+                    'fillTypes' => 'straw',
+                    'showInStorage' => false
+                ),
+				'Silage' => array(
+                    'capacity' => 500000,
+                    'factor' => 1000,
+                    'fillTypes' => 'silage',
+                    'showInStorage' => false
+                ),
+				'Tip_RSwater' => array(
+                    'capacity' => 500000,
+                    'factor' =>100,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+				'Mischfutter' => array(
+                    'capacity' => 500000,
+                    'factor' => 1000,
+                    'fillTypes' => 'forage',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Guelle' => array(
+                    'capacity' => 800000,
+                    'factor' => 75,
+                    'fillType' => 'liquidManure',
+                    'showInStorage' => true
+                ),
+                'Rinder' => array(
+                    'capacity' => 500,
+                    'factor' => 1,
+                    'fillType' => 'cow',
+                    'showInStorage' => true
+                ),
+                'Mist' => array(
+                    'capacity' => 500000,
+                    'factor' => 75,
+                    'fillType' => 'manure',
+                    'showInStorage' => true
+                )
+            )
+        ),
+        'FabrikScript_Rinderzucht2' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 2,
+            'position' => '712.782 0 1561.975',
+            'showInProduction' => true,
+            'input' => array(
+                'Stroh' => array(
+                    'capacity' => 500000,
+                    'factor' => 500,
+                    'fillTypes' => 'straw',
+                    'showInStorage' => false
+                ),
+				'Silage' => array(
+                    'capacity' => 500000,
+                    'factor' => 1000,
+                    'fillTypes' => 'silage',
+                    'showInStorage' => false
+                ),
+				'Tip_RSwater' => array(
+                    'capacity' => 500000,
+                    'factor' =>100,
+                    'fillTypes' => 'water',
+                    'showInStorage' => false
+                ),
+				'Mischfutter' => array(
+                    'capacity' => 500000,
+                    'factor' => 1000,
+                    'fillTypes' => 'forage',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'Guelle' => array(
+                    'capacity' => 800000,
+                    'factor' => 75,
+                    'fillType' => 'liquidManure',
+                    'showInStorage' => true
+                ),
+                'Rinder' => array(
+                    'capacity' => 500,
+                    'factor' => 1,
+                    'fillType' => 'cow',
+                    'showInStorage' => true
+                ),
+                'Mist' => array(
+                    'capacity' => 500000,
+                    'factor' => 75,
+                    'fillType' => 'manure',
+                    'showInStorage' => true
+                )
+            )
+        ),
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge ($mapconfig, array ( 

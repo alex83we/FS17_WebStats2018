@@ -274,6 +274,8 @@ $lang = array_merge ( $lang, array (
 		'BGA_Ost5' => 'BGA Ost Fahrsilo 5',
 		'BGA_Ost_Keil1' => 'BGA Ost Keilsilo 1',
 		'BGA_Ost_Keil2' => 'BGA Ost Keilsilo 2',
+		'Guelle' => 'Gülle',
+		'Rinder' => 'Rinder',
         // Zusatz AdBlue nicht standardmäßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
         'adblue' => 'AdBlue Tankstellen'
 ) );
@@ -445,6 +447,8 @@ $lang = array_merge ( $lang, array (
         'FabrikScript_Cementfabrik' => 'Zementfabrik',
 		'FabrikScript_kies' => 'Kieswerk',
 		'FabrikScript_sand' => 'Sandgrube',
+		'FabrikScript_Rinderzucht' => 'Rinderzucht 1',
+		'FabrikScript_Rinderzucht2' => 'Rinderzucht 2',
         // Zusatz AdBlue nicht standardmäßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
         'adBlueStation_adBlueStationFarm_INSEL' => 'AdBlue Hoftankstelle Insel',
         'adBlueStation_adBlueStationFarm_BGANORD' => 'AdBlue Hoftankstelle BGA Nord',
