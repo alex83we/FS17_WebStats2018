@@ -443,7 +443,9 @@ $lang = array_merge ( $lang, array (
         'FabrikScript_Eierhof' => 'Eier Produktion',
         'FabrikScript_Eierhof2' => 'Eier Produktion 2',
         'FabrikScript_Cementfabrik' => 'Zementfabrik',
-        // Zusatz AdBlue nicht stan­dard­mä­ßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
+		'FabrikScript_kies' => 'Kieswerk',
+		'FabrikScript_sand' => 'Sandgrube',
+        // Zusatz AdBlue nicht standardmäßig verbaut auf der Nordfriesichen Marsch 1.3 4 Fach
         'adBlueStation_adBlueStationFarm_INSEL' => 'AdBlue Hoftankstelle Insel',
         'adBlueStation_adBlueStationFarm_BGANORD' => 'AdBlue Hoftankstelle BGA Nord',
         'adBlueStation_adBlueStationFarm_BGAMITTE' => 'AdBlue Hoftankstelle BGA Mitte',

@@ -3213,7 +3213,7 @@ $mapconfig = array_merge ( $mapconfig, array (
                 )
             )
         ), 
-        // Cementfabrik
+        // Cementfabrik, Kieswerk und Sandgrube
         'FabrikScript_Cementfabrik' => array(
             'locationType' => 'FabrikScript',
             'ProdPerHour' => 5000,
@@ -3261,7 +3261,309 @@ $mapconfig = array_merge ( $mapconfig, array (
                     'showInStorage' => false
                 )
             )
-        ),       
+        ),
+		'FabrikScript_kies' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 5000,
+				'position' => '1634.299 0 208.714',
+				'showInProduction' => true,
+				'input' => array (
+						'cm_inputFuel' => array (
+								'capacity' => 200000,
+								'factor' => 0.1,
+								'fillTypes' => 'cm_inputFuel',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'Kies' => array (
+								'capacity' => 2000000,
+								'factor' => 1,
+								'fillType' => 'gravel',
+								'showInStorage' => true 
+						) 
+				) 
+        ),
+		'FabrikScript_sand' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 5000,
+				'position' => '1740.11 0 200.05',
+				'showInProduction' => true,
+				'input' => array (
+						'cm_inputFuel' => array (
+								'capacity' => 200000,
+								'factor' => 0.1,
+								'fillTypes' => 'cm_inputFuel',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'Sand' => array (
+								'capacity' => 2000000,
+								'factor' => 1,
+								'fillType' => 'sand',
+								'showInStorage' => true 
+						) 
+				) 
+        ),
+		// Weberei
+		'FabrikScript_Weberei' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 5000,
+				'position' => '813.577 0 594.421',
+				'showInProduction' => true,
+				'input' => array (
+						'Wasser' => array (
+								'capacity' => 150000,
+								'factor' => 0.5,
+								'fillTypes' => 'water',
+								'showInStorage' => false 
+						),
+						'Wolle' => array (
+								'capacity' => 200000,
+								'factor' => 0.13,
+								'fillTypes' => 'woll',
+								'showInStorage' => false 
+						) 
+				),
+				'output' => array (
+						'stoffrolleMK' => array (
+								'capacity' => 200000,
+								'factor' => 1,
+								'fillType' => 'stoffrolleMK',
+								'showInStorage' => true 
+						) 
+				) 
+        ),
+		// Gewächshäuser
+		'FabrikScript_Blumenkohlzucht' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 1000,
+				'position' => '849.753 0 654.207',
+				'showInProduction' => true,
+				'input' => array (
+						'emptypallet' => array (
+								'capacity' => 45000,
+								'factor' => 0.143,
+								'fillTypes' => 'emptypallet',
+								'showInStorage' => false 
+						),
+						'water' => array (
+								'capacity' =>30000,
+								'factor' => 0.7,
+								'fillTypes' => 'water',
+								'showInStorage' => false 
+						),
+						'compost' => array (
+								'capacity' => 80000,
+								'factor' => 0.5,
+								'fillTypes' => 'compost',
+								'showInStorage' => false 
+						)  
+				),
+				'output' => array (
+						'blumenkohl' => array (
+								'capacity' => 5000,
+								'factor' => 1,
+								'fillType' => 'blumenkohl',
+                    			'palettArea' => '850.3 648.8 852.5 663.0',
+                    			'palettPlaces' => 7,
+								'showInStorage' => false 
+						) 
+				) 
+        ),
+		'FabrikScript_Salatzucht' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 1000,
+				'position' => '849.753 0 682.887',
+				'showInProduction' => true,
+				'input' => array (
+						'emptypallet' => array (
+								'capacity' => 45000,
+								'factor' => 0.143,
+								'fillTypes' => 'emptypallet',
+								'showInStorage' => false 
+						),
+						'water' => array (
+								'capacity' =>30000,
+								'factor' => 0.7,
+								'fillTypes' => 'water',
+								'showInStorage' => false 
+						),
+						'compost' => array (
+								'capacity' => 80000,
+								'factor' => 0.5,
+								'fillTypes' => 'compost',
+								'showInStorage' => false 
+						)  
+				),
+				'output' => array (
+						'salat' => array (
+								'capacity' => 5000,
+								'factor' => 1,
+								'fillType' => 'salat',
+                    			'palettArea' => '849.6 675.8 851.9 690.2',
+                    			'palettPlaces' => 7,
+								'showInStorage' => false 
+						) 
+				) 
+        ),
+		'FabrikScript_Tomatenzucht' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 1000,
+				'position' => '785.393 0 682.887',
+				'showInProduction' => true,
+				'input' => array (
+						'emptypallet' => array (
+								'capacity' => 45000,
+								'factor' => 0.143,
+								'fillTypes' => 'emptypallet',
+								'showInStorage' => false 
+						),
+						'water' => array (
+								'capacity' =>30000,
+								'factor' => 0.7,
+								'fillTypes' => 'water',
+								'showInStorage' => false 
+						),
+						'compost' => array (
+								'capacity' => 80000,
+								'factor' => 0.5,
+								'fillTypes' => 'compost',
+								'showInStorage' => false 
+						)  
+				),
+				'output' => array (
+						'tomaten' => array (
+								'capacity' => 5000,
+								'factor' => 1,
+								'fillType' => 'tomaten',
+                    			'palettArea' => '782.7 675.9 785.0 690.1',
+                    			'palettPlaces' => 7,
+								'showInStorage' => false 
+						) 
+				) 
+        ),
+		'FabrikScript_Rotkohlzucht' => array (
+				'locationType' => 'FabrikScript',
+				'ProdPerHour' => 1000,
+				'position' => '785.393 0 655.825',
+				'showInProduction' => true,
+				'input' => array (
+						'emptypallet' => array (
+								'capacity' => 45000,
+								'factor' => 0.143,
+								'fillTypes' => 'emptypallet',
+								'showInStorage' => false 
+						),
+						'water' => array (
+								'capacity' =>30000,
+								'factor' => 0.7,
+								'fillTypes' => 'water',
+								'showInStorage' => false 
+						),
+						'compost' => array (
+								'capacity' => 80000,
+								'factor' => 0.5,
+								'fillTypes' => 'compost',
+								'showInStorage' => false 
+						)  
+				),
+				'output' => array (
+						'rotkohl' => array (
+								'capacity' => 5000,
+								'factor' => 1,
+								'fillType' => 'rotkohl',
+                    			'palettArea' => '783.4 648.9 785.6 663.1',
+                    			'palettPlaces' => 7,
+								'showInStorage' => false 
+						) 
+				) 
+        ),
+        'FabrikScript_compostlager2' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 2147483647,
+            'position' => '804.803 0 660.242',
+            'showInProduction' => false,
+            'input' => array(
+                'Compost' => array(
+                    'capacity' => 800000,
+                    'factor' => 1,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => true
+                )
+            ),
+            'output' => array(
+                'Compost' => array(
+                    'capacity' => 800000,
+                    'factor' => 1,
+                    'fillTypes' => 'compost',
+                    'showInStorage' => true
+                )
+            )
+        ),
+		// Pelletsfabrik
+        'FabrikScript_Pellets_Fabrik' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 7500,
+            'position' => '874.679 0 662.882',
+            'showInProduction' => true,
+            'input' => array(
+                'Stroh_Hackschnitzel' => array(
+                    'capacity' => 500000,
+                    'factor' => 1,
+                    'fillTypes' => 'straw woodChips',
+                    'showInStorage' => false
+                ),
+                'emptypallet' => array(
+                    'capacity' => 240000,
+                    'factor' => 0.2,
+                    'fillTypes' => 'emptypallet',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'pellets' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'pellets',
+                    'palettArea' => '866.4 656.3 872.7 672.6',
+                    'palettPlaces' => 22,
+                    'showInStorage' => false
+                )
+            )
+        ),
+		// Palettenfabrik
+        'FabrikScript_Paletten_Fabrik' => array(
+            'locationType' => 'FabrikScript',
+            'ProdPerHour' => 25000,
+            'position' => '876.815 0 612.811',
+            'showInProduction' => true,
+            'input' => array(
+                'boardwood' => array(
+                    'capacity' => 352000,
+                    'factor' => 0.5,
+                    'fillTypes' => 'boardwood',
+                    'showInStorage' => false
+                )
+            ),
+            'output' => array(
+                'woodChips' => array(
+                    'capacity' => 150000,
+                    'factor' => 0.25,
+                    'fillType' => 'woodChips',
+                    'showInStorage' => true
+                ),
+                'emptypallet' => array(
+                    'capacity' => 5000,
+                    'factor' => 1,
+                    'fillType' => 'emptypallet',
+                    'palettArea' => '866.4 618.5 882.6 624.7',
+                    'palettPlaces' => 22,
+                    'showInStorage' => false
+                )
+            )
+        ),
 ) );
 // AdBlue Tankstellen und AdBlue Hoftankstellen 
 $mapconfig = array_merge ($mapconfig, array ( 
