@@ -103,7 +103,7 @@ $fillTypes = array (
 		'blumenkohl',
 		'rotkohl',
 		'salat',
-		'stoffrolleMK'
+		'stoffrolleMK' 
 );
 $statsVars = array (
 		'fillType',
