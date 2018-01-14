@@ -3852,5 +3852,37 @@ $mapconfig = array_merge ($mapconfig, array (
     'fuelStation_Tankstelle_BGA_Sued' => array (
         'locationType' => 'fuelStation',
         'position' => '-400 0 630'
+    ),
+    'fuelStation_Tankstelle_Insel' => array (
+        'locationType' => 'fuelStation',
+        'position' => '-1417 0 -873.236'
+    ),
+    'fuelStation_Tankstelle_Insel' => array (
+        'locationType' => 'fuelStation',
+        'position' => '-1417 0 -873.236'
+    ),
+    'fuelStation_Tankstelle_Rinderhof' => array (
+        'locationType' => 'fuelStation',
+        'position' => '533.01 0 1605.389'
+    ),
+    'fuelStation_Tankstelle_Rinderhof' => array (
+        'locationType' => 'fuelStation',
+        'position' => '533.01 0 1605.389'
+    ),
+    'fuelStation_Tankstelle_SandKies' => array (
+        'locationType' => 'fuelStation',
+        'position' => '1625.167 0 279.707'
+    ),
+    'fuelStation_Tankstelle_SandKies' => array (
+        'locationType' => 'fuelStation',
+        'position' => '1625.167 0 279.707'
+    ),
+    'fuelStation_Tankstelle_Huehnerhof' => array (
+        'locationType' => 'fuelStation',
+        'position' => '1454.281 0 -792.442'
+    ),
+    'fuelStation_Tankstelle_Huehnerhof' => array (
+        'locationType' => 'fuelStation',
+        'position' => '1454.281 0 -792.442'
     )
 ));
