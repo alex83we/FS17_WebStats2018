@@ -2,7 +2,7 @@
 /**
  *
  * This file is part of the "FS17 Webstats" package.
- * Copyright (C) 2017-2018 John Hawk <john.hawk@gmx.net>
+ * Copyright (C) 2017  John Hawk <john.hawk@gmx.net>
  *
  * "FS17 Webstats" is free software: you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as published
@@ -17,19 +17,25 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * Mapconfig NF Marsch 4 Fach 1.2 by alex83we 
+ * 
  */
-if (! defined('IN_NFMWS') && ! defined('IN_INSTALL')) {
-    exit();
+if (! defined ( 'IN_NFMWS' )) {
+    exit ();
 }
 
-$animalPlants = array(
-    "Animals_sheep",
-    "Animals_pig",
-    "Animals_cow"
-);
-foreach ($animalPlants as $key => $animalPlant) {
-    $animalPlants[$key] = translate($animalPlant);
+if (empty ( $lang ) || ! is_array ( $lang )) {
+    $lang = array ();
 }
-$smarty->assign('animalPlants', $animalPlants);
-$smarty->assign('animalPallets', $animalPallets);
-$smarty->assign('plants', $plants);
+
+$lang = array_merge ( $lang, array (
+	
+) );
+
+$lang = array_merge ( $lang, array (
+	
+) );
+
+$lang = array_merge ( $lang, array (
+	
+) );

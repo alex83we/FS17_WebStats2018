@@ -285,19 +285,23 @@ $mapconfig = array_merge ( $mapconfig, array (
 								'production_factor' => 50,
 								'fillType' => 'manure',
 								'showInStorage' => true 
-						),						
-						'piglet' => array (
+						),
+						'pigletBox' => array (
 								'production_factor' => 24,
-								'fillType' => 'piglet',
-								'showInStorage' => true 
-						) 
+								'capacity' => 5,
+								'fillType' => 'pigletBox',
+								'palletArea' => '122 -39 123 -36',
+								'palletPlaces' => 6,
+								'showInStorage' => false
+						)
 				),
 				'productivity' => array (
 						'straw' => 9.8,
 						'maize_steamedPotato_oat_pigFood' => 44.8,
 						'wheat_barley_pigFood' => 22.8,
 						'rape_sunflower_soybean_pigFood' => 17.8,
-						'potato_sugarBeet_pigFood' => 4.8 
+						'potato_sugarBeet_pigFood' => 4.8, 
+						'wholeGrain' => 4.8
 				) 
 		),
 		'Animals_sheep' => array (
