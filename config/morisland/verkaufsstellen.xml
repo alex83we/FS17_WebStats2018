@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+  <item name="TipTrigger_guelle" locationType="TipTrigger" position="1470.844 0 -361.77" isSellingPoint="false" />
+  <item name="TipTrigger_GRAIN_ELEVATOR" locationType="TipTrigger" position="1500.022 0 -424.662" isSellingPoint="true" />
+  <item name="TipTrigger_TRAIN_STATION_1_TRAILER_IN" locationType="TipTrigger" position="1396.286 0 -48.979" isSellingPoint="false" />
+  <item name="TipTrigger_TRAIN_STATION_1_TRAIN_IN" locationType="TipTrigger" position="1423.999 0 -50.432" isSellingPoint="false" />
+  <item name="TipTrigger_SAWMILL" locationType="TipTrigger" position="-53.041 0 1783.009" isSellingPoint="false" />
+  <item name="TipTrigger_HEIZWERK" locationType="TipTrigger" position="-19.164 0 1711.55" isSellingPoint="true" />
+  <item name="TipTrigger_ROHSTOFF_HANDEL" locationType="TipTrigger" position="1845.45 0 -1887.333" isSellingPoint="true" />
+  <item name="TipTrigger_DINER" locationType="TipTrigger" position="215.057 0 1638.648" isSellingPoint="true" />
+  <item name="TipTrigger_MUELLE_TRAIN" locationType="TipTrigger" position="-1580.133 0 1862.601" isSellingPoint="true" />
+  <item name="TipTrigger_zucker_TRAIN" locationType="TipTrigger" position="--1713.348 0 1454.531" isSellingPoint="true" />
+  <item name="TipTrigger_SUPERMARKT" locationType="TipTrigger" position="-740.947 0 1025.324" isSellingPoint="true" />
+  <item name="TipTrigger_TANKE" locationType="TipTrigger" position="-127.177 0 420.693" isSellingPoint="true" />
+  <item name="TipTrigger_SPINNERY" locationType="TipTrigger" position="-536.645 0 339.17" isSellingPoint="true" />
+  <item name="TipTrigger_PFERDE" locationType="TipTrigger" position="-1782.972 0 303.857" isSellingPoint="true" />
+  <item name="TipTrigger_RAILROAD_MILL" locationType="TipTrigger" position="-1478.218 0 -503.648" isSellingPoint="true" />
+  <item name="TipTrigger_MILL" locationType="TipTrigger" position="-1500.044 0 -499.99" isSellingPoint="true" />
+  <item name="TipTrigger_WINDROW_STORAGE" locationType="TipTrigger" position="1844.276 0 -1885.2188" isSellingPoint="false" />
+  <item name="TipTrigger_ROHSTOFF_HANDEL" locationType="TipTrigger" position="1841.347 0 -1954.598" isSellingPoint="true" />
+  <item name="TipTrigger_SHEEP" locationType="TipTrigger" position="355.13 0 -923.529" isSellingPoint="false" />
+  <l10n>
+    <text name="TipTrigger_BETRIEBSHOF">
+      <en>Depot</en>
+      <de>Betriebshof</de>
+      <fr>Dépôt</fr>
+    </text>
+    <text name="TipTrigger_BETRIEBSHOF_TRAIN">
+      <en>Depot</en>
+      <de>Betriebshof</de>
+      <fr>Dépôt</fr>
+    </text>
+    <text name="TipTrigger_DINER">
+      <en>Diner</en>
+      <de>Diner</de>
+      <fr>Dîner</fr>
+    </text>
+    <text name="TipTrigger_GRAIN_ELEVATOR">
+      <en>Moris Trade</en>
+      <de>Moris Handel</de>
+      <fr>Moris Commerce</fr>
+    </text>
+    <text name="TipTrigger_HEIZWERK">
+      <en>heating plant</en>
+      <de>Heizwerk</de>
+      <fr>installation de chauffage</fr>
+    </text>
+    <text name="TipTrigger_MILL">
+      <en>Export Trade</en>
+      <de>Export Handel</de>
+      <fr>Export Commerce</fr>
+    </text>
+    <text name="TipTrigger_MUELLE_TRAIN">
+      <en>Mill</en>
+      <de>Mühle</de>
+      <fr>moulin</fr>
+    </text>
+    <text name="TipTrigger_PFERDE">
+      <en>Horses</en>
+      <de>Pferde</de>
+      <fr>Chevaux</fr>
+    </text>
+    <text name="TipTrigger_RAILROAD_MILL">
+      <en>Export Trade</en>
+      <de>Export Handel</de>
+      <fr>Export Commerce</fr>
+    </text>
+    <text name="TipTrigger_ROHSTOFF_HANDEL">
+      <en>Rohstoff Trade</en>
+      <de>Rohstoff Handel</de>
+      <fr>Rohstoff Commerce</fr>
+    </text>
+    <text name="TipTrigger_SAWMILL">
+      <en>Tree sale</en>
+      <de>Baum Verkauf</de>
+      <fr>Vente d'arbres</fr>
+    </text>
+    <text name="TipTrigger_SHEEP">
+      <en>Wool sale</en>
+      <de>Wolle Verkauf</de>
+      <fr>Vente de laine</fr>
+    </text>
+    <text name="TipTrigger_SPINNERY">
+      <en>Spinnery</en>
+      <de>Spinnerei</de>
+      <fr>Spinnerei</fr>
+    </text>
+    <text name="TipTrigger_SUPERMARKT">
+      <en>Edeka</en>
+      <de>Edeka</de>
+      <fr>Edeka</fr>
+    </text>
+    <text name="TipTrigger_Storage_Bahn2">
+      <en>West Station</en>
+      <de>Bahnhof West</de>
+      <fr>Gare l'ouest</fr>
+    </text>
+    <text name="TipTrigger_Storage_Bahn3">
+      <en>North Station</en>
+      <de>Bahnhof Nord</de>
+      <fr>Gare du Nord</fr>
+    </text>
+    <text name="TipTrigger_Storage_FARM2">
+      <en>Storage</en>
+      <de>Hofsilo</de>
+      <fr>Silo agricole</fr>
+    </text>
+    <text name="TipTrigger_Storage_FARM">
+      <en>Storage</en>
+      <de>Hofsilo</de>
+      <fr>Silo agricole</fr>
+    </text>
+    <text name="TipTrigger_TANKE">
+      <en>petrol station</en>
+      <de>Tanke</de>
+      <fr>station-service</fr>
+    </text>
+    <text name="TipTrigger_TRAIN_STATION_1_TRAILER_IN">
+      <en>Storage</en>
+      <de>Bahnhof</de>
+      <fr>Gare</fr>
+    </text>
+    <text name="TipTrigger_TRAIN_STATION_1_TRAIN_IN">
+      <en>Storage</en>
+      <de>Bahnhof</de>
+      <fr>Gare</fr>
+    </text>
+    <text name="TipTrigger_WINDROW_STORAGE">
+      <en>straw sale</en>
+      <de>Strohverkauf</de>
+      <fr>vente de paille</fr>
+    </text>
+    <text name="TipTrigger_guelle">
+      <en>Slurry sale</en>
+      <de>Gülleverkauf</de>
+      <fr>vente Slurry</fr>
+    </text>
+    <text name="TipTrigger_zucker_TRAIN">
+      <en>confection</en>
+      <de>Zuckerwerk</de>
+      <fr>friandise</fr>
+    </text>
+  </l10n>
+</mapconfig>
