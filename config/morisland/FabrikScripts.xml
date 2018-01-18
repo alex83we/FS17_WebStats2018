@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <!-- Tankstellen -->
+  <item name="BGA_Tankstelle" locationType="FabrikScript" ProdPerHour="2147483647" position="1962.602 0 -1941.902" showInProduction="true" >
+    <input name="fuel" capacity="500000" factor="1" fillTypes="fuel" showInStorage="false" />
+    <output name="fuel" capacity="500000" factor="1" fillType="fuel" showInStorage="true" />
+  </item>
+  <item name="Wald_Tankstelle" locationType="FabrikScript" ProdPerHour="2147483647" position="-92 0 1806.553" showInProduction="true" >
+    <input name="fuel" capacity="500000" factor="1" fillTypes="fuel" showInStorage="false" />
+    <output name="fuel" capacity="500000" factor="1" fillType="fuel" showInStorage="true" />
+  </item>
+  <item name="Hof_Tankstelle" locationType="FabrikScript" ProdPerHour="2147483647" position="594.652 0 -1035.651" showInProduction="true" >
+    <input name="fuel" capacity="500000" factor="1" fillTypes="fuel" showInStorage="false" />
+    <output name="fuel" capacity="500000" factor="1" fillType="fuel" showInStorage="true" />
+  </item>
+  <!-- Fabriken ohne Paletten -->
+  <item name="Gras_Trockner" locationType="FabrikScript" ProdPerHour="8000" position="1975.966 0 -1603.159" showInProduction="true" >
+    <input name="grass_windrow" capacity="5000000" factor="1" fillTypes="grass_windrow" showInStorage="false" />
+    <output name="dryGrass_windrow" capacity="5000000" factor="1" fillType="dryGrass_windrow" showInStorage="true" />
+  </item>
+  <item name="Kalk_Master5000" locationType="FabrikScript" ProdPerHour="30000" position="1820.641 0 1531.943" showInProduction="true" >
+    <input name="Kalkbruch" capacity="5000000" factor="1" fillTypes="sand" showInStorage="false" />
+    <input name="fuel" capacity="200000" factor="1" fillTypes="fuel" showInStorage="false" />
+    <output name="lime" capacity="5000000" factor="1" fillType="lime" showInStorage="true" />
+  </item>
+  <item name="Kalkbruch" locationType="FabrikScript" ProdPerHour="10000" position="1811.142 0 1585.185" showInProduction="true" >
+    <input name="sand" capacity="5000000" factor="0" fillTypes="sand" showInStorage="false" />
+    <output name="kalkbruch" capacity="800000" factor="1" fillType="sand" showInStorage="true" />
+  </item>
+  <item name="Holzhacker" locationType="FabrikScript" ProdPerHour="20000" position="-46.734 0 1732.657" showInProduction="true" >
+    <input name="Holz" capacity="1500000" factor="1" fillTypes="woodChips wood emptypallet boards" showInStorage="false" />
+    <output name="woodChips" capacity="1500000" factor="0.9" fillType="woodChips" showInStorage="true" />
+  </item>
+  <item name="Verwurster" locationType="FabrikScript" ProdPerHour="80" position="-487.719 0 1632.04" showInProduction="true" >
+    <input name="Tiere" capacity="500000" factor="1" fillTypes="pig cow sheep piglet" showInStorage="false" />
+    <output name="Fleisch" capacity="500000" factor="60" fillType="meat" showInStorage="true" />
+    <output name="Wurst" capacity="500000" factor="100" fillType="sausage" showInStorage="true" />
+  </item>
+  <item name="Muehle" locationType="FabrikScript" ProdPerHour="20000" position="-1579.417 0 1769.141" showInProduction="true" >
+    <input name="getreide" capacity="1500000" factor="1" fillTypes="wheat maize barley rape spelt oat rye triticale soybean" showInStorage="false" />
+    <output name="flour" capacity="1500000" factor="0.9" fillType="flour" showInStorage="true" />
+  </item>
+  <item name="Zucker" locationType="FabrikScript" ProdPerHour="10000" position="-1557.555 0 1431.33" showInProduction="true" >
+    <input name="sugarBeet" capacity="1500000" factor="1.3" fillTypes="sugarBeat sugarCane" showInStorage="false" />
+    <output name="sugar" capacity="1500000" factor="0.9" fillType="sugar" showInStorage="true" />
+  </item>
+  <item name="Raffinerie" locationType="FabrikScript" ProdPerHour="10000" position="-1496.615 0 608.177" showInProduction="true" >
+    <input name="rape" capacity="500000" factor="1.5" fillTypes="rape sunflower" showInStorage="false" />
+    <output name="compost" capacity="200000" factor="0.2" fillType="compost" showInStorage="true" />
+    <output name="fuel" capacity="200000" factor="0.5" fillType="fuel" showInStorage="true" />
+  </item>
+  <item name="Pflaumen_Garden" locationType="FabrikScript" ProdPerHour="3000" position="301.487 0 -137.171" showInProduction="true" >
+    <input name="water" capacity="500000" factor="0.2" fillTypes="water" showInStorage="false" />
+    <input name="compost" capacity="500000" factor="0.8" fillTypes="compost" showInStorage="false" />
+    <output name="plum" capacity="300000" factor="0.8" fillType="plum" showInStorage="true" />
+  </item>
+  <item name="Kirschen_Garden" locationType="FabrikScript" ProdPerHour="3000" position="386.439 0 -137.171" showInProduction="true" >
+    <input name="water" capacity="500000" factor="0.2" fillTypes="water" showInStorage="false" />
+    <input name="compost" capacity="500000" factor="0.8" fillTypes="compost" showInStorage="false" />
+    <output name="cherry" capacity="300000" factor="0.8" fillType="cherry" showInStorage="true" />
+  </item>
+  <item name="Sandwich" locationType="FabrikScript" ProdPerHour="2000" position="-1064.026 0 -330.731" showInProduction="true" >
+    <input name="sausage" capacity="200000" factor="0.5" fillTypes="sausage" showInStorage="false" />
+    <input name="bread" capacity="200000" factor="0.9" fillTypes="bread" showInStorage="false" />
+    <input name="butter" capacity="200000" factor="0.9" fillTypes="butter" showInStorage="false" />
+    <input name="tomato" capacity="200000" factor="0.9" fillTypes="tomato" showInStorage="false" />
+    <input name="lettuce" capacity="200000" factor="0.9" fillTypes="lettuce" showInStorage="false" />
+    <input name="onion" capacity="200000" factor="0.5" fillTypes="onion" showInStorage="false" />
+    <output name="sandwich" capacity="300000" factor="1.4" fillType="sandwich" showInStorage="true" />
+    <output name="pigFood" capacity="500000" factor="0.1" fillType="pigFood" showInStorage="true" />
+  </item>
+  <item name="Muesli" locationType="FabrikScript" ProdPerHour="2500" position="-1279.238 0 -466.795" showInProduction="true" >
+    <input name="cherry" capacity="500000" factor="0.6" fillTypes="cherry" showInStorage="false" />
+    <input name="plum" capacity="500000" factor="0.6" fillTypes="plum" showInStorage="false" />
+    <input name="Erd_Himbeeren" capacity="500000" factor="0.6" fillTypes="raspberry strawberry" showInStorage="false" />
+    <input name="oat" capacity="500000" factor="1" fillTypes="oat" showInStorage="false" />
+    <output name="muesli" capacity="300000" factor="0.8" fillType="muesli" showInStorage="true" />
+  </item>
+  <item name="CompostMaster" locationType="FabrikScript" ProdPerHour="50000" position="142.601 0 -896.629" showInProduction="true" >
+    <input name="reste" capacity="5000000" factor="1.5" fillTypes="liquidManure sugarCane digestate woodChips water oat rye spelt triticale millet forage sunflower soybean forage_mixing liquidFertilizer compost barley pigFood wheat seeds dryGrass_windrow straw silage manure chaff rape fertilizer sugar butter hops flour onion carrot tomato lettuce cauliflower redCabbage strawberry raspberry yogurt steamedPotato washedPotato maize grass sugarBeet grass_windrow potato dryGrass" showInStorage="false" />
+    <input name="fuel" capacity="200000" factor="0.02" fillTypes="fuel" showInStorage="false" />
+    <output name="compost" capacity="1500000" factor="0.6" fillType="compost" showInStorage="true" />
+  </item>
+  <item name="Guelle_Lager" locationType="FabrikScript" ProdPerHour="2147483647" position="151.131 0 -927.921" showInProduction="true" >
+    <input name="liquidManure" capacity="1500000" factor="1" fillTypes="liquidManure digestate" showInStorage="false" />
+    <output name="Output" capacity="1500000" factor="1" fillType="liquidManure" showInStorage="true" />
+  </item>
+  <item name="Wasser_Lager" locationType="FabrikScript" ProdPerHour="2147483647" position="176.105 0 -927.921" showInProduction="true" >
+    <input name="water" capacity="500000" factor="1" fillTypes="water" showInStorage="false" />
+    <output name="water" capacity="500000" factor="1" fillType="water" showInStorage="true" />
+  </item>
+  <item name="Gras_Lager" locationType="FabrikScript" ProdPerHour="2147483647" position="358.604 0 -899.373" showInProduction="true" >
+    <input name="grass_windrow" capacity="3000000" factor="1" fillTypes="grass_windrow dryGrass_windrow" showInStorage="false" />
+    <output name="grass_windrow" capacity="3000000" factor="1" fillType="grass_windrow" showInStorage="true" />
+  </item>
+  <item name="Kartoffel_Anlage" locationType="FabrikScript" ProdPerHour="20000" position="1083.9 0 -890.344" showInProduction="true" >
+    <input name="potato" capacity="500000" factor="1" fillTypes="potato" showInStorage="false" />
+    <input name="water" capacity="500000" factor="0.3" fillTypes="water" showInStorage="false" />
+    <input name="fuel" capacity="500000" factor="0.1" fillTypes="fuel" showInStorage="false" />
+    <output name="compost" capacity="500000" factor="0.4" fillType="compost" showInStorage="true" />
+    <output name="steamedPotato" capacity="500000" factor="0.9" fillType="steamedPotato" showInStorage="true" />
+  </item>
+</mapconfig>
