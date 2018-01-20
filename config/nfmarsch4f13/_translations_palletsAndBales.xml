@@ -116,11 +116,6 @@
 			<de>Stroh</de>
 			<fr>Paille</fr>
 		</text>
-		<text name="Bale150Straw">
-			<en>Straw</en>
-			<de>Stroh</de>
-			<fr>Paille</fr>
-		</text>
 		<text name="baleGrass240">
 			<en>Grass</en>
 			<de>Stroh</de>
@@ -245,16 +240,6 @@
 			<en>Pumpkin</en>
 			<de>Kürbis</de>
 			<fr>Citrouille</fr>
-		</text>
-		<text name="palette_stahl">
-			<en>Steel</en>
-			<de>Stahl</de>
-			<fr>Acier</fr>
-		</text>
-		<text name="grass_seed">
-			<en>Grass Seed</en>
-			<de>Grassamen</de>
-			<fr>Semences de Gazon</fr>
 		</text>
 
 	</l10n>

@@ -19,11 +19,9 @@
  *
  */
 define('IN_NFMWS', true);
-$map = 'goldcrestValley';
+$map = 'nfmarsch4f12';
 include ("../config/$map/mapconfig.php");
 include ('../include/functions.php');
-
-echo("<h4>Loading map from folder '$map'</h4>");
 
 /**
  * PLANNED BUT NOT YET REALIZED !!!
@@ -31,14 +29,15 @@ echo("<h4>Loading map from folder '$map'</h4>");
  * Code below is still under development.
  */
 
-$xml_mapconfig = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><mapconfig></mapconfig>');
-
 // Loop through all locations
 foreach ($mapconfig as $location => $locationData) {
+    $textToTranslate = array();
+    $xml_mapconfig = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><mapconfig></mapconfig>');
     // Create an entry for each locations
     $mapItem = $xml_mapconfig->addChild('item');
     // Add the location name as attribute
     $mapItem->addAttribute('name', $location);
+    $textToTranslate[$location] = $location;
     // Loop through all elements of a location
     foreach ($locationData as $key1 => $value1) {
         // Check if element is an array
@@ -49,6 +48,7 @@ foreach ($mapconfig as $location => $locationData) {
                 $mapSubItem = $mapItem->addChild($key1);
                 // Add the fillType as attribute
                 $mapSubItem->addAttribute('name', $key2);
+                $textToTranslate[$key2] = $key2;
                 // Check if SubItem is productivity
                 if ($key1 != 'productivity') {
                     // No, then loop through all fillType attributes
@@ -61,6 +61,13 @@ foreach ($mapconfig as $location => $locationData) {
                             }
                         }
                         $mapSubItem->addAttribute("$key3", htmlspecialchars("$value3"));
+                        // Check if attribute is fillType(s)
+                        if (strstr($key3, 'fillType') !== false) {
+                            // if so, add each fillType to translation table
+                            foreach (explode(' ', $value3) as $fillType) {
+                                $textToTranslate[$fillType] = $fillType;
+                            }
+                        }
                     }
                 } else {
                     // Yes, then only add the factor
@@ -79,18 +86,18 @@ foreach ($mapconfig as $location => $locationData) {
             $mapItem->addAttribute("$key1", htmlspecialchars("$value1"));
         }
     }
+    // Add translation table
+    $l10n = $xml_mapconfig->addChild('l10n');
+    foreach ($textToTranslate as $text) {
+        $l10nText = $l10n->addChild('text');
+        $l10nText->addAttribute('name', htmlspecialchars("$text"));
+        $l10nText->en = $text;
+        include ("../config/$map/translation/de.php");
+        $l10nText->de = htmlspecialchars(translate($text));
+        include ("../config/$map/translation/fr.php");
+        $l10nText->fr = translate($text);
+    }
+    $result = $xml_mapconfig->asXML("./xml/$location.xml");
 }
-$result = $xml_mapconfig->asXML("./xml/mapconfg.xml");
-if($result) echo("<p>/xml/mapconfg.xml saved</p>");
 
-$xml_mapconfig = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><mapconfig></mapconfig>');
-include ("../config/$map/translation/de.php");
-$l10n = $xml_mapconfig->addChild('l10n');
-foreach($lang as $text => $translation) {
-	$l10nText = $l10n->addChild('text');
-	$l10nText->addAttribute('name', htmlspecialchars("$text"));
-	$l10nText->de = htmlspecialchars(translate($text));	
-}
-$result = $xml_mapconfig->asXML("./xml/translations.xml");
-if($result) echo("<p>/xml/translations.xml saved</p>");
 

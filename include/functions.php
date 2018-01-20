@@ -70,6 +70,57 @@ function addFillType($i3dName, $fillLevel, $fillMax, $prodPerHour, $factor, $sta
 			'state' => $state 
 	);
 }
+
+// Load XML configurations files
+function loadXMLMapConfig($directory, $language) {
+	$objects = $translations = array ();
+	foreach ( glob ( "./config/$directory/*.xml" ) as $filename ) {
+		$object = simplexml_load_file ( $filename );
+		if (isset ( $object->item )) {
+			foreach ( $object->item as $item ) {
+				$className = strval ( $item ['name'] );
+				$objects = array_merge ( $objects, array (
+						$className => array () 
+				) );
+				foreach ( $item->attributes () as $attribute => $value ) {
+					if ($attribute != 'filename') {
+						$objects [$className] [$attribute] = get_bool ( $value );
+					}
+				}
+				foreach ( $item->children () as $childName => $childData ) {
+					if (empty ( $objects [$className] [$childName] ) || ! is_array ( $objects [$className] [$childName] )) {
+						$objects [$className] [$childName] = array ();
+					}
+					$fillType = strval ( $childData ['name'] );
+					$objects [$className] [$childName] [$fillType] = array ();
+					foreach ( $childData->attributes () as $attribute => $value ) {
+						if ($attribute != 'name') {
+							$objects [$className] [$childName] [$fillType] [$attribute] = get_bool ( $value );
+						}
+					}
+				}
+			}
+		}
+		if (isset ( $object->l10n )) {
+			foreach ( $object->l10n->text as $text ) {
+				$key = strval ( $text ['name'] );
+				if (isset ( $text->all )) {
+					$value = strval ( $text->all );
+				} else {
+					$value = strval ( $text->$language );
+				}
+				$translations = array_merge ( $translations, array (
+						$key => $value 
+				) );
+			}
+		}
+	}
+	return array (
+			$objects,
+			$translations 
+	);
+}
+
 // convert values while reading xml files
 function get_bool($value) {
 	$value = strval ( $value );
@@ -86,34 +137,81 @@ function get_bool($value) {
 	return $value;
 }
 
+// Load CFG configurations files
+function loadMapCFGfile($readFile) {
+	$returnArray = array (
+			'Name' => '',
+			'Path' => '',
+			'Short' => '',
+			'Version' => '',
+			'Link' => '',
+			'Copyright' => '',
+			'Size' => 2048,
+			'configBy' => '',
+			'configVersion' => '',
+			'configFormat' => 'xml' 
+	);
+	if (file_exists ( $readFile )) {
+		$entries = file ( $readFile );
+		foreach ( $entries as $row ) {
+			if (substr ( ltrim ( $row ), 0, 2 ) == '//' || trim ( $row ) == '') { // ignore comments and emtpty rows
+				continue;
+			}
+			$keyValuePair = explode ( '=', $row );
+			$key = trim ( $keyValuePair [0] );
+			$value = $keyValuePair [1];
+			if (! empty ( $key )) {
+				$returnArray [$key] = chop ( $value );
+			}
+		}
+		return $returnArray;
+	}
+	return false;
+}
+
 // Karten laden
 function getMaps() {
 	$maps = array ();
-	// Dateien die im Kartenordner vorhanden sein müssen
+	// Nur PHP-Konfig: Dateien die im Kartenordner vorhanden sein müssen
 	$mapFiles = array (
-			'map.txt',
-			'pda_map_H.jpg' 
-	);
-	// Verzeichnis mit Karten druchsuchen
+			'map.cfg',
+			'mapconfig.php',
+			'pda_map_H.jpg',
+			'translation',
+			'translation/de.php' 
+	); // Verzeichnis mit Karten druchsuchen
 	if (is_dir ( './config' )) {
 		if ($dh = opendir ( './config/' )) {
 			while ( ($mapDir = readdir ( $dh )) !== false ) {
 				if ($mapDir != "." && $mapDir != ".." && is_dir ( "./config/$mapDir" )) {
-					$mapIsOK = true;
-					foreach ( $mapFiles as $mapFile ) {
-						if (! file_exists ( "./config/$mapDir/$mapFile" )) {
-							$mapIsOK = false;
+					if (file_exists ( "./config/$mapDir/map.cfg" )) {
+						if (! file_exists ( "./config/$mapDir/pda_map_H.jpg" )) {
+							continue;
 						}
-					}
-					if ($mapIsOK) {
-						list ( $mapName, $mapShort, $mapVersion, $mapLink, $mapCopyright ) = file ( "./config/$mapDir/map.txt" );
+						$map = loadMapCFGfile ( "./config/$mapDir/map.cfg" );
+						if ($map ['configFormat'] == 'php') {
+							$mapIsOK = true;
+							foreach ( $mapFiles as $mapFile ) {
+								if (! file_exists ( "./config/$mapDir/$mapFile" )) {
+									$mapIsOK = false;
+								}
+							}
+							if (! $mapIsOK)
+								continue;
+						}
+						if ($map ['configFormat'] == 'xml' && ! glob ( "./config/$mapDir/*.xml" )) {
+							continue;
+						}
 						$maps [$mapDir] = array (
-								'Name' => $mapName,
+								'Name' => $map ['Name'],
 								'Path' => $mapDir,
-								'Short' => $mapShort,
-								'Version' => $mapVersion,
-								'Link' => $mapLink,
-								'Copyright' => $mapCopyright 
+								'Short' => $map ['Short'],
+								'Version' => $map ['Version'],
+								'Link' => $map ['Link'],
+								'Size' => $map ['Size'],
+								'configBy' => $map ['configBy'],
+								'configVersion' => $map ['configVersion'],
+								'configFormat' => $map ['configFormat'] 
 						);
 					}
 				}
@@ -205,13 +303,15 @@ function addCommodity($fillType, $fillLevel, $location, $className = 'none', $is
 		$commodities [$l_fillType] ['locations'] [$l_location] [$className] ++;
 		$commodities [$l_fillType] ['locations'] [$l_location] ['fillLevel'] += $fillLevel;
 	}
+	
+	ksort ( $commodities [$l_fillType] ['locations'] );
 }
 
 // Positionen von Paletten ermitteln
 function getLocation($position) {
 	list ( $posx, $posy, $posz ) = explode ( ' ', $position );
 	global $map, $mapconfig;
-	$mapSize = intval($map ['Size']) / 2;
+	$mapSize = intval ( $map ['Size'] ) / 2;
 	if ($posx < (0 - $mapSize) || $posx > $mapSize || $posy < 0 || $posy > 255 || $posz < (0 - $mapSize) || $posz > $mapSize) {
 		return 'outOfMap';
 	}
@@ -238,14 +338,18 @@ function getAnimalProductivity($location, $tipTriggers) {
 	if (strpos ( $tipTriggers, 'water' ) === false) {
 		return 0;
 	}
-	global $mapconfig;
+	global $mapconfig, $map;
 	$productivity = 0;
 	if ($location == 'Animals_sheep') {
 		$productivity = 10;
 	}
 	foreach ( $mapconfig [$location] ['productivity'] as $trigger => $value ) {
 		if (strpos ( $tipTriggers, $trigger ) !== false) {
-			$productivity += intval($value);
+			if (trim ( $map ['configFormat'] ) == 'xml') {
+				$productivity += floatval ( $value ['factor'] );
+			} else {
+				$productivity += floatval ( $value );
+			}
 		}
 	}
 	return $productivity;
