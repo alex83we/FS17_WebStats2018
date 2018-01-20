@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <l10n>
+    <text name="Roggen">
+      <en>Roggen</en>
+      <de>Roggen</de>
+      <fr>Roggen</fr>
+    </text>
+    <text name="Weizen">
+      <en>Weizen</en>
+      <de>Weizen</de>
+      <fr>Weizen</fr>
+    </text>
+    <text name="Dinkel">
+      <en>Dinkel</en>
+      <de>Dinkel</de>
+      <fr>Dinkel</fr>
+    </text>
+    <text name="spelt">
+      <en>spelt</en>
+      <de>Dinkel</de>
+      <fr>spelt</fr>
+    </text>
+    <text name="Sonnenblumen">
+      <en>Sonnenblumen</en>
+      <de>Sonnenblumen</de>
+      <fr>Sonnenblumen</fr>
+    </text>
+    <text name="Brot">
+      <en>Brot</en>
+      <de>Brot</de>
+      <fr>Brot</fr>
+    </text>
+    <text name="bread">
+      <en>bread</en>
+      <de>Brot</de>
+      <fr>bread</fr>
+    </text>
+    <text name="Stroh">
+      <en>straw</en>
+      <de>Stroh</de>
+      <fr>straw</fr>
+    </text>
+    <text name="Malz">
+      <en>Malz</en>
+      <de>Malz</de>
+      <fr>Malz</fr>
+    </text>
+    <text name="malt">
+      <en>malt</en>
+      <de>Malz</de>
+      <fr>malt</fr>
+    </text>
+    <text name="Hopfen">
+      <en>Hopfen</en>
+      <de>Hopfen</de>
+      <fr>Hopfen</fr>
+    </text>
+    <text name="hops">
+      <en>hops</en>
+      <de>Hopfen</de>
+      <fr>hops</fr>
+    </text>
+    <text name="Bier">
+      <en>Bier</en>
+      <de>Bier</de>
+      <fr>Bier</fr>
+    </text>
+    <text name="beer">
+      <en>beer</en>
+      <de>Bier</de>
+      <fr>beer</fr>
+    </text>
+    <text name="Schnaps">
+      <en>Schnaps</en>
+      <de>Schnaps</de>
+      <fr>Schnaps</fr>
+    </text>
+    <text name="booze">
+      <en>booze</en>
+      <de>Schnaps</de>
+      <fr>booze</fr>
+    </text>
+    <text name="cm_inputWaste">
+      <en>Waste</en>
+      <de>Abfall</de>
+      <fr>Waste</fr>
+    </text>
+    <text name="cm_inputFuel">
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
+    </text>
+    <text name="cm_outputCompost">
+      <en>Compost</en>
+      <de>Kompost</de>
+      <fr>Compost</fr>
+    </text>
+    <text name="compost">
+      <en>compost</en>
+      <de>Kompost</de>
+      <fr>compost</fr>
+    </text>
+    <text name="Weizen Triticale">
+      <en>Weizen Triticale</en>
+      <de>Weizen Triticale</de>
+      <fr>Weizen Triticale</fr>
+    </text>
+    <text name="triticale">
+      <en>triticale</en>
+      <de>Triticale</de>
+      <fr>triticale</fr>
+    </text>
+    <text name="Mais">
+      <en>Mais</en>
+      <de>Mais</de>
+      <fr>Mais</fr>
+    </text>
+    <text name="Eier">
+      <en>Eier</en>
+      <de>Eier</de>
+      <fr>Eier</fr>
+    </text>
+    <text name="egg">
+      <en>Eier</en>
+      <de>Eier</de>
+      <fr>Eier</fr>
+    </text>
+    <text name="Weisskohl">
+      <en>Weisskohl</en>
+      <de>Weisskohl</de>
+      <fr>Weisskohl</fr>
+    </text>
+    <text name="cabbage">
+      <en>cabbage</en>
+      <de>Weisskohl</de>
+      <fr>cabbage</fr>
+    </text>
+    <text name="Rotkohl">
+      <en>Rotkohl</en>
+      <de>Rotkohl</de>
+      <fr>Rotkohl</fr>
+    </text>
+    <text name="redCabbage">
+      <en>redCabbage</en>
+      <de>Rotkohl</de>
+      <fr>redCabbage</fr>
+    </text>
+    <text name="Speiseoel">
+      <en>Speiseoel</en>
+      <de>Speiseoel</de>
+      <fr>Speiseoel</fr>
+    </text>
+    <text name="cookingOil">
+      <en>cookingOil</en>
+      <de>Speiseoel</de>
+      <fr>cookingOil</fr>
+    </text>
+    <text name="Krautsalat">
+      <en>Krautsalat</en>
+      <de>Krautsalat</de>
+      <fr>Krautsalat</fr>
+    </text>
+    <text name="coleslaw">
+      <en>coleslaw</en>
+      <de>Krautsalat</de>
+      <fr>coleslaw</fr>
+    </text>
+    <text name="Salatmischung">
+      <en>Salatmischung</en>
+      <de>Salatmischung</de>
+      <fr>Salatmischung</fr>
+    </text>
+    <text name="saladMix">
+      <en>saladMix</en>
+      <de>Salatmischung</de>
+      <fr>saladMix</fr>
+    </text>
+    <text name="Salat">
+      <en>Salat</en>
+      <de>Salat</de>
+      <fr>Salat</fr>
+    </text>
+    <text name="lettuce">
+      <en>lettuce</en>
+      <de>Salat</de>
+      <fr>lettuce</fr>
+    </text>
+    <text name="Karotten">
+      <en>Karotten</en>
+      <de>Karotten</de>
+      <fr>Karotten</fr>
+    </text>
+    <text name="carrot">
+      <en>carrot</en>
+      <de>Karotten</de>
+      <fr>carrot</fr>
+    </text>
+    <text name="Zwiebeln">
+      <en>Zwiebeln</en>
+      <de>Zwiebeln</de>
+      <fr>Zwiebeln</fr>
+    </text>
+    <text name="onion">
+      <en>onion</en>
+      <de>Zwiebeln</de>
+      <fr>onion</fr>
+    </text>
+    <text name="Duenger">
+      <en>Dünger</en>
+      <de>Dünger</de>
+      <fr>Dünger</fr>
+    </text>
+    <text name="fertilizer">
+      <en>Dünger</en>
+      <de>Dünger</de>
+      <fr>Dünger</fr>
+    </text>
+    <text name="Mist Guelle Gaerreste">
+      <en>Mist Gülle Gaerreste</en>
+      <de>Mist Gülle Gaerreste</de>
+      <fr>Mist Gülle Gaerreste</fr>
+    </text>
+    <text name="Mehl">
+      <en>Mehl</en>
+      <de>Mehl</de>
+      <fr>Mehl</fr>
+    </text>
+    <text name="flour">
+      <en>Mehl</en>
+      <de>Mehl</de>
+      <fr>Mehl</fr>
+    </text>
+    <text name="Papier">
+      <en>Papier</en>
+      <de>Papier</de>
+      <fr>Papier</fr>
+    </text>
+    <text name="paper">
+      <en>Papier</en>
+      <de>Papier</de>
+      <fr>Papier</fr>
+    </text>
+    <text name="gewaschene Kartoffeln">
+      <en>gewaschene Kartoffeln</en>
+      <de>gewaschene Kartoffeln</de>
+      <fr>gewaschene Kartoffeln</fr>
+    </text>
+    <text name="washedPotato">
+      <en>gewaschene Kartoffeln</en>
+      <de>gewaschene Kartoffeln</de>
+      <fr>gewaschene Kartoffeln</fr>
+    </text>
+    <text name="Gnocchi">
+      <en>Gnocchi</en>
+      <de>Gnocchi</de>
+      <fr>Gnocchi</fr>
+    </text>
+    <text name="gnocchi">
+      <en>Gnocchi</en>
+      <de>Gnocchi</de>
+      <fr>Gnocchi</fr>
+    </text>
+    <text name="Annahme">
+      <en>Annahme</en>
+      <de>Annahme</de>
+      <fr>Annahme</fr>
+    </text>
+    <text name="Ausgabe">
+      <en>Ausgabe</en>
+      <de>Ausgabe</de>
+      <fr>Ausgabe</fr>
+    </text>
+    <text name="Kompost">
+      <en>Kompost</en>
+      <de>Kompost</de>
+      <fr>Kompost</fr>
+    </text>
+    <text name="Kartoffeln">
+      <en>Kartoffeln</en>
+      <de>Kartoffeln</de>
+      <fr>Kartoffeln</fr>
+    </text>
+    <text name="Diesel">
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
+    </text>
+    <text name="Treibstoff">
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
+    </text>
+    <text name="fuel">
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
+    </text>
+    <text name="Torf">
+      <en>Torf</en>
+      <de>Torf</de>
+      <fr>Torf</fr>
+    </text>
+    <text name="peat">
+      <en>Torf</en>
+      <de>Torf</de>
+      <fr>Torf</fr>
+    </text>
+    <text name="Kirschen">
+      <en>Kirschen</en>
+      <de>Kirschen</de>
+      <fr>Kirschen</fr>
+    </text>
+    <text name="cherry">
+      <en>Kirschen</en>
+      <de>Kirschen</de>
+      <fr>Kirschen</fr>
+    </text>
+    <text name="HMilch">
+      <en>H-Milch</en>
+      <de>H-Milch</de>
+      <fr>H-Milch</fr>
+    </text>
+    <text name="hmilk">
+      <en>H-Milch</en>
+      <de>H-Milch</de>
+      <fr>H-Milch</fr>
+    </text>
+    <text name="Zucker">
+      <en>Zucker</en>
+      <de>Zucker</de>
+      <fr>Zucker</fr>
+    </text>
+    <text name="sugar">
+      <en>Zucker</en>
+      <de>Zucker</de>
+      <fr>Zucker</fr>
+    </text>
+    <text name="Pflaumen">
+      <en>Pflaumen</en>
+      <de>Pflaumen</de>
+      <fr>Pflaumen</fr>
+    </text>
+    <text name="plum">
+      <en>Pflaumen</en>
+      <de>Pflaumen</de>
+      <fr>Pflaumen</fr>
+    </text>
+    <text name="Kuchen">
+      <en>Kuchen</en>
+      <de>Kuchen</de>
+      <fr>Kuchen</fr>
+    </text>
+    <text name="cake">
+      <en>Kuchen</en>
+      <de>Kuchen</de>
+      <fr>Kuchen</fr>
+    </text>
+    <text name="Silage">
+      <en>Silage</en>
+      <de>Silage</de>
+      <fr>Silage</fr>
+    </text>
+    <text name="bunkerFillLevel">
+      <en>Silage</en>
+      <de>Silage</de>
+      <fr>Silage</fr>
+    </text>
+    <text name="Heu">
+      <en>Heu</en>
+      <de>Heu</de>
+      <fr>Heu</fr>
+    </text>
+    <text name="Mischfutter">
+      <en>Mischfutter</en>
+      <de>Mischfutter</de>
+      <fr>Mischfutter</fr>
+    </text>
+    <text name="Mineralduenger">
+      <en>Mineraldünger</en>
+      <de>Mineraldünger</de>
+      <fr>Mineraldünger</fr>
+    </text>
+    <text name="Fluessigduenger">
+      <en>Flüssigdünger</en>
+      <de>Flüssigdünger</de>
+      <fr>Flüssigdünger</fr>
+    </text>
+    <text name="liquidFertilizer">
+      <en>Flüssigdünger</en>
+      <de>Flüssigdünger</de>
+      <fr>Flüssigdünger</fr>
+    </text>
+    <text name="Weizen Gerste">
+      <en>Weizen, Gerste</en>
+      <de>Weizen, Gerste</de>
+      <fr>Weizen, Gerste</fr>
+    </text>
+    <text name="Milch">
+      <en>Milch</en>
+      <de>Milch</de>
+      <fr>Milch</fr>
+    </text>
+    <text name="Joghurt">
+      <en>Joghurt</en>
+      <de>Joghurt</de>
+      <fr>Joghurt</fr>
+    </text>
+    <text name="yogurt">
+      <en>Joghurt</en>
+      <de>Joghurt</de>
+      <fr>Joghurt</fr>
+    </text>
+    <text name="Raps">
+      <en>Raps</en>
+      <de>Raps</de>
+      <fr>Raps</fr>
+    </text>
+    <text name="Holz">
+      <en>Holz</en>
+      <de>Holz</de>
+      <fr>Holz</fr>
+    </text>
+    <text name="Sojabohnen">
+      <en>Sojabohnen</en>
+      <de>Sojabohnen</de>
+      <fr>Sojabohnen</fr>
+    </text>
+    <text name="Reibekuchen">
+      <en>Reibekuchen</en>
+      <de>Reibekuchen</de>
+      <fr>Reibekuchen</fr>
+    </text>
+    <text name="reibekuchen">
+      <en>Reibekuchen</en>
+      <de>Reibekuchen</de>
+      <fr>Reibekuchen</fr>
+    </text>
+    <text name="Zuckerrohr">
+      <en>Zuckerrohr</en>
+      <de>Zuckerrohr</de>
+      <fr>Zuckerrohr</fr>
+    </text>
+    <text name="sugarCane">
+      <en>Zuckerrohr</en>
+      <de>Zuckerrohr</de>
+      <fr>Zuckerrohr</fr>
+    </text>
+    <text name="Rum">
+      <en>Rum</en>
+      <de>Rum</de>
+      <fr>Rum</fr>
+    </text>
+    <text name="rum">
+      <en>Rum</en>
+      <de>Rum</de>
+      <fr>Rum</fr>
+    </text>
+    <text name="Brennstoffe">
+      <en>Brennstoffe</en>
+      <de>Brennstoffe</de>
+      <fr>Brennstoffe</fr>
+    </text>
+    <text name="wool">
+      <en>Wool</en>
+      <de>Wolle</de>
+      <fr>Laine</fr>
+    </text>
+    <text name="boardwood">
+      <en>Holzbretter</en>
+      <de>Holzbretter</de>
+      <fr>Holzbretter</fr>
+    </text>
+    <text name="Sand">
+      <en>Sand</en>
+      <de>Sand</de>
+      <fr>Sand</fr>
+    </text>
+    <text name="sand">
+      <en>Sand</en>
+      <de>Sand</de>
+      <fr>Sand</fr>
+    </text>
+    <text name="basefood">
+      <en>Basisfutter</en>
+      <de>Basisfutter</de>
+      <fr>Basisfutter</fr>
+    </text>
+    <text name="earthfood">
+      <en>Erdfrüchte</en>
+      <de>Erdfrüchte</de>
+      <fr>Erdfrüchte</fr>
+    </text>
+    <text name="proteinfood">
+      <en>Protein</en>
+      <de>Protein</de>
+      <fr>Protein</fr>
+    </text>
+    <text name="grain">
+      <en>Getreide</en>
+      <de>Getreide</de>
+      <fr>Getreide</fr>
+    </text>
+    <text name="rye">
+      <en>Roggen</en>
+      <de>Roggen</de>
+      <fr>Roggen</fr>
+    </text>
+    <text name="oat">
+      <en>Hafer</en>
+      <de>Hafer</de>
+      <fr>Hafer</fr>
+    </text>
+    <text name="Schweinefutter">
+      <en>Schweinefutter</en>
+      <de>Schweinefutter</de>
+      <fr>Schweinefutter</fr>
+    </text>
+    <text name="pigFood">
+      <en>Schweinefutter</en>
+      <de>Schweinefutter</de>
+      <fr>Schweinefutter</fr>
+    </text>
+    <text name="Getreide">
+      <en>Getreide</en>
+      <de>Getreide</de>
+      <fr>Getreide</fr>
+    </text>
+    <text name="Tabak">
+      <en>Tabak</en>
+      <de>Tabak</de>
+      <fr>Tabak</fr>
+    </text>
+    <text name="tobacco">
+      <en>Tabak</en>
+      <de>Tabak</de>
+      <fr>Tabak</fr>
+    </text>
+    <text name="Zigaretten">
+      <en>Zigaretten</en>
+      <de>Zigaretten</de>
+      <fr>Zigaretten</fr>
+    </text>
+    <text name="cigarettes">
+      <en>Zigaretten</en>
+      <de>Zigaretten</de>
+      <fr>Zigaretten</fr>
+    </text>
+    <text name="Holzbretter">
+      <en>Holzbretter</en>
+      <de>Holzbretter</de>
+      <fr>Holzbretter</fr>
+    </text>
+    <text name="Zigarren">
+      <en>Zigarren</en>
+      <de>Zigarren</de>
+      <fr>Zigarren</fr>
+    </text>
+    <text name="cigar">
+      <en>Zigarren</en>
+      <de>Zigarren</de>
+      <fr>Zigarren</fr>
+    </text>
+    <text name="Zuckerrueben">
+      <en>Zuckerrüben</en>
+      <de>Zuckerrüben</de>
+      <fr>Zuckerrüben</fr>
+    </text>
+    <text name="Zucker">
+      <en>Zucker</en>
+      <de>Zucker</de>
+      <fr>Zucker</fr>
+    </text>
+    <text name="sugar">
+      <en>Zucker</en>
+      <de>Zucker</de>
+      <fr>Zucker</fr>
+    </text>
+  </l10n>
+</mapconfig>

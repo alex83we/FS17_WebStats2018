@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <l10n>
+    <text name="eggpallet">
+      <en>Eier</en>
+      <de>Eier</de>
+      <fr>Eier</fr>
+    </text>
+    <text name="paperPallet">
+      <en>Papier</en>
+      <de>Papier</de>
+      <fr>Papier</fr>
+    </text>	  
+    <text name="boardPallet">
+      <en>Holzbretter</en>
+      <de>Holzbretter</de>
+      <fr>Holzbretter</fr>
+    </text>
+    <text name="washedPotatoPallet">
+      <en>gewaschene Kartoffeln</en>
+      <de>gewaschene Kartoffeln</de>
+      <fr>gewaschene Kartoffeln</fr>
+    </text>
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+	  <!-- boardPallet-->
+  </l10n>
+</mapconfig>

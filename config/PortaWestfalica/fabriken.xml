@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+  <item name="FabrikScript_Baeckerei" locationType="FabrikScript" ProdPerHour="3000" position="-1036.71 21.43 -1781.3" showInProduction="true">
+    <input name="Roggen" capacity="100000" factor="0.5" fillTypes="rye" showInStorage="false"/>
+    <input name="Weizen" capacity="100000" factor="0.5" fillTypes="wheat" showInStorage="false"/>
+    <input name="Dinkel" capacity="100000" factor="0.5" fillTypes="spelt" showInStorage="false"/>
+    <input name="Sonnenblumen" capacity="100000" factor="0.5" fillTypes="sunflower" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="Brot" capacity="100000" factor="0.96" fillType="bread" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_BaleMaster" locationType="FabrikScript" ProdPerHour="10000" position="262.067 13.6814 -870.66" showInProduction="true">
+    <input name="Stroh" capacity="200000" factor="1" fillTypes="straw" showInStorage="false"/>
+    <output name="Stroh" capacity="200000" factor="1" fillType="straw" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Brauerei" locationType="FabrikScript" ProdPerHour="3000" position="-1802.11 22.6 337.869" showInProduction="true">
+    <input name="Malz" capacity="100000" factor="0.5" fillTypes="malt" showInStorage="false"/>
+    <input name="Hopfen" capacity="100000" factor="0.5" fillTypes="hops" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="Bier" capacity="100000" factor="0.96" fillType="beer" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Brennerei" locationType="FabrikScript" ProdPerHour="3000" position="-949.064 12.845 -204.479" showInProduction="true">
+    <input name="Roggen" capacity="100000" factor="0.5" fillTypes="rye" showInStorage="false"/>
+    <input name="Weizen" capacity="100000" factor="0.5" fillTypes="wheat" showInStorage="false"/>
+    <input name="Malz" capacity="100000" factor="0.5" fillTypes="malt" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="Schnaps" capacity="100000" factor="0.96" fillType="booze" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_compostMaster2k17" locationType="FabrikScript" ProdPerHour="5000" position="210.37 13.128 -1105.76" showInProduction="true">
+    <input name="cm_inputWaste" capacity="100000" factor="1" fillTypes="manure straw potato sugarBeet woodChips chaff silage grass_windrow dryGrass_windrow" showInStorage="false"/>
+    <input name="cm_inputFuel" capacity="50000" factor="0.05" fillTypes="fuel" showInStorage="false"/>
+    <output name="cm_outputCompost" capacity="100000" factor="1" fillType="compost" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Eierhof_1" locationType="FabrikScript" ProdPerHour="1000" position="1923.9 23.578 -128.087" showInProduction="true">
+    <input name="Wasser" capacity="100000" factor="0.25" fillTypes="water" showInStorage="false"/>
+    <input name="Weizen Triticale" capacity="100000" factor="0.25" fillTypes="wheat triticale" showInStorage="false"/>
+    <input name="Mais" capacity="100000" factor="0.25" fillTypes="maize" showInStorage="false"/>
+    <input name="Stroh" capacity="100000" factor="0.25" fillTypes="straw" showInStorage="false"/>
+    <output name="Eier" capacity="4000" factor="1" fillType="egg" palettArea="0 0 1 1" palettPlaces="999" showInStorage="false"/>
+  </item>
+  <item name="FabrikScript_Eierhof_2" locationType="FabrikScript" ProdPerHour="1000" position="1928.84 23.578 -61.3" showInProduction="true">
+    <input name="Wasser" capacity="100000" factor="0.25" fillTypes="water" showInStorage="false"/>
+    <input name="Weizen Triticale" capacity="100000" factor="0.25" fillTypes="wheat triticale" showInStorage="false"/>
+    <input name="Mais" capacity="100000" factor="0.25" fillTypes="maize" showInStorage="false"/>
+    <input name="Stroh" capacity="100000" factor="0.25" fillTypes="straw" showInStorage="false"/>
+    <output name="Eier" capacity="4000" factor="1" fillType="egg" palettArea="0 0 1 1" palettPlaces="999" showInStorage="false"/>
+  </item>
+  <item name="FabrikScript_Feinkost1" locationType="FabrikScript" ProdPerHour="3000" position="-644.372 17.886 974.887" showInProduction="true">
+    <input name="Salat" capacity="100000" factor="0.5" fillTypes="lettuce" showInStorage="false"/>
+    <input name="Karotten" capacity="100000" factor="0.5" fillTypes="carrot" showInStorage="false"/>
+    <input name="Zwiebeln" capacity="100000" factor="0.5" fillTypes="onion" showInStorage="false"/>
+    <input name="Mais" capacity="100000" factor="0.5" fillTypes="maize" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="Salatmischung" capacity="100000" factor="0.96" fillType="saladMix" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Feinkost2" locationType="FabrikScript" ProdPerHour="3000" position="-642.239 17.886 974.887" showInProduction="true">
+    <input name="Weisskohl" capacity="100000" factor="0.5" fillTypes="cabbage" showInStorage="false"/>
+    <input name="Rotkohl" capacity="100000" factor="0.5" fillTypes="redCabbage" showInStorage="false"/>
+    <input name="Speiseoel" capacity="100000" factor="0.5" fillTypes="cookingOil" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="Krautsalat" capacity="100000" factor="0.96" fillType="coleslaw" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_FertilizerMixer" locationType="FabrikScript" ProdPerHour="2100" position="175.684 -116.71 -1103.58" showInProduction="true">
+    <input name="Mist Guelle Gaerreste" capacity="50000" factor="1" fillTypes="manure liquidManure digestate" showInStorage="false"/>
+    <output name="Duenger" capacity="50000" factor="1" fillType="fertilizer" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Getreidemuehle" locationType="FabrikScript" ProdPerHour="3000" position="1601.89 14.1806 -1611.68" showInProduction="true">
+    <input name="Weizen" capacity="100000" factor="1" fillTypes="wheat" showInStorage="false"/>
+    <output name="Mehl" capacity="100000" factor="0.9" fillType="flour" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Gnocchifabrik" locationType="FabrikScript" ProdPerHour="3000" position="1131.14 25.0389 1532.12" showInProduction="true">
+    <input name="Mehl" capacity="100000" factor="0.1" fillTypes="flour" showInStorage="false"/>
+    <input name="Papier" capacity="100000" factor="0.1" fillTypes="paper" showInStorage="false"/>
+    <input name="Eier" capacity="100000" factor="0.2" fillTypes="egg" showInStorage="false"/>
+    <input name="gewaschene Kartoffeln" capacity="100000" factor="0.8" fillTypes="washedPotato" showInStorage="false"/>
+	<input name="Speiseoel" capacity="100000" factor="0.1" fillTypes="cookingOil" showInStorage="false" />
+    <input name="Wasser" capacity="100000" factor="0.2" fillTypes="water" showInStorage="false"/>
+    <output name="Gnocchi" capacity="45000" factor="1" fillType="gnocchi" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_GrasTrocknung" locationType="FabrikScript" ProdPerHour="5000" position="346.512 13.8727 -813.727" showInProduction="true">
+    <input name="Annahme" capacity="1000000" factor="1" fillTypes="grass_windrow" showInStorage="false"/>
+    <output name="Ausgabe" capacity="1000000" factor="1" fillType="dryGrass_windrow" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_HochSilo" locationType="FabrikScript" ProdPerHour="5000" position="341.778 13.8727 -885.435" showInProduction="true">
+    <input name="Annahme" capacity="1000000" factor="1" fillTypes="chaff grass_windrow dryGrass_windrow" showInStorage="false"/>
+    <output name="Ausgabe" capacity="1000000" factor="1" fillType="silage" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Kartoffelwascher" locationType="FabrikScript" ProdPerHour="8000" position="324.358 14.4 -817.418" showInProduction="true">
+    <input name="Kartoffeln" capacity="100000" factor="0.5" fillTypes="potato" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.05" fillTypes="water" showInStorage="false"/>
+    <input name="Diesel" capacity="100000" factor="0.01" fillTypes="fuel" showInStorage="false"/>
+    <output name="washedPotato" capacity="4000" factor="1" fillType="washedPotato" palettArea="0 0 1 1" palettPlaces="999" showInStorage="false"/>
+    <output name="Kompost" capacity="100000" factor="1" fillType="compost" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_KirschFarm" locationType="FabrikScript" ProdPerHour="3000" position="-817.5 17.3729 548.285" showInProduction="true">
+    <input name="Wasser" capacity="100000" factor="0.2" fillTypes="water" showInStorage="false"/>
+    <input name="Kompost" capacity="100000" factor="0.8" fillTypes="compost" showInStorage="false"/>
+    <input name="Torf" capacity="100000" factor="0.8" fillTypes="peat" showInStorage="false"/>
+    <output name="Kirschen" capacity="100000" factor="0.95" fillType="cherry" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Konditorrei" locationType="FabrikScript" ProdPerHour="2400" position="-1610.4 21.75 -1606.25" showInProduction="true">
+    <input name="Mehl" capacity="100000" factor="0.3" fillTypes="flour" showInStorage="false"/>
+    <input name="Zucker" capacity="100000" factor="0.1" fillTypes="sugar" showInStorage="false"/>
+    <input name="Kirschen" capacity="100000" factor="0.2" fillTypes="cherry" showInStorage="false"/>
+    <input name="Pflaumen" capacity="100000" factor="0.2" fillTypes="plum" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.1" fillTypes="water" showInStorage="false"/>
+	<input name="HMilch" capacity="100000" factor="0.1" fillTypes="hmilk" showInStorage="false" />
+    <output name="Kuchen" capacity="100000" factor="0.96" fillType="cake" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_KraftfutterMischer" locationType="FabrikScript" ProdPerHour="20000" position="221.986 0 -828.398" showInProduction="true">
+    <input name="Stroh" capacity="72000" factor="0.3" fillTypes="straw" showInStorage="false"/>
+    <input name="Silage" capacity="120000" factor="0.5" fillTypes="silage" showInStorage="false"/>
+    <input name="Heu" capacity="48000" factor="0.2" fillTypes="dryGrass_windrow" showInStorage="false"/>
+    <output name="Mischfutter" capacity="230000" factor="0.95" fillType="forage" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_LFertilizer" locationType="FabrikScript" ProdPerHour="2100" position="150.435 13.306 -1098.51" showInProduction="true">
+    <input name="Mineralduenger" capacity="100000" factor="0.5" fillTypes="fertilizer" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="Fluessigduenger" capacity="100000" factor="1" fillType="liquidFertilizer" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Maelzerei" locationType="FabrikScript" ProdPerHour="3000" position="-1024.82 15.8194 -1520.83" showInProduction="true">
+    <input name="Wasser" capacity="100000" factor="0.2" fillTypes="water" showInStorage="false"/>
+    <input name="Weizen Gerste" capacity="100000" factor="0.8" fillTypes="wheat barley" showInStorage="false"/>
+    <output name="Malz" capacity="100000" factor="1" fillType="malt" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_MilkMaxV2" locationType="FabrikScript" ProdPerHour="3000" position="536.818 17.371 856.241" showInProduction="true">
+    <input name="Milch" capacity="100000" factor="0.8" fillTypes="milk" showInStorage="false"/>
+    <output name="HMilch" capacity="100000" factor="1" fillType="hmilk" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Molkerei" locationType="FabrikScript" ProdPerHour="3000" position="-919.06 12.8958 -1143.9" showInProduction="true">
+    <input name="Milch" capacity="100000" factor="0.5" fillTypes="milk" showInStorage="false"/>
+    <input name="Zucker" capacity="100000" factor="0.5" fillTypes="sugar" showInStorage="false"/>
+    <input name="Kirschen" capacity="100000" factor="0.5" fillTypes="cherry" showInStorage="false"/>
+    <input name="Pflaumen" capacity="100000" factor="0.5" fillTypes="plum" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="Joghurt" capacity="100000" factor="0.96" fillType="yogurt" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Oelmuehle" locationType="FabrikScript" ProdPerHour="3000" position="-1488.59 14.6615 29.9497" showInProduction="true">
+    <input name="Raps" capacity="100000" factor="0.5" fillTypes="rape" showInStorage="false"/>
+    <input name="Sonnenblumen" capacity="100000" factor="0.5" fillTypes="sunflower" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="Speiseoel" capacity="100000" factor="1" fillType="cookingOil" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Papierfabrik" locationType="FabrikScript" ProdPerHour="3000" position="-1232.06 0 1874.56" showInProduction="true">
+    <input name="Wasser" capacity="100000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="Holz" capacity="100000" factor="1" fillTypes="woodChips" showInStorage="false"/>
+    <output name="Papier" capacity="4000" factor="1" fillType="paper" palettArea="-1251.524 1873.685 -1259.712 1879.464" palettPlaces="13" showInStorage="false"/>
+  </item>
+  <item name="FabrikScript_PflaumenFarm" locationType="FabrikScript" ProdPerHour="3000" position="-817.691 17.4834 548.314" showInProduction="true">
+    <input name="Wasser" capacity="100000" factor="0.2" fillTypes="water" showInStorage="false"/>
+    <input name="Kompost" capacity="100000" factor="0.8" fillTypes="compost" showInStorage="false"/>
+    <input name="Torf" capacity="100000" factor="0.8" fillTypes="peat" showInStorage="false"/>
+    <output name="Pflaumen" capacity="100000" factor="0.95" fillType="plum" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Raffinerie" locationType="FabrikScript" ProdPerHour="3000" position="171.171 15.638 1785.37" showInProduction="true">
+    <input name="Raps" capacity="100000" factor="0.5" fillTypes="rape" showInStorage="false"/>
+    <input name="Sojabohnen" capacity="100000" factor="0.5" fillTypes="soybean" showInStorage="false"/>
+    <input name="Sonnenblumen" capacity="100000" factor="0.5" fillTypes="sunflower" showInStorage="false"/>
+    <output name="Treibstoff" capacity="100000" factor="1" fillType="fuel" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Reibekuchenfabrik" locationType="FabrikScript" ProdPerHour="3000" position="1427.24 14.6965 -271.14" showInProduction="true">
+    <input name="Zwiebeln" capacity="100000" factor="0.2" fillTypes="onion" showInStorage="false"/>
+    <input name="Kartoffeln" capacity="100000" factor="0.6" fillTypes="potato" showInStorage="false"/>
+    <input name="Speiseoel" capacity="100000" factor="0.1" fillTypes="cookingOil" showInStorage="false"/>
+    <input name="Wasser" capacity="100000" factor="0.1" fillTypes="water" showInStorage="false"/>
+    <output name="Reibekuchen" capacity="50000" factor="0.96" fillType="reibekuchen" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Rumfabrik" locationType="FabrikScript" ProdPerHour="3000" position="1470.39 20.24 -973.43" showInProduction="true">
+    <input name="Wasser" capacity="50000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="Zuckerrohr" capacity="100000" factor="0.5" fillTypes="sugarCane" showInStorage="false"/>
+    <output name="Rum" capacity="100000" factor="0.95" fillType="rum" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Saegewerk" locationType="FabrikScript" ProdPerHour="1000" position="357.87 85.009 -1253.37" showInProduction="true">
+    <input name="Brennstoffe" capacity="50000" factor="0.8" fillTypes="straw woodChips wool" showInStorage="false"/>
+    <input name="Holz" capacity="50000" factor="1" fillTypes="woodChips" showInStorage="false"/>
+    <output name="woodChips" capacity="50000" factor="0.95" fillType="woodChips" showInStorage="true"/>
+    <output name="boardwood" capacity="4000" factor="1" fillType="woodChips" palettArea="0 0 1 1" palettPlaces="999" showInStorage="false"/>
+  </item>
+  <item name="FabrikScript_Sandkuhle" locationType="FabrikScript" ProdPerHour="3000" position="1394.06 15.2997 -1816.89" showInProduction="true">
+    <input name="Treibstoff" capacity="100000" factor="0.2" fillTypes="fuel" showInStorage="false"/>
+    <output name="Sand" capacity="250000" factor="1" fillType="sand" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_SchweinefutterMischer" locationType="FabrikScript" ProdPerHour="30000" position="246.74 0 -828.263" showInProduction="true">
+    <input name="basefood" capacity="60000" factor="0.5" fillTypes="maize" showInStorage="false"/>
+    <input name="earthfood" capacity="6000" factor="0.05" fillTypes="potato sugarBeet carrot" showInStorage="false"/>
+    <input name="proteinfood" capacity="24000" factor="0.2" fillTypes="rape soybean sunflower" showInStorage="false"/>
+    <input name="grain" capacity="30000" factor="0.25" fillTypes="wheat barley rye oat spelt triticale" showInStorage="false"/>
+    <output name="Schweinefutter" capacity="115000" factor="0.95" fillType="pigFood" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_SeedsMixer" locationType="FabrikScript" ProdPerHour="2100" position="182.901 -116.7 -1103.54" showInProduction="true">
+    <input name="Getreide" capacity="50000" factor="1" fillTypes="wheat barley maize oat rye triticale spelt" showInStorage="false"/>
+    <output name="Saatgut" capacity="50000" factor="1" fillType="seeds" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Torfwerk" locationType="FabrikScript" ProdPerHour="5000" position="1938.54 25.6602 -499.077" showInProduction="true">
+    <input name="Treibstoff" capacity="100000" factor="0.2" fillTypes="fuel" showInStorage="false"/>
+    <output name="Torf" capacity="250000" factor="1" fillType="peat" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Zigarettenfabrik" locationType="FabrikScript" ProdPerHour="3000" position="1720.62 25.282 1497.91" showInProduction="true">
+    <input name="Tabak" capacity="100000" factor="0.8" fillTypes="tobacco" showInStorage="false"/>
+    <input name="Papier" capacity="100000" factor="0.2" fillTypes="paper" showInStorage="false"/>
+    <output name="Zigaretten" capacity="100000" factor="1" fillType="cigarettes" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Zigarrenfabrik" locationType="FabrikScript" ProdPerHour="3000" position="1690.59 25.282 1520.78" showInProduction="true">
+    <input name="Tabak" capacity="100000" factor="0.8" fillTypes="tobacco" showInStorage="false"/>
+    <input name="Holzbretter" capacity="100000" factor="0.2" fillTypes="woodChips" showInStorage="false"/>
+    <output name="Zigarren" capacity="100000" factor="1" fillType="cigar" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_ZuckerProduktion" locationType="FabrikScript" ProdPerHour="3000" position="66.1671 15.6594 1744.09" showInProduction="true">
+    <input name="Wasser" capacity="100000" factor="0.2" fillTypes="water" showInStorage="false"/>
+    <input name="Zuckerrueben" capacity="100000" factor="0.8" fillTypes="sugarBeet" showInStorage="false"/>
+    <output name="Zucker" capacity="100000" factor="1" fillType="sugar" showInStorage="true"/>
+  </item>
+</mapconfig>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <l10n>
+    <text name="FabrikScript_Baeckerei">
+      <en>Baeckerei</en>
+      <de>Baeckerei</de>
+      <fr>Baeckerei</fr>
+    </text>
+    <text name="BGA01">
+      <en>BGA Klein</en>
+      <de>BGA Klein</de>
+      <fr>BGA Klein</fr>
+    </text>
+    <text name="BGA02">
+      <en>BGA Gross Rechts></en>
+      <de>BGA Gross Rechts</de>
+      <fr>BGA Gross Rechts</fr>
+    </text>
+    <text name="BGA03">
+      <en>BGA Gross Mitte</en>
+      <de>BGA Gross Mitte</de>
+      <fr>BGA Gross Mitte</fr>
+    </text>
+    <text name="BGA04">
+      <en>BGA Gross Links</en>
+      <de>BGA Gross Links</de>
+      <fr>BGA Gross Links</fr>
+    </text>
+    <text name="FabrikScript_BaleMaster">
+      <en>Bale Master</en>
+      <de>Bale Master</de>
+      <fr>Bale Master</fr>
+    </text>
+    <text name="FabrikScript_Brauerei">
+      <en>Brauerei</en>
+      <de>Brauerei</de>
+      <fr>Brauerei</fr>
+    </text>
+    <text name="FabrikScript_Brennerei">
+      <en>Brennerei</en>
+      <de>Brennerei</de>
+      <fr>Brennerei</fr>
+    </text>
+    <text name="FabrikScript_compostMaster2k17">
+      <en>compost Master 2k17</en>
+      <de>Kompostmaster</de>
+      <fr>compost Master 2k17</fr>
+    </text>
+    <text name="FabrikScript_Eierhof_1">
+      <en>Eierhof 1</en>
+      <de>Eierhof 1</de>
+      <fr>Eierhof 1</fr>
+    </text>
+    <text name="FabrikScript_Eierhof_2">
+      <en>Eierhof 2</en>
+      <de>Eierhof 2</de>
+      <fr>Eierhof 2</fr>
+    </text>
+    <text name="FabrikScript_Feinkost1">
+      <en>Feinkost 1</en>
+      <de>Feinkost 1</de>
+      <fr>Feinkost 1</fr>
+    </text>
+    <text name="FabrikScript_Feinkost2">
+      <en>Feinkost 2</en>
+      <de>Feinkost 2</de>
+      <fr>Feinkost 2</fr>
+    </text>
+    <text name="FabrikScript_FertilizerMixer">
+      <en>FertilizerMixer</en>
+      <de>FertilizerMixer</de>
+      <fr>FertilizerMixer</fr>
+    </text>
+    <text name="FabrikScript_Getreidemuehle">
+      <en>Getreidemuehle</en>
+      <de>Getreidemuehle</de>
+      <fr>Getreidemuehle</fr>
+    </text>
+    <text name="FabrikScript_Gnocchifabrik">
+      <en>Gnocchifabrik</en>
+      <de>Gnocchifabrik</de>
+      <fr>Gnocchifabrik</fr>
+    </text>
+    <text name="FabrikScript_GrasTrocknung">
+      <en>Gras Trocknung</en>
+      <de>Gras Trocknung</de>
+      <fr>Gras Trocknung</fr>
+    </text>
+    <text name="FabrikScript_HochSilo">
+      <en>HochSilo</en>
+      <de>HochSilo</de>
+      <fr>HochSilo</fr>
+    </text>
+    <text name="FabrikScript_Kartoffelwascher">
+      <en>Kartoffelwascher</en>
+      <de>Kartoffelwascher</de>
+      <fr>Kartoffelwascher</fr>
+    </text>
+    <text name="FabrikScript_KirschFarm">
+      <en>Kirsch Farm</en>
+      <de>Kirsch Farm</de>
+      <fr>Kirsch Farm</fr>
+    </text>
+    <text name="FabrikScript_Konditorrei">
+      <en>Konditorrei</en>
+      <de>Konditorrei</de>
+      <fr>Konditorrei</fr>
+    </text>
+    <text name="FabrikScript_KraftfutterMischer">
+      <en>Kraftfutter Mischer</en>
+      <de>Kraftfutter Mischer</de>
+      <fr>Kraftfutter Mischer</fr>
+    </text>
+    <text name="FabrikScript_LFertilizer">
+      <en>LFertilizer</en>
+      <de>LFertilizer</de>
+      <fr>LFertilizer</fr>
+    </text>
+    <text name="FabrikScript_Maelzerei">
+      <en>Mälzerei</en>
+      <de>Mälzerei</de>
+      <fr>Mälzerei</fr>
+    </text>
+    <text name="FabrikScript_MilkMaxV2">
+      <en>MilkMaxV2</en>
+      <de>MilkMaxV2</de>
+      <fr>MilkMaxV2</fr>
+    </text>
+    <text name="FabrikScript_Molkerei">
+      <en>Molkerei</en>
+      <de>Molkerei</de>
+      <fr>Molkerei</fr>
+    </text>
+    <text name="FabrikScript_Oelmuehle">
+      <en>Ölmuehle</en>
+      <de>Ölmuehle</de>
+      <fr>Ölmuehle</fr>
+    </text>
+    <text name="FabrikScript_Papierfabrik">
+      <en>Papierfabrik</en>
+      <de>Papierfabrik</de>
+      <fr>Papierfabrik</fr>
+    </text>
+    <text name="FabrikScript_PflaumenFarm">
+      <en>Pflaumen Farm</en>
+      <de>Pflaumen Farm</de>
+      <fr>Pflaumen Farm</fr>
+    </text>
+    <text name="FabrikScript_Raffinerie">
+      <en>Raffinerie</en>
+      <de>Raffinerie</de>
+      <fr>Raffinerie</fr>
+    </text>
+    <text name="FabrikScript_Reibekuchenfabrik">
+      <en>Reibekuchenfabrik</en>
+      <de>Reibekuchenfabrik</de>
+      <fr>Reibekuchenfabrik</fr>
+    </text>
+    <text name="FabrikScript_Rumfabrik">
+      <en>Rumfabrik</en>
+      <de>Rumfabrik</de>
+      <fr>Rumfabrik</fr>
+    </text>
+    <text name="FabrikScript_Saegewerk">
+      <en>Saegewerk</en>
+      <de>Saegewerk</de>
+      <fr>Saegewerk</fr>
+    </text>
+    <text name="FabrikScript_Sandkuhle">
+      <en>Sandkuhle</en>
+      <de>Sandkuhle</de>
+      <fr>Sandkuhle</fr>
+    </text>
+    <text name="FabrikScript_SchweinefutterMischer">
+      <en>Schweinefutter Mischer</en>
+      <de>Schweinefutter Mischer</de>
+      <fr>Schweinefutter Mischer</fr>
+    </text>
+    <text name="FabrikScript_SeedsMixer">
+      <en>Seeds Mixer</en>
+      <de>Seeds Mixer</de>
+      <fr>Seeds Mixer</fr>
+    </text>
+    <text name="FabrikScript_Torfwerk">
+      <en>Torfwerk</en>
+      <de>Torfwerk</de>
+      <fr>Torfwerk</fr>
+    </text>
+    <text name="FabrikScript_Zigarettenfabrik">
+      <en>Zigarettenfabrik</en>
+      <de>Zigarettenfabrik</de>
+      <fr>Zigarettenfabrik</fr>
+    </text>
+    <text name="FabrikScript_Zigarrenfabrik">
+      <en>Zigarrenfabrik</en>
+      <de>Zigarrenfabrik</de>
+      <fr>Zigarrenfabrik</fr>
+    </text>
+    <text name="FabrikScript_ZuckerProduktion">
+      <en>Zucker Produktion</en>
+      <de>Zucker Produktion</de>
+      <fr>Zucker Produktion</fr>
+    </text>
+  </l10n>
+</mapconfig>
