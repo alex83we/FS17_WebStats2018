@@ -22,4 +22,76 @@
     <input name="liquidManure" capacity="&#8734;" factor="180" fillTypes="liquidManureFillLevel" showInStorage="false" />
     <output name="digestate" capacity="800000" factor="87" fillTypes="digestateSiloFillLevel" showInStorage="true" />
   </item>
+  <l10n>
+    <text name="BunkerSilo_cowSilo01">
+      <en>Fahrsilo Kühe 1</en>
+      <de>Fahrsilo Kühe 1</de>
+      <fr>Fahrsilo Kühe 1</fr>
+    </text>
+    <text name="BunkerSilo_cowSilo02">
+      <en>Fahrsilo Kühe 2</en>
+      <de>Fahrsilo Kühe 2</de>
+      <fr>Fahrsilo Kühe 2</fr>
+    </text>
+    <text name="BunkerSilo_silo002">
+      <en>Fahrsilo BGA Klein 1</en>
+      <de>Fahrsilo BGA Klein 1</de>
+      <fr>Fahrsilo BGA Klein 1</fr>
+    </text>
+    <text name="BunkerSilo_silo003">
+      <en>Fahrsilo BGA Klein 2</en>
+      <de>Fahrsilo BGA Klein 2</de>
+      <fr>Fahrsilo BGA Klein 2</fr>
+    </text>
+    <text name="BunkerSilo_Silo06">
+      <en>Fahrsilo BGA Gross 1</en>
+      <de>Fahrsilo BGA Gross 1</de>
+      <fr>Fahrsilo BGA Gross 1</fr>
+    </text>
+    <text name="BunkerSilo_Silo07">
+      <en>Fahrsilo BGA Gross 2</en>
+      <de>Fahrsilo BGA Gross 2</de>
+      <fr>Fahrsilo BGA Gross 2</fr>
+    </text>
+    <text name="BunkerSilo_Silo08">
+      <en>Fahrsilo BGA Gross 3</en>
+      <de>Fahrsilo BGA Gross 3</de>
+      <fr>Fahrsilo BGA Gross 3</fr>
+    </text>
+    <text name="BunkerSilo_Silo09">
+      <en>Fahrsilo BGA Gross 4</en>
+      <de>Fahrsilo BGA Gross 4</de>
+      <fr>Fahrsilo BGA Gross 4</fr>
+    </text>
+    <text name="BunkerSilo_Silo10">
+      <en>Fahrsilo BGA Gross 5</en>
+      <de>Fahrsilo BGA Gross 5</de>
+      <fr>Fahrsilo BGA Gross 5</fr>
+    </text>
+    <text name="BunkerSilo_silo011">
+      <en>Fahrsilo BGA Gross 6</en>
+      <de>Fahrsilo BGA Gross 6</de>
+      <fr>Fahrsilo BGA Gross 6</fr>
+    </text>
+    <text name="BunkerSilo_silo012">
+      <en>Fahrsilo BGA Gross 7</en>
+      <de>Fahrsilo BGA Gross 7</de>
+      <fr>Fahrsilo BGA Gross 7</fr>
+    </text>
+    <text name="BunkerSilo_silo013">
+      <en>Fahrsilo BGA Gross 8</en>
+      <de>Fahrsilo BGA Gross 8</de>
+      <fr>Fahrsilo BGA Gross 8</fr>
+    </text>
+    <text name="BunkerSilo_silo014">
+      <en>Fahrsilo BGA Gross 9</en>
+      <de>Fahrsilo BGA Gross 9</de>
+      <fr>Fahrsilo BGA Gross 9</fr>
+    </text>
+    <text name="BunkerSilo_silo015">
+      <en>Fahrsilo BGA Gross 10</en>
+      <de>Fahrsilo BGA Gross 10</de>
+      <fr>Fahrsilo BGA Gross 10</fr>
+    </text>
+  </l10n>
 </mapconfig>

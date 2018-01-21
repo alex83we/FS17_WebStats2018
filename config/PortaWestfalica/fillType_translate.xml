@@ -126,6 +126,11 @@
       <de>Eier</de>
       <fr>Eier</fr>
     </text>
+    <text name="eggpallet">
+      <en>Eier</en>
+      <de>Eier</de>
+      <fr>Eier</fr>
+    </text>
     <text name="Weisskohl">
       <en>Weisskohl</en>
       <de>Weisskohl</de>
@@ -241,12 +246,22 @@
       <de>Papier</de>
       <fr>Papier</fr>
     </text>
+    <text name="paperPallet">
+      <en>Papier</en>
+      <de>Papier</de>
+      <fr>Papier</fr>
+    </text>	
     <text name="gewaschene Kartoffeln">
       <en>gewaschene Kartoffeln</en>
       <de>gewaschene Kartoffeln</de>
       <fr>gewaschene Kartoffeln</fr>
     </text>
     <text name="washedPotato">
+      <en>gewaschene Kartoffeln</en>
+      <de>gewaschene Kartoffeln</de>
+      <fr>gewaschene Kartoffeln</fr>
+    </text>
+    <text name="washedPotatoPallet">
       <en>gewaschene Kartoffeln</en>
       <de>gewaschene Kartoffeln</de>
       <fr>gewaschene Kartoffeln</fr>
@@ -462,6 +477,11 @@
       <fr>Laine</fr>
     </text>
     <text name="boardwood">
+      <en>Holzbretter</en>
+      <de>Holzbretter</de>
+      <fr>Holzbretter</fr>
+    </text>	  
+    <text name="boardPallet">
       <en>Holzbretter</en>
       <de>Holzbretter</de>
       <fr>Holzbretter</fr>
