@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <l10n>
+    <text name="mCompanyFactory_compostMaster2k17">
+      <en>CompostMaster</en>
+      <de>Komposter</de>
+      <fr>CompostMaster</fr>
+    </text>
+    <text name="mCompanyFactory_Fabrik">
+      <en>Sawmill</en>
+      <de>Sägewerk</de>
+      <fr>Sawmill</fr>
+    </text>
+    <text name="mCompanyFactory_Palettenfabrik">
+      <en>Palettfabric</en>
+      <de>Palettenfabrik</de>
+      <fr>Palettfabric</fr>
+    </text>
+    <text name="mCompanyFactory_Water1">
+      <en>Water 1</en>
+      <de>Wasserstelle 1</de>
+      <fr>Water 1</fr>
+    </text>
+    <text name="mCompanyFactory_Water2">
+      <en>Water 2</en>
+      <de>Wasserstelle 2</de>
+      <fr>Water 2</fr>
+    </text>
+    <text name="mCompanyFactory_Water3">
+      <en>Water 3</en>
+      <de>Wasserstelle 3</de>
+      <fr>Water 3</fr>
+    </text>
+    <text name="mCompanyFactory_Water4">
+      <en>Water 4</en>
+      <de>Wasserstelle 4</de>
+      <fr>Water 4</fr>
+    </text>
+    <text name="mCompanyFactory_Rindermast_Hof1">
+      <en>Beeffarm 1</en>
+      <de>Rinderhof 1</de>
+      <fr>Beeffarm 1</fr>
+    </text>
+    <text name="mCompanyFactory_Rindermast_Hof3">
+      <en>Beeffarm 2</en>
+      <de>Rinderhof 2</de>
+      <fr>Beeffarm 2</fr>
+    </text>
+    <text name="mCompanyFactory_SchweinemastHof1">
+      <en>Pigfarm 1</en>
+      <de>Schweinehof 1</de>
+      <en>Pigfarm 1</en>
+    </text>
+    <text name="mCompanyFactory_SchweinemastHof2">
+      <en>Pigfarm 2</en>
+      <de>Schweinehof 2</de>
+      <en>Pigfarm 2</en>
+    </text>
+    <text name="mCompanyFactory_SchweinemastHof3">
+      <en>Pigfarm 3</en>
+      <de>Schweinehof 3</de>
+      <en>Pigfarm 3</en>
+    </text>
+    <text name="mCompanyFactory_SchweinemastHof4">
+      <en>Pigfarm 4</en>
+      <de>Schweinehof 4</de>
+      <en>Pigfarm 4</en>
+    </text>
+    <text name="mCompanyFactory_slurryStorageAgrarbetrieb">
+      <en>Slurrystorage 1</en>
+      <de>Güllelager Agrarbetrieb</de>
+      <fr>Slurrystorage 1</fr>
+    </text>
+    <text name="mCompanyFactory_slurryStorageFeld1">
+      <en>Slurrystorage 2</en>
+      <de>Güllelager Feld</de>
+      <fr>Slurrystorage 2</fr>
+    </text>
+    <text name="mCompanyFactory_slurryStorageAgrarbetrieb2">
+      <en>Slurrystorage 3</en>
+      <de>Güllelager Externer Hof</de>
+      <fr>Slurrystorage 3</fr>
+    </text>
+    <text name="mCompanyFactory_slurryCow">
+      <en>Slurrystorage 4</en>
+      <de>Güllelager Kuh Hof</de>
+      <fr>Slurrystorage 4</fr>
+    </text>
+    <text name="Input1_GL">
+      <en>Slurry</en>
+      <de>Gülle</de>
+      <fr>Slurry</fr>
+    </text>
+    <text name="Output1_GL">
+      <en>Liquid manure</en>
+      <de>Gülle</de>
+      <fr>Lisier</fr>
+    </text>
+    <text name="boardwood">
+      <en>boards palette</en>
+      <de>Bretter Palletten</de>
+      <fr>boards palette</fr>
+    </text>
+    <text name="Bretterpaletten">
+      <en>boards palette</en>
+      <de>Bretter Palletten</de>
+      <fr>boards palette</fr>
+    </text>
+    <text name="Holz">
+      <en>logs</en>
+      <de>Holzstämme</de>
+      <fr>logs</fr>
+    </text>
+    <text name="Brennstoffe">
+      <en>fuels</en>
+      <de>Brennstoffe</de>
+      <fr>fuels</fr>
+    </text>
+    <text name="woodChips">
+      <en>boards palette</en>
+      <de>Bretter Palletten</de>
+      <fr>boards palette</fr>
+    </text>
+    <text name="cm_inputWaste">
+      <en>waste</en>
+      <de>Abfall</de>
+      <fr>waste</fr>
+    </text>
+    <text name="cm_inputFuel">
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
+    </text>
+    <text name="cm_outputCompost">
+      <en>compost</en>
+      <de>Kompost</de>
+      <fr>compost</fr>
+    </text>
+    <text name="Guelle">
+      <en>Liquid manure</en>
+      <de>Gülle</de>
+      <fr>Lisier</fr>
+    </text>
+    <text name="Stroh">
+      <en>Straw</en>
+      <de>Stroh</de>
+      <fr>Paille</fr>
+    </text>
+    <text name="Leerpaletten">
+      <en>Emptypallets</en>
+      <de>Leerpaletten</de>
+      <fr>Emptypallets</fr>
+    </text>
+    <text name="Schweine">
+      <en>Pigs</en>
+      <de>Schweine</de>
+      <fr>Pigs</fr>
+    </text>
+    <text name="Mutterschweine">
+      <en>Motherpigs</en>
+      <de>Mutterschwein</de>
+      <fr>Motherpigs</fr>
+    </text>
+    <text name="pigMother">
+      <en>Motherpig</en>
+      <de>Mutterschwein</de>
+      <fr>Motherpig</fr>
+    </text>
+    <text name="Rinder">
+      <en>Rinder</en>
+      <de>Rinder</de>
+      <fr>Rinder</fr>
+    </text>
+    <text name="Mutterrind">
+      <en>Motherrind</en>
+      <de>Mutterrind</de>
+      <fr>Motherrind</fr>
+    </text>
+    <text name="beefMother">
+      <en>Motherrind</en>
+      <de>Mutterrind</de>
+      <fr>Motherrind</fr>
+    </text>
+    <text name="Silofutter">
+      <en>Silofeed</en>
+      <de>Silofutter</de>
+      <fr>Silofeed</fr>
+    </text>
+    <text name="Futter">
+      <en>Feed</en>
+      <de>Futter</de>
+      <fr>Feed</fr>
+    </text>
+    <text name="Kartoffeln">
+      <en>Potatos</en>
+      <de>Kartoffeln</de>
+      <fr>Potatos</fr>
+    </text>
+    <text name="potato">
+      <en>Potatos</en>
+      <de>Kartoffeln</de>
+      <fr>Potatos</fr>
+    </text>
+    <text name="compost">
+      <en>compost</en>
+      <de>Kompost</de>
+      <fr>compost</fr>
+    </text>
+    <text name="kalk">
+      <en>kalk</en>
+      <de>Kalk</de>
+      <fr>kalk</fr>
+    </text>
+    <text name="grass">
+      <en>Grass</en>
+      <de>Gras</de>
+      <fr>Herbe</fr>
+    </text>
+    <text name="forage_mixing">
+      <en>Grass, Drygrass, Silage, Foragemixing</en>
+      <de>Futter (Gras, Heu, Silage, Mischfutter)</de>
+      <fr>Grass, Drygrass, Silage, Foragemixing</fr>
+    </text>
+  </l10n>
+</mapconfig>
