@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <item name="Storage_storage1" locationType="storage" position="214.927 0 -931.032" />
+  <item name="Storage_storage2" locationType="storage" position="-750.898 0 -1147.34" />
+  <item name="Storage_storage4" locationType="storage" position="-576.429 0 -1121.5" />
+  <item name="Storage_storage5" locationType="storage" position="153.531 0 -898.814" />
+  <item name="Storage_storage6" locationType="storage" position="265.213 0 -1021.13" />
+  <item name="Storage_storage7" locationType="storage" position="276.282 0 -952.626" />
+  <item name="Storage_storage8" locationType="storage" position="321.538 0 -761.725" />
+  <item name="Storage_storage9" locationType="storage" position="270.177 0 -1089.094" />
+  <item name="Storage_storage10" locationType="storage" position="558.663 0 673.276" />
+  <item name="Storage_storage11" locationType="storage" position="-304.061 0 -1965.954" />
+  <item name="Storage_storage12" locationType="storage" position="-1854.285 0 1369.913" />
+  <item name="Storage_storage13" locationType="storage" position="-990.666 0 -1124.943" />
+  <item name="Storage_storage14" locationType="storage" position="218.754 0 -1259.76" />
+  <item name="Storage_storage15" locationType="storage" position="-1815.697 0 1961.675" />
+  <item name="Storage_storage16" locationType="storage" position="1981.67 0 -495.538" />	
+  <item name="Storage_storage17" locationType="storage" position="1450.861 0 -1802.962" />
+  <item name="Storage_storage18" locationType="storage" position="-818.447 0 9.605" />
+  <item name="Storage_storage19" locationType="storage" position="-776.943 0 527.997" />
+  <item name="Storage_storage20" locationType="storage" position="153.363 0 -392.674" />
+  <item name="Storage_storage21" locationType="storage" position="-65.424 0 1269.95" />	
+</mapconfig>

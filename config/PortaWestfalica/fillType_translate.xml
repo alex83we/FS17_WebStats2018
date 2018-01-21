@@ -262,14 +262,14 @@
       <fr>Gnocchi</fr>
     </text>
     <text name="Annahme">
-      <en>Annahme</en>
-      <de>Annahme</de>
-      <fr>Annahme</fr>
+      <en>Organische Stoffe</en>
+      <de>Organische Stoffe</de>
+      <fr>Organische Stoffe</fr>
     </text>
     <text name="Ausgabe">
-      <en>Ausgabe</en>
-      <de>Ausgabe</de>
-      <fr>Ausgabe</fr>
+      <en>Biologische Stoffe</en>
+      <de>Biologische Stoffe</de>
+      <fr>Biologische Stoffe</fr>
     </text>
     <text name="Kompost">
       <en>Kompost</en>
@@ -357,11 +357,6 @@
       <fr>Kuchen</fr>
     </text>
     <text name="Silage">
-      <en>Silage</en>
-      <de>Silage</de>
-      <fr>Silage</fr>
-    </text>
-    <text name="bunkerFillLevel">
       <en>Silage</en>
       <de>Silage</de>
       <fr>Silage</fr>

@@ -1,1 +1,299 @@
 <?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <item name="TipTrigger_GueterBhf_Main" locationType="TipTrigger" position="-1602.33 0 179.393" isSellingPoint="true" />
+  <item name="TipTrigger_GueterBhf_Durchfahrt" locationType="TipTrigger" position="-1602.33 0 179.393" isSellingPoint="false" />
+  <item name="TipTrigger_GueterBhf_Rampe1" locationType="TipTrigger" position="-1602.33 0 179.393" isSellingPoint="false" />
+  <item name="TipTrigger_GueterBhf_Rampe2" locationType="TipTrigger" position="-1602.33 0 179.393" isSellingPoint="false" />
+  <item name="TipTrigger_Holzhdlg" locationType="TipTrigger" position="-1864.2 0 -1589.76" isSellingPoint="true" />
+  <item name="TipTrigger_EiMoAG_Stroh" locationType="TipTrigger" position="656.811 0 848.577" isSellingPoint="false" />
+  <item name="TipTrigger_GartenC_Stroh" locationType="TipTrigger" position="-947.352 0 -807.28" isSellingPoint="false" />
+  <item name="TipTrigger_Hotel" locationType="TipTrigger" position="-1051.43 0 -1367.92" isSellingPoint="true" />
+  <item name="TipTrigger_Muehle01" locationType="TipTrigger" position="-1941.7 0 -544.004" isSellingPoint="false" />
+  <item name="TipTrigger_Muehle02" locationType="TipTrigger" position="-1955.89 0 -564.573" isSellingPoint="false" />
+  <item name="TipTrigger_Muehle_Main" locationType="TipTrigger" position="-1984.33 0 -477.544" isSellingPoint="true" />
+  <item name="TipTrigger_Landi" locationType="TipTrigger" position="1514.91 0 1934.93" isSellingPoint="true" />
+  <item name="TipTrigger_Spinnerei" locationType="TipTrigger" position="641.63 0 -1448.42" isSellingPoint="true" />
+  <item name="TipTrigger_Weserstadion" locationType="TipTrigger" position="-1268.48 0 37.466" isSellingPoint="true" />
+  <item name="TipTrigger_Schweinehandel" locationType="TipTrigger" position="1716.77 0 454.593" isSellingPoint="true" />
+  <item name="TipTrigger_Kuhhandel" locationType="TipTrigger" position="-1640.26 0 -906.46" isSellingPoint="true" />
+  <item name="TipTrigger_StrohKW" locationType="TipTrigger" position="1224.45 0 1150.66" isSellingPoint="true" />
+  <item name="TipTrigger_PortaMarkt" locationType="TipTrigger" position="-972.167 0 -959.842" isSellingPoint="true" />
+  <item name="TipTrigger_Wassermuehle" locationType="TipTrigger" position="-1183.66 0 -734.807" isSellingPoint="true" />
+  <item name="TipTrigger_EDEKA" locationType="TipTrigger" position="-1305.67 0 -1559.44" isSellingPoint="true" />
+  <item name="TipTrigger_Pferdehof_Main" locationType="TipTrigger" position="-486.316 0 1096.27" isSellingPoint="true" />
+  <item name="TipTrigger_Pferdehof1" locationType="TipTrigger" position="-497.831 0 1098.53" isSellingPoint="false" />
+  <item name="TipTrigger_Pferdehof2" locationType="TipTrigger" position="-472.607 0 1095.46" isSellingPoint="false" />
+  <item name="TipTrigger_GCenter_seedsFertilizer" locationType="TipTrigger" position="-986.955 0 -832.615" isSellingPoint="false" />
+  <item name="TipTrigger_GCenter_Main" locationType="TipTrigger" position="-1015.37 0 -875.616" isSellingPoint="true" />
+  <item name="TipTrigger_GCenter_Guelle" locationType="TipTrigger" position="-938.767 0 -837.552" isSellingPoint="false" />
+  <item name="TipTrigger_GCenter_Kompost" locationType="TipTrigger" position="-952.26 0 -793.429" isSellingPoint="false" />
+  <item name="TipTrigger_Hafen" locationType="TipTrigger" position="-1005.16 0 1561.01" isSellingPoint="false" />
+  <item name="TipTrigger_Hafen_Guelle" locationType="TipTrigger" position="-1024.82 0 1563.49" isSellingPoint="false" />
+  <item name="TipTrigger_Hafen_Main" locationType="TipTrigger" position="-1002.97 0 1722.36" isSellingPoint="true" />
+  <item name="TipTrigger_Hafen_Sand" locationType="TipTrigger" position="-1024.76 0 1633.9" isSellingPoint="false" />
+  <item name="TipTrigger_Hafen_Fuel" locationType="TipTrigger" position="-1024.84 0 1857.16" isSellingPoint="false" />
+  <item name="TipTrigger_Hochhaus_Sand" locationType="TipTrigger" position="-1053.66 0 115.021" isSellingPoint="true" />
+  <item name="TipTrigger_Baustelle_Sand" locationType="TipTrigger" position="801.319 0 1640.44" isSellingPoint="true" />
+  <item name="TipTrigger_EiMoAG" locationType="TipTrigger" position="620.838 0 839.198" isSellingPoint="false" />
+  <item name="TipTrigger_EiMoAG_Mist" locationType="TipTrigger" position="628.067 0 877.654" isSellingPoint="false" />
+  <item name="TipTrigger_EiMoAG_Main" locationType="TipTrigger" position="627.535 0 820.97" isSellingPoint="true" />
+  <item name="TipTrigger_Landhandel_Kompost" locationType="TipTrigger" position="-1781.67 0 -1556.48" isSellingPoint="true" />
+  <item name="TipTrigger_Bauernmarkt" locationType="TipTrigger" position="-1067.47 0 -235.109" isSellingPoint="true" />
+  <item name="TipTrigger_Klaeranlage" locationType="TipTrigger" position="-1449.05 0 1807.08" isSellingPoint="false" />
+  <item name="TipTrigger_Klaeranlage_Mist" locationType="TipTrigger" position="-1483.64 0 1824.95" isSellingPoint="false" />
+  <item name="TipTrigger_Klaeranlage_Main" locationType="TipTrigger" position="-1497.05 0 1842.52" isSellingPoint="true" />
+  <item name="TipTrigger_Bootshaus" locationType="TipTrigger" position="953.524 0 936.343" isSellingPoint="true" />
+  <item name="TipTrigger_SGClub" locationType="TipTrigger" position="-1248.58 0 -1415.39" isSellingPoint="true" />
+  <item name="TipTrigger_Camping" locationType="TipTrigger" position="521.473 0 -1898.65" isSellingPoint="true" />
+  <item name="TipTrigger_Papierverkauf" locationType="TipTrigger" position="-1077.84 0 -77.928" isSellingPoint="true" />
+  <item name="TipTrigger_Sparmarkt" locationType="TipTrigger" position="1540.42 0 1626.74" isSellingPoint="true" />
+  <item name="TipTrigger_Eierverkauf" locationType="TipTrigger" position="1559.5 0 1618.39" isSellingPoint="true" />
+  <item name="TipTrigger_Kartoffelverkauf" locationType="TipTrigger" position="-1371.55 0 -204.581" isSellingPoint="true" />
+  <l10n>
+    <text name="TipTrigger_GueterBhf_Main">
+      <en>Güterbahnhof</en>
+      <de>Güterbahnhof</de>
+      <fr>Güterbahnhof</fr>
+    </text>
+    <text name="TipTrigger_GueterBhf_Durchfahrt">
+      <en>Güterbahnhof</en>
+      <de>Güterbahnhof</de>
+      <fr>Güterbahnhof</fr>
+    </text>
+    <text name="TipTrigger_GueterBhf_Rampe1">
+      <en>Güterbahnhof</en>
+      <de>Güterbahnhof</de>
+      <fr>Güterbahnhof</fr>
+    </text>
+    <text name="TipTrigger_GueterBhf_Rampe2">
+      <en>Güterbahnhof</en>
+      <de>Güterbahnhof</de>
+      <fr>Güterbahnhof</fr>
+    </text>
+    <text name="TipTrigger_Holzhdlg">
+      <en>Holzhandlung</en>
+      <de>Holzhandlung</de>
+      <fr>Holzhandlung</fr>
+    </text>
+    <text name="TipTrigger_EiMoAG_Stroh">
+      <en>EiMoAG</en>
+      <de>EiMoAG</de>
+      <fr>EiMoAG</fr>
+    </text>
+    <text name="TipTrigger_EiMoAG">
+      <en>EiMoAG</en>
+      <de>EiMoAG</de>
+      <fr>EiMoAG</fr>
+    </text>
+    <text name="TipTrigger_EiMoAG_Mist">
+      <en>EiMoAG</en>
+      <de>EiMoAG</de>
+      <fr>EiMoAG</fr>
+    </text>
+    <text name="TipTrigger_EiMoAG_Main">
+      <en>EiMoAG</en>
+      <de>EiMoAG</de>
+      <fr>EiMoAG</fr>
+    </text>
+    <text name="TipTrigger_GartenC_Stroh">
+      <en>Gartencenter</en>
+      <de>Gartencenter</de>
+      <fr>Gartencenter</fr>
+    </text>
+    <text name="TipTrigger_GCenter_seedsFertilizer">
+      <en>Gartencenter</en>
+      <de>Gartencenter</de>
+      <fr>Gartencenter</fr>
+    </text>
+    <text name="TipTrigger_GCenter_Main">
+      <en>Gartencenter</en>
+      <de>Gartencenter</de>
+      <fr>Gartencenter</fr>
+    </text>
+    <text name="TipTrigger_GCenter_Guelle">
+      <en>Gartencenter</en>
+      <de>Gartencenter</de>
+      <fr>Gartencenter</fr>
+    </text>
+    <text name="TipTrigger_GCenter_Kompost">
+      <en>Gartencenter</en>
+      <de>Gartencenter</de>
+      <fr>Gartencenter</fr>
+    </text>
+    <text name="TipTrigger_Hotel">
+      <en>Hotel</en>
+      <de>Hotel</de>
+      <fr>Hotel</fr>
+    </text>
+    <text name="TipTrigger_Muehle01">
+      <en>Mühle</en>
+      <de>Mühle</de>
+      <fr>Mühle</fr>
+    </text>
+    <text name="TipTrigger_Muehle02">
+      <en>Mühle</en>
+      <de>Mühle</de>
+      <fr>Mühle</fr>
+    </text>
+    <text name="TipTrigger_Muehle_Main">
+      <en>Mühle</en>
+      <de>Mühle</de>
+      <fr>Mühle</fr>
+    </text>
+    <text name="TipTrigger_Landi">
+      <en>Landi</en>
+      <de>Landi</de>
+      <fr>Landi</fr>
+    </text>
+    <text name="TipTrigger_Spinnerei">
+      <en>Spinnerei</en>
+      <de>Spinnerei</de>
+      <fr>Spinnerei</fr>
+    </text>
+    <text name="TipTrigger_Weserstadion">
+      <en>Weserstadion</en>
+      <de>Weserstadion</de>
+      <fr>Weserstadion</fr>
+    </text>
+    <text name="TipTrigger_Schweinehandel">
+      <en>Schweinehandel</en>
+      <de>Schweinehandel</de>
+      <fr>Schweinehandel</fr>
+    </text>
+    <text name="TipTrigger_Kuhhandel">
+      <en>Kuhhandel</en>
+      <de>Kuhhandel</de>
+      <fr>Kuhhandel</fr>
+    </text>
+    <text name="TipTrigger_StrohKW">
+      <en>StrohKW</en>
+      <de>StrohKW</de>
+      <fr>StrohKW</fr>
+    </text>
+    <text name="TipTrigger_PortaMarkt">
+      <en>PortaMarkt</en>
+      <de>PortaMarkt</de>
+      <fr>PortaMarkt</fr>
+    </text>
+    <text name="TipTrigger_Wassermuehle">
+      <en>Wassermuehle</en>
+      <de>Wassermuehle</de>
+      <fr>Wassermuehle</fr>
+    </text>
+    <text name="TipTrigger_EDEKA">
+      <en>EDEKA</en>
+      <de>EDEKA</de>
+      <fr>EDEKA</fr>
+    </text>
+    <text name="TipTrigger_Pferdehof_Main">
+      <en>Pferdehof</en>
+      <de>Pferdehof</de>
+      <fr>Pferdehof</fr>
+    </text>
+    <text name="TipTrigger_Pferdehof1">
+      <en>Pferdehof</en>
+      <de>Pferdehof</de>
+      <fr>Pferdehof</fr>
+    </text>
+    <text name="TipTrigger_Pferdehof1">
+      <en>Pferdehof</en>
+      <de>Pferdehof</de>
+      <fr>Pferdehof</fr>
+    </text>
+    <text name="TipTrigger_Hafen">
+      <en>Hafen</en>
+      <de>Hafen</de>
+      <fr>Hafen</fr>
+    </text>
+    <text name="TipTrigger_Hafen_Guelle">
+      <en>Hafen</en>
+      <de>Hafen</de>
+      <fr>Hafen</fr>
+    </text>
+    <text name="TipTrigger_Hafen_Main">
+      <en>Hafen</en>
+      <de>Hafen</de>
+      <fr>Hafen</fr>
+    </text>
+    <text name="TipTrigger_Hafen_Sand">
+      <en>Hafen</en>
+      <de>Hafen</de>
+      <fr>Hafen</fr>
+    </text>
+    <text name="TipTrigger_Hafen_Fuel">
+      <en>Hafen</en>
+      <de>Hafen</de>
+      <fr>Hafen</fr>
+    </text>	  
+    <text name="TipTrigger_Hochhaus_Sand">
+      <en>Hochhaus</en>
+      <de>Hochhaus</de>
+      <fr>Hochhaus</fr>
+    </text>	  
+    <text name="TipTrigger_Baustelle_Sand">
+      <en>Baustelle</en>
+      <de>Baustelle</de>
+      <fr>Baustelle</fr>
+    </text>  
+    <text name="TipTrigger_Landhandel_Kompost">
+      <en>Landhandel</en>
+      <de>Landhandel</de>
+      <fr>Landhandel</fr>
+    </text>  
+    <text name="TipTrigger_Bauernmarkt">
+      <en>Bauernmarkt</en>
+      <de>Bauernmarkt</de>
+      <fr>Bauernmarkt</fr>
+    </text>  
+    <text name="TipTrigger_Klaeranlage">
+      <en>Klaeranlage</en>
+      <de>Klaeranlage</de>
+      <fr>Klaeranlage</fr>
+    </text>  
+    <text name="TipTrigger_Klaeranlage_Mist">
+      <en>Klaeranlage</en>
+      <de>Klaeranlage</de>
+      <fr>Klaeranlage</fr>
+    </text>  
+    <text name="TipTrigger_Klaeranlage_Main">
+      <en>Klaeranlage</en>
+      <de>Klaeranlage</de>
+      <fr>Klaeranlage</fr>
+    </text>  
+    <text name="TipTrigger_Bootshaus">
+      <en>Bootshaus</en>
+      <de>Bootshaus</de>
+      <fr>Bootshaus</fr>
+    </text>  
+    <text name="TipTrigger_SGClub">
+      <en>SGClub</en>
+      <de>SGClub</de>
+      <fr>SGClub</fr>
+    </text>  
+    <text name="TipTrigger_Camping">
+      <en>Camping</en>
+      <de>Camping</de>
+      <fr>Camping</fr>
+    </text>  
+    <text name="TipTrigger_Papierverkauf">
+      <en>Papierverkauf</en>
+      <de>Papierverkauf</de>
+      <fr>Papierverkauf</fr>
+    </text>  
+    <text name="TipTrigger_Sparmarkt">
+      <en>Sparmarkt</en>
+      <de>Sparmarkt</de>
+      <fr>Sparmarkt</fr>
+    </text>  
+    <text name="TipTrigger_Eierverkauf">
+      <en>Eierverkauf</en>
+      <de>Eierverkauf</de>
+      <fr>Eierverkauf</fr>
+    </text>  
+    <text name="TipTrigger_Kartoffelverkauf">
+      <en>Kartoffelverkauf</en>
+      <de>Kartoffelverkauf</de>
+      <fr>Kartoffelverkauf</fr>
+    </text>
+  </l10n>
+</mapconfig>
