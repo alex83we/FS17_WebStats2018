@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <item name="Storage_storage1" locationType="storage" position="312.426 100.178 112.718" />
+  <item name="Storage_storage2" locationType="storage" position="403.199 100.05 113.582" />
+  <item name="Storage_storage3" locationType="storage" position="-1869.67 100 -1000.77" />
+  <item name="Storage_storage4" locationType="storage" position="-125.208 100 -253.474" />
+  <item name="Storage_storage6" locationType="storage" position="1481.94 100 -1567.51" />
+  <item name="Storage_storage7" locationType="storage" position="-981.989 99.999 -1537.85" />
+  <item name="Storage_storage8" locationType="storage" position="1554.23 109.42 1913.12" />
+  <item name="Storage_storage9" locationType="storage" position="-816.217 100 1782.23" />
+  <item name="Storage_storage10" locationType="storage" position="-884.558 0 -1753.714" />
+  <item name="Storage_storage11" locationType="storage" position="609.816 100 266.54" />
+  <l10n>
+    <!-- Silos -->
+    <text name="Storage_storage1">
+      <en>Hofsilo</en>
+      <de>Hofsilo</de>
+      <fr>Hofsilo</fr>
+    </text>
+    <text name="Storage_storage2">
+      <en>Scheune</en>
+      <de>Scheune</de>
+      <fr>Scheune</fr>
+    </text>
+    <text name="Storage_storage3">
+      <en>Zuglager</en>
+      <de>Zuglager</de>
+      <fr>Zuglager</fr>
+    </text>
+    <text name="Storage_storage4">
+      <en>Lager Dresdnermühle</en>
+      <de>Lager Dresdnermühle</de>
+      <fr>Lager Dresdnermühle</fr>
+    </text>
+    <text name="Storage_storage6">
+      <en>Aussenlager 1</en>
+      <de>Aussenlager 1</de>
+      <fr>Aussenlager 1</fr>
+    </text>
+    <text name="Storage_storage7">
+      <en>Aussenlager 2</en>
+      <de>Aussenlager 2</de>
+      <fr>Aussenlager 2</fr>
+    </text>
+    <text name="Storage_storage8">
+      <en>Aussenlager 3</en>
+      <de>Aussenlager 3</de>
+      <fr>Aussenlager 3</fr>
+    </text>
+    <text name="Storage_storage9">
+      <en>Aussenlager 4</en>
+      <de>Aussenlager 4</de>
+      <fr>Aussenlager 4</fr>
+    </text>
+    <text name="Storage_storage10">
+      <en>Umladestation 1</en>
+      <de>Umladestation 1</de>
+      <fr>Umladestation 1</fr>
+    </text>
+    <text name="Storage_storage11">
+      <en>Umladestation</en>
+      <de>Umladestation</de>
+      <fr>Umladestation</fr>
+    </text>
+    <!-- Früchte zusätzlich -->
+    <text name="triticale">
+      <en>triticale</en>
+      <de>Triticale</de>
+      <fr>triticale</fr>
+    </text>
+    <text name="spelt">
+      <en>spelt</en>
+      <de>Dinkel</de>
+      <fr>spelt</fr>
+    </text>
+    <text name="oat">
+      <en>oat</en>
+      <de>Hafer</de>
+      <fr>oat</fr>
+    </text>
+    <text name="rye">
+      <en>rye</en>
+      <de>Roggen</de>
+      <fr>rye</fr>
+    </text>
+    <text name="millet">
+      <en>millet</en>
+      <de>Hirse</de>
+      <fr>millet</fr>
+    </text>
+  </l10n>
+</mapconfig>
