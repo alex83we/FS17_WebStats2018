@@ -112,5 +112,5 @@
   <item name="mCompanyFactory_slurryCow" locationType="FabrikScript" ProdPerHour="2147483647" position="-404.507 26.8945 -4.60451" showInProduction="true">
     <input name="Input1_GL" capacity="50000" factor="1" fillTypes="liquidManure digestate" showInStorage="false" />
     <output name="Output1_GL" capacity="80000" factor="1" fillType="liquidManure" showInStorage="false" />
-  </item>
+  </item>	
 </mapconfig>
