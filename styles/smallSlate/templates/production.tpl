@@ -36,12 +36,12 @@ text-danger")} {$textcolors = array("","text-warning","text-danger")}
 				</tr>
 				<tr class="collapse" id="collapse{$plantData.i3dName}">
 					<td colspan="4">
-						<div class="col-sm-8 col-sm-offset-1">
-							<table class="table" style="margin-bottom: 0px;">
+						<div class="col-sm-8 col-sm-offset-1">							
+							<table class="table table-striped" style="margin-bottom: 0px;">
 								<thead>
 									<tr>
-										<th colspan="2" width="50%">##RAW_MATERIALS##</th>
-										<th colspan="2" width="50%">##PRODUCTS##</th>
+										{if $plantData.input|@count > 0}<th colspan="2" width="50%">##RAW_MATERIALS##</th>{/if}
+										{if $plantData.output|@count > 0}<th colspan="2" width="50%">##PRODUCTS##</th>{/if}
 									</tr>
 								</thead>
 								{$inputRow=array()}{$outputRow=array()} {$max = max($plantData.input|@count,$plantData.output|@count)} {foreach from=$plantData.input
@@ -52,16 +52,21 @@ text-danger")} {$textcolors = array("","text-warning","text-danger")}
 									{for $i=0 to $max-1}
 									<tr>
 										{if isset($inputRow[$i][0])}
+										{if $plantData.input|@count > 0}
 										<td><a href="index.php?page=commodity&object={$inputRow[$i][3]}">{$inputRow[$i][0]|truncate:27:"...":true}</a></td>
 										<td class="text-right">{$inputRow[$i][1]|number_format:0:",":"."} / {if is_numeric($inputRow[$i][2])}{$inputRow[$i][2]|number_format:0:",":"."}{else}{$inputRow[$i][2]}{/if}</td> {else}
-										<td colspan="2">&nbsp;</td> {/if} {if isset($outputRow[$i][0])}
+										<td colspan="2">&nbsp;</td> {/if}
+										{/if} 
+										{if isset($outputRow[$i][0])}
+										{if $plantData.output|@count > 0}
 										<td><a href="index.php?page=commodity&object={$outputRow[$i][3]}">{$outputRow[$i][0]|truncate:27:"...":true}</a></td>
 										<td class="text-right">{$outputRow[$i][1]|number_format:0:",":"."} / {if is_numeric($outputRow[$i][2])}{$outputRow[$i][2]|number_format:0:",":"."}{else}{$outputRow[$i][2]}{/if}</td>{else}
 										<td colspan="2">&nbsp;</td> {/if}
+										{/if}
 									</tr>
 									{/for}
 								</tbody>
-							</table>
+							</table>							
 						</div>
 						<div class="col-sm-3">
 							<p class="pull-right">
