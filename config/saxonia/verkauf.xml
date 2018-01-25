@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <item name="TipTrigger_Landhandel_Truck" locationType="TipTrigger" position="-1365 0 421" isSellingPoint="true" />
+  <item name="TipTrigger_PALLETSELL2" locationType="TipTrigger" position="414.403 0 -1155.99" isSellingPoint="true" />
+  <item name="TipTrigger_PALLETSELL1" locationType="TipTrigger" position="573.499 0 -1115.84" isSellingPoint="true" />
+  <item name="TipTrigger_PALLETSELL" locationType="TipTrigger" position="845 0 483" isSellingPoint="true" />
+  <item name="TipTrigger_Zuckerwerk_Nord" locationType="TipTrigger" position="471 0 -981" isSellingPoint="true" />
+  <item name="TipTrigger_Zuckerwerk_Nord04" locationType="TipTrigger" position="471 0 -981" isSellingPoint="true" />
+  <item name="TipTrigger_Zuckerwerk_Nord03" locationType="TipTrigger" position="471 0 -981" isSellingPoint="true" />
+  <item name="TipTrigger_Zuckerwerk_Nord02" locationType="TipTrigger" position="471 0 -981" isSellingPoint="true" />
+  <item name="TipTrigger_Zuckerwerk_Nord01" locationType="TipTrigger" position="471 0 -981" isSellingPoint="true" />
+  <item name="TipTrigger_CompostVerkauf" locationType="TipTrigger" position="471 0 -981" isSellingPoint="true" />
+  <item name="TipTrigger_Hafen" locationType="TipTrigger" position="50 0 -1650" isSellingPoint="true" />
+  <item name="TipTrigger_Fleisch_Wurst_heatingPlant" locationType="TipTrigger" position="50 0 -1650" isSellingPoint="true" />
+  <item name="TipTrigger_Strohverkauf" locationType="TipTrigger" position="1481 0 -1567" isSellingPoint="true" />
+  <item name="TipTrigger_Strohverkauf2" locationType="TipTrigger" position="1554 0 1913" isSellingPoint="true" />
+  <item name="TipTrigger_Strohverkauf1" locationType="TipTrigger" position="-981 0 -1537" isSellingPoint="true" />
+  <item name="TipTrigger_SAWMILL" locationType="TipTrigger" position="648 0 470" isSellingPoint="true" />
+  <item name="TipTrigger_Strohverkauf_Hof" locationType="TipTrigger" position="420 0 120" isSellingPoint="true" />
+  <item name="TipTrigger_Dresdner_Muehle" locationType="TipTrigger" position="-94 0 -186" isSellingPoint="true" />
+  <item name="TipTrigger_Strohverkauf2" locationType="TipTrigger" position="-816 0 1782" isSellingPoint="true" />
+  <item name="TipTrigger_Landhandel_Train" locationType="TipTrigger" position="-1350 0 430" isSellingPoint="true" />
+  <item name="TipTrigger_Landhandel_Train1" locationType="TipTrigger" position="-1330 0 353" isSellingPoint="true" />
+  <item name="TipTrigger_Dieselverkauf" locationType="TipTrigger" position="-1792 0 -964" isSellingPoint="true" />
+  <item name="TipTrigger_Getreide_Werner" locationType="TipTrigger" position="-1847 0 -1000" isSellingPoint="false" />
+  <item name="TipTrigger_Getreide_Werner_1" locationType="TipTrigger" position="-1847 0 -1000" isSellingPoint="false" />
+  <item name="TipTrigger_Getreide_Werner_2" locationType="TipTrigger" position="-1847 0 -1000" isSellingPoint="false" />
+  <item name="TipTrigger_Getreidehandel_Werner" locationType="TipTrigger" position="-1847 0 -1000" isSellingPoint="true" />
+  <item name="TipTrigger_Restaurant" locationType="TipTrigger" position="-1813 0 -1163.385" isSellingPoint="true" />
+  <item name="TipTrigger_KaeseHMilch" locationType="TipTrigger" position="-1808 0 -1137.075" isSellingPoint="true" />
+  <item name="TipTrigger_Saatguthandel" locationType="TipTrigger" position="-1837 0 -1232.06" isSellingPoint="true" />
+  <item name="TipTrigger_Hotel" locationType="TipTrigger" position="-1789 0 -1710" isSellingPoint="true" />
+  <item name="TipTrigger_Zuckerwerk" locationType="TipTrigger" position="-745 100 -1733" isSellingPoint="true" />
+  <l10n>
+    <text name="TipTrigger_Zuckerwerk">
+      <en>Zuckerwerk</en>
+      <de>Zuckerwerk</de>
+      <fr>Zuckerwerk</fr>
+    </text>
+    <text name="TipTrigger_Hotel">
+      <en>Hotel Steigenberger</en>
+      <de>Hotel Steigenberger</de>
+      <fr>Hotel Steigenberger</fr>
+    </text>
+    <text name="TipTrigger_Saatguthandel">
+      <en>Saatguthandel</en>
+      <de>Saatguthandel</de>
+      <fr>Saatguthandel</fr>
+    </text>
+    <text name="TipTrigger_KaeseHMilch">
+      <en>Restaurant Käse H-Milch</en>
+      <de>Restaurant Käse H-Milch</de>
+      <fr>Restaurant Käse H-Milch</fr>
+    </text>
+    <text name="TipTrigger_Restaurant">
+      <en>Restaurant</en>
+      <de>Restaurant</de>
+      <fr>Restaurant</fr>
+    </text>
+    <text name="TipTrigger_Getreidehandel_Werner">
+      <en>Getreidehandel Werner</en>
+      <de>Getreidehandel Werner</de>
+      <fr>Getreidehandel Werner</fr>
+    </text>
+    <text name="TipTrigger_Getreide_Werner">
+      <en>Getreide Werner</en>
+      <de>Getreide Werner</de>
+      <fr>Getreide Werner</fr>
+    </text>
+    <text name="TipTrigger_Getreide_Werner_1">
+      <en>Getreide Werner 1</en>
+      <de>Getreide Werner 1</de>
+      <fr>Getreide Werner 1</fr>
+    </text>
+    <text name="TipTrigger_Getreide_Werner_2">
+      <en>Getreide Werner 2</en>
+      <de>Getreide Werner 2</de>
+      <fr>Getreide Werner 2</fr>
+    </text>
+    <text name="TipTrigger_Dieselverkauf">
+      <en>Dieselverkauf</en>
+      <de>Dieselverkauf</de>
+      <fr>Dieselverkauf</fr>
+    </text>
+    <text name="TipTrigger_Landhandel_Truck">
+      <en>Landhandel</en>
+      <de>Landhandel</de>
+      <fr>Landhandel</fr>
+    </text>
+    <text name="TipTrigger_Landhandel_Train1">
+      <en>Landhandel Zugentladung Süd</en>
+      <de>Landhandel Zugentladung Süd</de>
+      <fr>Landhandel Zugentladung Süd</fr>
+    </text>
+    <text name="TipTrigger_Landhandel_Train">
+      <en>Landhandel Zugentladung Nord</en>
+      <de>Landhandel Zugentladung Nord</de>
+      <fr>Landhandel Zugentladung Nord</fr>
+    </text>
+    <text name="TipTrigger_Dresdner_Muehle">
+      <en>Dresdner Mühle</en>
+      <de>Dresdner Mühle</de>
+      <fr>Dresdner Mühle</fr>
+    </text>
+    <text name="TipTrigger_Strohverkauf_Hof">
+      <en>Strohverkauf Hof</en>
+      <de>Strohverkauf Hof</de>
+      <fr>Strohverkauf Hof</fr>
+    </text>
+    <text name="TipTrigger_SAWMILL">
+      <en>Stanton Sawmill</en>
+      <de>Stanton Sawmill</de>
+      <fr>Stanton Sawmill</fr>
+    </text>
+    <text name="TipTrigger_Strohverkauf">
+      <en>Strohverkauf</en>
+      <de>Strohverkauf</de>
+      <fr>Strohverkauf</fr>
+    </text>
+    <text name="TipTrigger_Strohverkauf1">
+      <en>Strohverkauf 1</en>
+      <de>Strohverkauf 1</de>
+      <fr>Strohverkauf 1</fr>
+    </text>
+    <text name="TipTrigger_Strohverkauf2">
+      <en>Strohverkauf 2</en>
+      <de>Strohverkauf 2</de>
+      <fr>Strohverkauf 2</fr>
+    </text>
+    <text name="TipTrigger_Strohverkauf3">
+      <en>Strohverkauf 3</en>
+      <de>Strohverkauf 3</de>
+      <fr>Strohverkauf 3</fr>
+    </text>
+    <text name="TipTrigger_PALLETSELL2">
+      <en>EKZ</en>
+      <de>EKZ</de>
+      <fr>EKZ</fr>
+    </text>
+    <text name="TipTrigger_PALLETSELL1">
+      <en>Kaufland</en>
+      <de>Kaufland</de>
+      <fr>Kaufland</fr>
+    </text>
+    <text name="TipTrigger_PALLETSELL">
+      <en>Milchannahme Heuer</en>
+      <de>Milchannahme Heuer</de>
+      <fr>Milchannahme Heuer</fr>
+    </text>
+    <text name="TipTrigger_Zuckerwerk_Nord">
+      <en>Fruchthandel Zugentladung</en>
+      <de>Fruchthandel Zugentladung</de>
+      <fr>Fruchthandel Zugentladung</fr>
+    </text>
+    <text name="TipTrigger_Zuckerwerk_Nord04">
+      <en>Fruchthandel Ankauf Gülle</en>
+      <de>Fruchthandel Ankauf Gülle</de>
+      <fr>Fruchthandel Ankauf Gülle</fr>
+    </text>
+    <text name="TipTrigger_Zuckerwerk_Nord03">
+      <en>Fruchthandel Rampe Raufutter</en>
+      <de>Fruchthandel Rampe Raufutter</de>
+      <fr>Fruchthandel Rampe Raufutter</fr>
+    </text>
+    <text name="TipTrigger_Zuckerwerk_Nord01">
+      <en>Fruchthandel Rampe Erdfrüchte</en>
+      <de>Fruchthandel Rampe Erdfrüchte</de>
+      <fr>Fruchthandel Rampe Erdfrüchte</fr>
+    </text>
+    <text name="TipTrigger_Zuckerwerk_Nord02">
+      <en>Fruchthandel Rampe Getreide</en>
+      <de>Fruchthandel Rampe Getreide</de>
+      <fr>Fruchthandel Rampe Getreide</fr>
+    </text>
+    <text name="TipTrigger_CompostVerkauf">
+      <en>Kompost Verkauf</en>
+      <de>Kompost Verkauf</de>
+      <fr>Kompost Verkauf</fr>
+    </text>
+    <text name="TipTrigger_Hafen">
+      <en>Hafen</en>
+      <de>Hafen</de>
+      <fr>Hafen</fr>
+    </text>
+    <text name="TipTrigger_Fleisch_Wurst_heatingPlant">
+      <en>Fleisch Ankauf Hafen</en>
+      <de>Fleisch Ankauf Hafen</de>
+      <fr>Fleisch Ankauf Hafen</fr>
+    </text>
+  </l10n>
+</mapconfig>

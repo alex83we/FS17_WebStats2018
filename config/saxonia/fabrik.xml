@@ -136,4 +136,64 @@
     <input name="Leerpaletten" capacity="3024000" factor="1" fillTypes="emptypallet" showInStorage="false"/>
     <output name="Leerpaletten" capacity="7000" factor="1" fillType="emptypallet" palettArea="1991.385 829.479 1993.847 856.22" palettPlaces="13" showInStorage="false"/>
   </item>
+  <item name="FabrikScript_Salzfabrik" locationType="FabrikScript" ProdPerHour="5000" position="-768.98 100 -1748.83" showInProduction="true">
+    <input name="Wasser" capacity="100000" factor="0" fillTypes="water" showInStorage="false"/>
+    <output name="Salz" capacity="150000" factor="2" fillType="salt" showInStorage="true"/>
+  </item>
+  <item name="slow_saw" locationType="FabrikScript" ProdPerHour="8000" position="680 0 485" showInProduction="true">
+    <input name="Brennstoffe" capacity="100000" factor="0.8" fillTypes="straw woodChips wool" showInStorage="false"/>
+    <input name="Holz" capacity="100000" factor="1" fillTypes="woodChips" showInStorage="false"/>
+    <output name="Hackschnitzel" capacity="1000000" factor="0.8" fillType="woodChips" showInStorage="true"/>
+    <output name="Bretterpalette" capacity="4000" factor="1" fillType="woodChips" palettArea="685.554 485.126 687.79 456.796" palettPlaces="14" showInStorage="false"/>
+  </item>
+  <item name="FabrikScript_SaatgutLager" locationType="FabrikScript" ProdPerHour="2147483647" position="404.295 100 26.354" showInProduction="true">
+    <input name="FS_Seeds" capacity="500000" factor="1" fillTypes="seeds" showInStorage="false" showInProduction="false"/>
+    <output name="FS_Seeds" capacity="500000" factor="1" fillType="seeds" showInStorage="true"/>
+  </item>
+  <item name="slow_saw1" locationType="FabrikScript" ProdPerHour="8000" position="1544.792 0 884.285" showInProduction="true">
+    <input name="Brennstoffe" capacity="100000" factor="0.8" fillTypes="straw woodChips wool" showInStorage="false"/>
+    <input name="Holz" capacity="100000" factor="1" fillTypes="woodChips" showInStorage="false"/>
+    <output name="Hackschnitzel" capacity="1000000" factor="0.8" fillType="woodChips" showInStorage="true"/>
+    <output name="Bretterpalette" capacity="4000" factor="1" fillType="woodChips" palettArea="1524.688 855.807 1522.359 884.21" palettPlaces="14" showInStorage="false"/>
+  </item>
+  <item name="FabrikScript_Schlachterei" locationType="FabrikScript" ProdPerHour="30000" position="946.072 99.7756 -920.641" showInProduction="true">
+    <input name="Tier_Anlieferung" capacity="400" factor="1" fillTypes="pig cow sheep" showInStorage="false"/>
+    <input name="Leerpaletten" capacity="42000" factor="1" fillTypes="emptypallet" showInStorage="false"/>
+    <output name="Wurst" capacity="100000" factor="300" fillType="sausage" showInStorage="true"/>
+    <output name="Fleisch" capacity="100000" factor="550" fillType="meat" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Zuckerwerk" locationType="FabrikScript" ProdPerHour="2000" position="-745.181 100 -1733.86" showInProduction="true">
+    <input name="Zuckerrueben" capacity="1000000" factor="1" fillTypes="sugarBeet" showInStorage="false"/>
+    <input name="Leerpaletten" capacity="42000" factor="1" fillTypes="emptypallet" showInStorage="false"/>
+    <output name="Zucker" capacity="2000" factor="1" fillType="sugar" palettArea="-695.489 -1733.992 -717.689 -1731.581" palettPlaces="11" showInStorage="false"/>
+  </item>
+  <item name="FabrikScript_Schweinefutterstation" locationType="FabrikScript" ProdPerHour="20000" position="354.026 100 14.231" showInProduction="true">
+    <input name="Getreide" capacity="100000" factor="0.6" fillTypes="wheat barley maize oat triticale spelt rye" showInStorage="false"/>
+    <input name="Proteine" capacity="100000" factor="0.3" fillTypes="rape sunflower soybean millet" showInStorage="false"/>
+    <input name="Erdfruechten" capacity="100000" factor="0.1" fillTypes="potato sugarBeet" showInStorage="false"/>
+    <output name="Schweinefutter" capacity="150000" factor="0.935" fillType="pigFood" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Seeds" locationType="FabrikScript" ProdPerHour="5000" position="-1747 100 876.506" showInProduction="true">
+    <input name="grain" capacity="20000" factor="1" fillTypes="wheat maize barley rape" showInStorage="false"/>
+    <input name="fertilizer" capacity="20000" factor="1" fillTypes="fertilizer" showInStorage="false"/>
+    <output name="seeds" capacity="60000" factor="1" fillType="seeds" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_slurryStorage" locationType="FabrikScript" ProdPerHour="2147483647" position="432.649 100 -198.982" showInProduction="true">
+    <input name="Input1_GL" capacity="500000" factor="1" fillTypes="liquidManure" showInStorage="false" showInProduktion="false"/>
+    <output name="Output1_GL" capacity="500000" factor="1" fillType="liquidManure" showInStorage="true" />
+  </item>
+  <item name="FabrikScript_Weberei" locationType="FabrikScript" ProdPerHour="5000" position="23.441 -0.00377626 -9.551" showInProduction="true">
+    <input name="Wolle" capacity="200000" factor="1" fillTypes="wool" showInStorage="false"/>
+    <input name="Diesel" capacity="100000" factor="0.6" fillTypes="fuel" showInStorage="false"/>
+    <input name="Gestelle" capacity="27000" factor="1" fillTypes="gestellMK" showInStorage="false"/>
+    <output name="Stoffrolle" capacity="12000" factor="1" fillType="stoffrolleMK" palettArea="-1082.274 -437.577 -1104.667 -431.474" palettPlaces="31" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Wurstlager" locationType="FabrikScript" ProdPerHour="2147483647" position="96.8394 100 -2033.59" showInProduction="true">
+    <input name="Wurst" capacity="1000000" factor="0.95" fillTypes="sausage" showInStorage="false"/>
+    <output name="Wurst" capacity="1500000" factor="0.95" fillType="sausage" showInStorage="true"/>
+  </item>
+  <item name="FabrikScript_Zuckerlager" locationType="FabrikScript" ProdPerHour="2147483647" position="96.839 100 -2033.59" showInProduction="true">
+    <input name="Zucker" capacity="100000" factor="1" fillTypes="sugar" showInStorage="false"/>
+    <output name="Zucker" capacity="150000" factor="1" fillType="sugar" showInStorage="true"/>
+  </item>
 </mapconfig>

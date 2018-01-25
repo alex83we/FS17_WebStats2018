@@ -103,59 +103,119 @@
       <fr>Käselager</fr>
     </text>
     <text name="FabrikScript_Lager_H_Milch">
-      <de>FabrikScript_Lager_H_Milch</de>
-      <en>{FabrikScript_Lager_H_Milch}</en>
-      <fr>{FabrikScript_Lager_H_Milch}</fr>
+      <de>Lager_H_Milch</de>
+      <en>Lager_H_Milch</en>
+      <fr>Lager_H_Milch</fr>
     </text>
     <text name="FabrikScript_Mischfutterstation">
-      <de>FabrikScript_Mischfutterstation</de>
-      <en>{FabrikScript_Mischfutterstation}</en>
-      <fr>{FabrikScript_Mischfutterstation}</fr>
+      <de>Mischfutterstation</de>
+      <en>Mischfutterstation</en>
+      <fr>Mischfutterstation</fr>
     </text>
     <text name="FabrikScript_liquidFertilizer">
-      <de>FabrikScript_liquidFertilizer</de>
-      <en>{FabrikScript_liquidFertilizer}</en>
-      <fr>{FabrikScript_liquidFertilizer}</fr>
+      <de>liquidFertilizer</de>
+      <en>liquidFertilizer</en>
+      <fr>liquidFertilizer</fr>
     </text>
     <text name="FabrikScript_LiquidFertilizerStorage">
-      <de>FabrikScript_LiquidFertilizerStorage</de>
-      <en>{FabrikScript_LiquidFertilizerStorage}</en>
-      <fr>{FabrikScript_LiquidFertilizerStorage}</fr>
+      <de>LiquidFertilizerStorage</de>
+      <en>LiquidFertilizerStorage</en>
+      <fr>LiquidFertilizerStorage</fr>
     </text>
     <text name="FabrikScript_Milchverkauf">
-      <de>FabrikScript_Milchverkauf</de>
-      <en>{FabrikScript_Milchverkauf}</en>
-      <fr>{FabrikScript_Milchverkauf}</fr>
+      <de>Milchverkauf</de>
+      <en>Milchverkauf</en>
+      <fr>Milchverkauf</fr>
     </text>
     <text name="FabrikScript_Raffinerie">
-      <de>FabrikScript_Raffinerie</de>
-      <en>{FabrikScript_Raffinerie}</en>
-      <fr>{FabrikScript_Raffinerie}</fr>
+      <de>Raffinerie</de>
+      <en>Raffinerie</en>
+      <fr>Raffinerie</fr>
     </text>
     <text name="FabrikScript_Molkerei">
-      <de>FabrikScript_Molkerei</de>
-      <en>{FabrikScript_Molkerei}</en>
-      <fr>{FabrikScript_Molkerei}</fr>
+      <de>Molkerei</de>
+      <en>Molkerei</en>
+      <fr>Molkerei</fr>
     </text>
     <text name="FabrikScript_Muehle">
-      <de>FabrikScript_Muehle</de>
-      <en>{FabrikScript_Muehle}</en>
-      <fr>{FabrikScript_Muehle}</fr>
+      <de>Muehle</de>
+      <en>Muehle</en>
+      <fr>Muehle</fr>
     </text>
     <text name="FabrikScript_Paletten_Fabrik1">
-      <de>FabrikScript_Paletten_Fabrik1</de>
-      <en>{FabrikScript_Paletten_Fabrik1}</en>
-      <fr>{FabrikScript_Paletten_Fabrik1}</fr>
+      <de>Paletten Fabrik 1</de>
+      <en>Paletten Fabrik 1</en>
+      <fr>Paletten Fabrik 1</fr>
     </text>
     <text name="FabrikScript_Paletten_Fabrik2">
-      <de>FabrikScript_Paletten_Fabrik2</de>
-      <en>{FabrikScript_Paletten_Fabrik2}</en>
-      <fr>{FabrikScript_Paletten_Fabrik2}</fr>
+      <de>Paletten Fabrik 2</de>
+      <en>Paletten Fabrik 2</en>
+      <fr>Paletten Fabrik 2</fr>
     </text>
     <text name="FabrikScript_Palettenlager">
-      <de>FabrikScript_Palettenlager</de>
-      <en>{FabrikScript_Palettenlager}</en>
-      <fr>{FabrikScript_Palettenlager}</fr>
+      <de>Palettenlager</de>
+      <en>Palettenlager</en>
+      <fr>Palettenlager</fr>
+    </text>
+    <text name="slow_saw">
+      <de>Saegewerk 1</de>
+      <en>Saegewerk 1</en>
+      <fr>Saegewerk 1</fr>
+    </text>
+    <text name="slow_saw1">
+      <de>Saegewerk 2</de>
+      <en>Saegewerk 2</en>
+      <fr>Saegewerk 2</fr>
+    </text>
+    <text name="FabrikScript_Schlachterei">
+      <de>Schlachterei</de>
+      <en>Schlachterei</en>
+      <fr>Schlachterei</fr>
+    </text>
+    <text name="FabrikScript_SaatgutLager">
+      <de>SaatgutLager</de>
+      <en>SaatgutLager</en>
+      <fr>SaatgutLager</fr>
+    </text>
+    <text name="FabrikScript_Salzfabrik">
+      <de>Salzfabrik</de>
+      <en>Salzfabrik</en>
+      <fr>Salzfabrik</fr>
+    </text>
+    <text name="FabrikScript_Zuckerwerk">
+      <de>Zuckerwerk</de>
+      <en>Zuckerwerk</en>
+      <fr>Zuckerwerk</fr>
+    </text>
+    <text name="FabrikScript_Schweinefutterstation">
+      <de>Schweinefutterstation</de>
+      <en>Schweinefutterstation</en>
+      <fr>Schweinefutterstation</fr>
+    </text>
+    <text name="FabrikScript_Seeds">
+      <de>Seeds</de>
+      <en>Seeds</en>
+      <fr>Seeds</fr>
+    </text>
+    <text name="FabrikScript_slurryStorage">
+      <de>slurryStorage</de>
+      <en>slurryStorage</en>
+      <fr>slurryStorage</fr>
+    </text>
+    <text name="FabrikScript_Weberei">
+      <de>Weberei</de>
+      <en>Weberei</en>
+      <fr>Weberei</fr>
+    </text>
+    <text name="FabrikScript_Wurstlager">
+      <de>Wurstlager</de>
+      <en>Wurstlager</en>
+      <fr>Wurstlager</fr>
+    </text>
+    <text name="FabrikScript_Zuckerlager">
+      <de>Zuckerlager</de>
+      <en>Zuckerlager</en>
+      <fr>Zuckerlager</fr>
     </text>
     <!-- Fruchtsorten -->
     <text name="Gerste">
@@ -381,23 +441,23 @@
     </text>
     <text name="H-Milch">
       <de>H-Milch</de>
-      <en>{H-Milch}</en>
-      <fr>{H-Milch}</fr>
+      <en>H-Milch</en>
+      <fr>H-Milch</fr>
     </text>
     <text name="hmilk">
       <de>H-Milch</de>
-      <en>{H-Milch}</en>
-      <fr>{H-Milch}</fr>
+      <en>H-Milch</en>
+      <fr>H-Milch</fr>
     </text>
     <text name="Mischfutter">
       <de>Mischfutter</de>
-      <en>{Mischfutter}</en>
-      <fr>{Mischfutter}</fr>
+      <en>Mischfutter</en>
+      <fr>Mischfutter</fr>
     </text>
     <text name="forage">
       <de>Mischfutter</de>
-      <en>{Mischfutter}</en>
-      <fr>{Mischfutter}</fr>
+      <en>Mischfutter</en>
+      <fr>Mischfutter</fr>
     </text>
     <text name="Gras">
       <en>Grass</en>
@@ -413,75 +473,193 @@
       <en>Liquid fertilizer</en>
       <de>Flüssigdünger</de>
       <fr>Engrais liquide</fr>
-    </text>	  
-        <text name="Input1_LF"><de>Flüssigdünger</de><en>liquidFertilizer</en><fr>liquidFertilizer</fr></text>
-		<text name="Output1_LF"><de>Flüssigdünger</de><en>liquidFertilizer</en><fr>liquidFertilizer</fr></text>
+    </text>
+    <text name="Input1_LF">
+      <de>Flüssigdünger</de>
+      <en>liquidFertilizer</en>
+      <fr>liquidFertilizer</fr>
+    </text>
+    <text name="Output1_LF">
+      <de>Flüssigdünger</de>
+      <en>liquidFertilizer</en>
+      <fr>liquidFertilizer</fr>
+    </text>
     <text name="output_sellTrigger_milk">
-			<en>Milk</en>
-			<de>Milch</de>
-			<fr>Lait</fr>
+      <en>Milk</en>
+      <de>Milch</de>
+      <fr>Lait</fr>
     </text>
     <text name="milk">
-			<en>Milk</en>
-			<de>Milch</de>
-			<fr>Lait</fr>
+      <en>Milk</en>
+      <de>Milch</de>
+      <fr>Lait</fr>
     </text>
     <text name="Input1_ML">
-			<en>Milk</en>
-			<de>Milch</de>
-			<fr>Lait</fr>
+      <en>Milk</en>
+      <de>Milch</de>
+      <fr>Lait</fr>
     </text>
     <text name="Tip_RS">
-			<en>Canola</en>
-			<de>Raps</de>
-			<fr>Colza</fr>
+      <en>Canola</en>
+      <de>Raps</de>
+      <fr>Colza</fr>
     </text>
     <text name="RS_forage">
-			<en>Forage</en>
-			<de>Mischfutter</de>
-			<fr>Aliments composés</fr>
+      <en>Forage</en>
+      <de>Mischfutter</de>
+      <fr>Aliments composés</fr>
     </text>
     <text name="RM_Output">
-			<en>Fuel</en>
-			<de>Treibstoff</de>
-			<fr>Carburant</fr>
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
     </text>
     <text name="Milch">
-			<en>Milk</en>
-			<de>Milch</de>
-			<fr>Lait</fr>
+      <en>Milk</en>
+      <de>Milch</de>
+      <fr>Lait</fr>
     </text>
     <text name="Sojabohnen">
-			<en>Soybean</en>
-			<de>Sojabohnen</de>
-			<fr>Soja</fr>
+      <en>Soybean</en>
+      <de>Sojabohnen</de>
+      <fr>Soja</fr>
     </text>
     <text name="Sojamilch">
       <de>Sojamilch</de>
-      <en>{Sojamilch}</en>
-      <fr>{Sojamilch}</fr>
+      <en>Sojamilch</en>
+      <fr>Sojamilch</fr>
     </text>
     <text name="soymilk">
       <de>Sojamilch</de>
-      <en>{Sojamilch}</en>
-      <fr>{Sojamilch}</fr>
+      <en>Sojamilch</en>
+      <fr>Sojamilch</fr>
     </text>
     <text name="Getreide">
       <de>Getreide</de>
-      <en>{Getreide}</en>
-      <fr>{Getreide}</fr>
+      <en>Getreide</en>
+      <fr>Getreide</fr>
+    </text>
+    <text name="Brennstoffe">
+      <de>Brennstoffe</de>
+      <en>Brennstoffe</en>
+      <fr>Brennstoffe</fr>
+    </text>
+    <text name="wool">
+      <en>Wool</en>
+      <de>Wolle</de>
+      <fr>Laine</fr>
+    </text>
+    <text name="Bretterpalette">
+      <de>Bretterpaletten</de>
+      <en>Bretterpaletten</en>
+      <fr>Bretterpaletten</fr>
+    </text>
+    <text name="Tier_Anlieferung">
+      <de>Tier Anlieferung</de>
+      <en>Tier Anlieferung</en>
+      <fr>Tier Anlieferung</fr>
+    </text>
+    <text name="Wurst">
+      <de>Wurst</de>
+      <en>Wurst</en>
+      <fr>Wurst</fr>
+    </text>
+    <text name="sausage">
+      <de>Wurst</de>
+      <en>Wurst</en>
+      <fr>Wurst</fr>
+    </text>
+    <text name="Fleisch">
+      <de>Fleisch</de>
+      <en>Fleisch</en>
+      <fr>Fleisch</fr>
+    </text>
+    <text name="meat">
+      <de>Fleisch</de>
+      <en>Fleisch</en>
+      <fr>Fleisch</fr>
+    </text>
+    <text name="Zucker">
+      <de>Zucker</de>
+      <en>Zucker</en>
+      <fr>Zucker</fr>
+    </text>
+    <text name="sugar">
+      <de>Zucker</de>
+      <en>Zucker</en>
+      <fr>Zucker</fr>
+    </text>
+    <text name="Zuckerrueben">
+      <de>Zuckerrüben</de>
+      <en>Zuckerrüben</en>
+      <fr>Zuckerrüben</fr>
+    </text>
+    <text name="Erdfruechten">
+      <de>Erdfrüchte</de>
+      <en>Erdfruechten</en>
+      <fr>Erdfruechten</fr>
+    </text>
+    <text name="Proteine">
+      <de>Proteine</de>
+      <en>Proteine</en>
+      <fr>Proteine</fr>
+    </text>
+    <text name="Schweinefutter">
+      <de>Schweinefutter</de>
+      <en>Schweinefutter</en>
+      <fr>Schweinefutter</fr>
+    </text>
+    <text name="grain">
+      <de>Getreide</de>
+      <en>Getreide</en>
+      <fr>Getreide</fr>
+    </text>
+    <text name="Input1_GL">
+      <de>Gülle</de>
+      <en>Slurry</en>
+      <fr>Slurry</fr>
+    </text>
+    <text name="Output1_GL">
+      <de>Gülle</de>
+      <en>Slurry</en>
+      <fr>Slurry</fr>
+    </text>
+    <text name="Diesel">
+      <de>Treibstoff</de>
+      <en>Fuel</en>
+      <fr>Carburant</fr>
+    </text>
+    <text name="Wolle">
+      <de>Wolle</de>
+      <en>Wolle</en>
+      <fr>Wolle</fr>
+    </text>
+    <text name="Stoffrolle">
+      <de>Stoffrolle</de>
+      <en>Stoffrolle</en>
+      <fr>Stoffrolle</fr>
+    </text>
+    <text name="stoffrolleMK">
+      <de>Stoffrolle</de>
+      <en>Stoffrolle</en>
+      <fr>Stoffrolle</fr>
+    </text>
+    <text name="stoffrolle">
+      <de>Stoffrolle</de>
+      <en>Stoffrolle</en>
+      <fr>Stoffrolle</fr>
     </text>
     <!-- Paletten -->
     <!--<text name="mehlpalette">
       <en></en>
       <de></de>
       <fr></fr>
-    </text>
-    <text name="sugarpallet">
-      <en></en>
-      <de></de>
-      <fr></fr>
     </text>-->
+    <text name="sugarpallet">
+      <de>Zucker</de>
+      <en>Zucker</en>
+      <fr>Zucker</fr>
+    </text>
     <text name="Bierpalette">
       <de>Bier</de>
       <en>Bier</en>
@@ -494,18 +672,23 @@
     </text>
     <text name="soymilkPallet">
       <de>Sojamilch</de>
-      <en>{Sojamilch}</en>
-      <fr>{Sojamilch}</fr>
+      <en>Sojamilch</en>
+      <fr>Sojamilch</fr>
     </text>
     <text name="hmilkPallet">
       <de>H-Milch</de>
-      <en>{H-Milch}</en>
-      <fr>{H-Milch}</fr>
+      <en>H-Milch</en>
+      <fr>H-Milch</fr>
     </text>
     <text name="cheesePallet">
       <de>Käse</de>
       <en>Kaese</en>
       <fr>Kaese</fr>
+    </text>
+    <text name="boardPallet">
+      <de>Bretterpaletten</de>
+      <en>Bretterpaletten</en>
+      <fr>Bretterpaletten</fr>
     </text>
   </l10n>
 </mapconfig>
