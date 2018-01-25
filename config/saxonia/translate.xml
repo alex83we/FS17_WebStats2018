@@ -1,10 +1,511 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mapconfig>
   <l10n>
-    <text name="">
+    <!-- Fabrikbezeichnungen -->
+    <text name="FabrikScript_Baeckerei">
+      <de>Baeckerei</de>
+      <en>Baeckerei</en>
+      <fr>Baeckerei</fr>
+    </text>
+    <text name="FabrikScript_Brauerei">
+      <de>Brauerei</de>
+      <en>Brauerei</en>
+      <fr>Brauerei</fr>
+    </text>
+    <text name="FabrikScript_Brotlager">
+      <de>Brotlager</de>
+      <en>Brotlager</en>
+      <fr>Brotlager</fr>
+    </text>
+    <text name="FabrikScript_compostMaster2k17">
+      <de>Kompostmaster 2k17</de>
+      <en>Compostmaster 2k17</en>
+      <fr>Compostmaster 2k17</fr>
+    </text>
+    <text name="FabrikScript_Diesellager">
+      <de>Diesellager</de>
+      <en>Diesellager</en>
+      <fr>Diesellager</fr>
+    </text>
+    <text name="FabrikScript_Dieselverkauf">
+      <de>Dieselverkauf</de>
+      <en>Dieselverkauf</en>
+      <fr>Dieselverkauf</fr>
+    </text>
+    <text name="FabrikScript_digestateStorage">
+      <de>Gärrestelagerung</de>
+      <en>Gärrestelagerung</en>
+      <fr>Gärrestelagerung</fr>
+    </text>
+    <text name="FabrikScript_Fermenter">
+      <de>Fermenter</de>
+      <en>Fermenter</en>
+      <fr>Fermenter</fr>
+    </text>
+    <text name="FabrikScript_Fertilizer">
+      <de>Fertilizer</de>
+      <en>Fertilizer</en>
+      <fr>Fertilizer</fr>
+    </text>
+    <text name="FabrikScript_FertilizerStorage">
+      <de>Düngerlager</de>
+      <en>Düngerlager</en>
+      <fr>Düngerlager</fr>
+    </text>
+    <text name="FabrikScript_Fleischlager">
+      <de>Fleischlager</de>
+      <en>Fleischlager</en>
+      <fr>Fleischlager</fr>
+    </text>
+    <text name="FabrikScript_Gestelle_Fabrik">
+      <de>Gestelle_Fabrik</de>
+      <en>Gestelle_Fabrik</en>
+      <fr>Gestelle_Fabrik</fr>
+    </text>
+    <text name="FabrikScript_Holzhacker">
+      <de>Holzhacker</de>
+      <en>Holzhacker</en>
+      <fr>Holzhacker</fr>
+    </text>
+    <text name="FabrikScript_Hopfenfarm">
+      <de>Hopfenfarm</de>
+      <en>Hopfenfarm</en>
+      <fr>Hopfenfarm</fr>
+    </text>
+    <text name="FabrikScript_Holzhacker">
+      <de>Holzhacker</de>
+      <en>Holzhacker</en>
+      <fr>Holzhacker</fr>
+    </text>
+    <text name="FabrikScript_Kerosinverkauf">
+      <de>Kerosinverkauf</de>
+      <en>Kerosinverkauf</en>
+      <fr>Kerosinverkauf</fr>
+    </text>
+    <text name="FabrikScript_Intermediate_storage_cow">
+      <de>Zwischenlager (Kühe)</de>
+      <en>Intermediate storage cow</en>
+      <fr>Intermediate storage cow</fr>
+    </text>
+    <text name="FabrikScript_Intermediate_storage_pig">
+      <de>Zwischenlager (Schweine)</de>
+      <en>Intermediate storage pig</en>
+      <fr>Intermediate storage pig</fr>
+    </text>
+    <text name="FabrikScript_Intermediate_storage_sheep">
+      <de>Zwischenlager (Schafe)</de>
+      <en>Intermediate storage sheep</en>
+      <fr>Intermediate storage sheep</fr>
+    </text>
+    <text name="FabrikScript_Kaeselager">
+      <de>Käselager</de>
+      <en>Käselager</en>
+      <fr>Käselager</fr>
+    </text>
+    <text name="FabrikScript_Lager_H_Milch">
+      <de>FabrikScript_Lager_H_Milch</de>
+      <en>{FabrikScript_Lager_H_Milch}</en>
+      <fr>{FabrikScript_Lager_H_Milch}</fr>
+    </text>
+    <text name="FabrikScript_Mischfutterstation">
+      <de>FabrikScript_Mischfutterstation</de>
+      <en>{FabrikScript_Mischfutterstation}</en>
+      <fr>{FabrikScript_Mischfutterstation}</fr>
+    </text>
+    <text name="FabrikScript_liquidFertilizer">
+      <de>FabrikScript_liquidFertilizer</de>
+      <en>{FabrikScript_liquidFertilizer}</en>
+      <fr>{FabrikScript_liquidFertilizer}</fr>
+    </text>
+    <text name="FabrikScript_LiquidFertilizerStorage">
+      <de>FabrikScript_LiquidFertilizerStorage</de>
+      <en>{FabrikScript_LiquidFertilizerStorage}</en>
+      <fr>{FabrikScript_LiquidFertilizerStorage}</fr>
+    </text>
+    <text name="FabrikScript_Milchverkauf">
+      <de>FabrikScript_Milchverkauf</de>
+      <en>{FabrikScript_Milchverkauf}</en>
+      <fr>{FabrikScript_Milchverkauf}</fr>
+    </text>
+    <text name="FabrikScript_Raffinerie">
+      <de>FabrikScript_Raffinerie</de>
+      <en>{FabrikScript_Raffinerie}</en>
+      <fr>{FabrikScript_Raffinerie}</fr>
+    </text>
+    <text name="FabrikScript_Molkerei">
+      <de>FabrikScript_Molkerei</de>
+      <en>{FabrikScript_Molkerei}</en>
+      <fr>{FabrikScript_Molkerei}</fr>
+    </text>
+    <text name="FabrikScript_Muehle">
+      <de>FabrikScript_Muehle</de>
+      <en>{FabrikScript_Muehle}</en>
+      <fr>{FabrikScript_Muehle}</fr>
+    </text>
+    <text name="FabrikScript_Paletten_Fabrik1">
+      <de>FabrikScript_Paletten_Fabrik1</de>
+      <en>{FabrikScript_Paletten_Fabrik1}</en>
+      <fr>{FabrikScript_Paletten_Fabrik1}</fr>
+    </text>
+    <text name="FabrikScript_Paletten_Fabrik2">
+      <de>FabrikScript_Paletten_Fabrik2</de>
+      <en>{FabrikScript_Paletten_Fabrik2}</en>
+      <fr>{FabrikScript_Paletten_Fabrik2}</fr>
+    </text>
+    <text name="FabrikScript_Palettenlager">
+      <de>FabrikScript_Palettenlager</de>
+      <en>{FabrikScript_Palettenlager}</en>
+      <fr>{FabrikScript_Palettenlager}</fr>
+    </text>
+    <!-- Fruchtsorten -->
+    <text name="Gerste">
+      <de>Gerste</de>
+      <en>Gerste</en>
+      <fr>Gerste</fr>
+    </text>
+    <text name="Sonnenblumenkerne">
+      <de>Sonnenblumen</de>
+      <en>Sonnenblumen</en>
+      <fr>Sonnenblumen</fr>
+    </text>
+    <text name="cm_inputWaste">
+      <de>Abfall</de>
+      <en>compost</en>
+      <fr>compost</fr>
+    </text>
+    <text name="compost">
+      <de>Kompost</de>
+      <en>compost</en>
+      <fr>compost</fr>
+    </text>
+    <text name="Kompost">
+      <de>Kompost</de>
+      <en>compost</en>
+      <fr>compost</fr>
+    </text>
+    <text name="cm_inputFuel">
+      <de>Treibstoff</de>
+      <en>Fuel</en>
+      <fr>Carburant</fr>
+    </text>
+    <text name="fuel">
+      <de>Treibstoff</de>
+      <en>Fuel</en>
+      <fr>Carburant</fr>
+    </text>
+    <text name="cm_outputCompost">
+      <de>Kompost</de>
+      <en>cm_outputCompost</en>
+      <fr>cm_outputCompost</fr>
+    </text>
+    <text name="grass">
+      <en>Grass</en>
+      <de>Gras</de>
+      <fr>Herbe</fr>
+    </text>
+    <!-- Produktion -->
+    <text name="Mehl">
+      <de>Mehl</de>
+      <en>Mehl</en>
+      <fr>Mehl</fr>
+    </text>
+    <text name="flour">
+      <de>Mehl</de>
+      <en>Mehl</en>
+      <fr>Mehl</fr>
+    </text>
+    <text name="Salz">
+      <de>Salz</de>
+      <en>Salz</en>
+      <fr>Salz</fr>
+    </text>
+    <text name="salt">
+      <de>Salz</de>
+      <en>Salz</en>
+      <fr>Salz</fr>
+    </text>
+    <text name="Brot">
+      <de>Brot</de>
+      <en>Brot</en>
+      <fr>Brot</fr>
+    </text>
+    <text name="bread">
+      <de>Brot</de>
+      <en>Brot</en>
+      <fr>Brot</fr>
+    </text>
+    <text name="Hopfen">
+      <de>Hopfen</de>
+      <en>Hopfen</en>
+      <fr>Hopfen</fr>
+    </text>
+    <text name="hops">
+      <de>Hopfen</de>
+      <en>Hopfen</en>
+      <fr>Hopfen</fr>
+    </text>
+    <text name="Bier">
+      <de>Bier</de>
+      <en>Bier</en>
+      <fr>Bier</fr>
+    </text>
+    <text name="beer">
+      <de>Bier</de>
+      <en>Bier</en>
+      <fr>Bier</fr>
+    </text>
+    <text name="Leerpaletten">
+      <de>Leerpaletten</de>
+      <en>Leerpaletten</en>
+      <fr>Leerpaletten</fr>
+    </text>
+    <text name="emptypallet">
+      <de>Leerpaletten</de>
+      <en>Leerpaletten</en>
+      <fr>Leerpaletten</fr>
+    </text>
+    <text name="HFUIN">
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
+    </text>
+    <text name="FUOUT">
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
+    </text>
+    <text name="output_sellTrigger_fuel">
+      <de>Treibstoff im Verkauf</de>
+      <en>Fuel on sale</en>
+      <fr>Carburant en vente</fr>
+    </text>
+    <text name="Input1_DS">
+      <de>Treibstoff</de>
+      <en>Fuel</en>
+      <fr>Carburant</fr>
+    </text>
+    <text name="Input1_DL">
+      <de>Gärreste</de>
+      <en>Digestate</en>
+      <fr>Digestate</fr>
+    </text>
+    <text name="Output1_DL">
+      <de>Gärreste</de>
+      <en>Digestate</en>
+      <fr>Digestate</fr>
+    </text>
+    <text name="Silage">
+      <de>Silage</de>
+      <en>Silage</en>
+      <fr>Silage</fr>
+    </text>
+    <text name="Haeckselgut">
+      <de>Haeckselgut</de>
+      <en>Haeckselgut</en>
+      <fr>Haeckselgut</fr>
+    </text>
+    <text name="FS_fertilizer">
+      <de>Dünger</de>
+      <en>Fertilizer</en>
+      <fr>Fertilizer</fr>
+    </text>
+    <text name="Fleisch">
+      <de>Fleisch</de>
+      <en>Fleisch</en>
+      <fr>Fleisch</fr>
+    </text>
+    <text name="meat">
+      <de>Fleisch</de>
+      <en>Fleisch</en>
+      <fr>Fleisch</fr>
+    </text>
+    <text name="liquidManure">
+      <en>Liquid manure</en>
+      <de>Gülle</de>
+      <fr>Lisier</fr>
+    </text>
+    <text name="Gestelle">
+      <de>Gestelle</de>
+      <en>Gestelle</en>
+      <fr>Gestelle</fr>
+    </text>
+    <text name="gestellMK">
+      <de>Gestelle</de>
+      <en>Gestelle</en>
+      <fr>Gestelle</fr>
+    </text>
+    <text name="stoffgestell">
+      <de>Gestelle</de>
+      <en>Gestelle</en>
+      <fr>Gestelle</fr>
+    </text>
+    <text name="boardwood">
+      <de>Bretterpaletten</de>
+      <en>boards</en>
+      <fr>boards</fr>
+    </text>
+    <text name="Holz">
+      <de>Holz</de>
+      <en>Holz</en>
+      <fr>Holz</fr>
+    </text>
+    <text name="Hackschnitzel">
+      <de>Hackschnitzel</de>
+      <en>Hackschnitzel</en>
+      <fr>Hackschnitzel</fr>
+    </text>
+    <text name="cows">
+      <de>Kühe</de>
+      <en>cow</en>
+      <fr>cow</fr>
+    </text>
+    <text name="pigs">
+      <de>Schweine</de>
+      <en>pig</en>
+      <fr>pig</fr>
+    </text>
+    <text name="sheeps">
+      <de>Schafe</de>
+      <en>sheep</en>
+      <fr>sheep</fr>
+    </text>
+    <text name="Kaese">
+      <de>Käse</de>
+      <en>Kaese</en>
+      <fr>Kaese</fr>
+    </text>
+    <text name="cheese">
+      <de>Käse</de>
+      <en>Kaese</en>
+      <fr>Kaese</fr>
+    </text>
+    <text name="H-Milch">
+      <de>H-Milch</de>
+      <en>{H-Milch}</en>
+      <fr>{H-Milch}</fr>
+    </text>
+    <text name="hmilk">
+      <de>H-Milch</de>
+      <en>{H-Milch}</en>
+      <fr>{H-Milch}</fr>
+    </text>
+    <text name="Mischfutter">
+      <de>Mischfutter</de>
+      <en>{Mischfutter}</en>
+      <fr>{Mischfutter}</fr>
+    </text>
+    <text name="forage">
+      <de>Mischfutter</de>
+      <en>{Mischfutter}</en>
+      <fr>{Mischfutter}</fr>
+    </text>
+    <text name="Gras">
+      <en>Grass</en>
+      <de>Gras</de>
+      <fr>Herbe</fr>
+    </text>
+    <text name="Stroh">
+      <en>Straw</en>
+      <de>Stroh</de>
+      <fr>Paille</fr>
+    </text>
+    <text name="liquidFertilizer">
+      <en>Liquid fertilizer</en>
+      <de>Flüssigdünger</de>
+      <fr>Engrais liquide</fr>
+    </text>	  
+        <text name="Input1_LF"><de>Flüssigdünger</de><en>liquidFertilizer</en><fr>liquidFertilizer</fr></text>
+		<text name="Output1_LF"><de>Flüssigdünger</de><en>liquidFertilizer</en><fr>liquidFertilizer</fr></text>
+    <text name="output_sellTrigger_milk">
+			<en>Milk</en>
+			<de>Milch</de>
+			<fr>Lait</fr>
+    </text>
+    <text name="milk">
+			<en>Milk</en>
+			<de>Milch</de>
+			<fr>Lait</fr>
+    </text>
+    <text name="Input1_ML">
+			<en>Milk</en>
+			<de>Milch</de>
+			<fr>Lait</fr>
+    </text>
+    <text name="Tip_RS">
+			<en>Canola</en>
+			<de>Raps</de>
+			<fr>Colza</fr>
+    </text>
+    <text name="RS_forage">
+			<en>Forage</en>
+			<de>Mischfutter</de>
+			<fr>Aliments composés</fr>
+    </text>
+    <text name="RM_Output">
+			<en>Fuel</en>
+			<de>Treibstoff</de>
+			<fr>Carburant</fr>
+    </text>
+    <text name="Milch">
+			<en>Milk</en>
+			<de>Milch</de>
+			<fr>Lait</fr>
+    </text>
+    <text name="Sojabohnen">
+			<en>Soybean</en>
+			<de>Sojabohnen</de>
+			<fr>Soja</fr>
+    </text>
+    <text name="Sojamilch">
+      <de>Sojamilch</de>
+      <en>{Sojamilch}</en>
+      <fr>{Sojamilch}</fr>
+    </text>
+    <text name="soymilk">
+      <de>Sojamilch</de>
+      <en>{Sojamilch}</en>
+      <fr>{Sojamilch}</fr>
+    </text>
+    <text name="Getreide">
+      <de>Getreide</de>
+      <en>{Getreide}</en>
+      <fr>{Getreide}</fr>
+    </text>
+    <!-- Paletten -->
+    <!--<text name="mehlpalette">
       <en></en>
       <de></de>
       <fr></fr>
+    </text>
+    <text name="sugarpallet">
+      <en></en>
+      <de></de>
+      <fr></fr>
+    </text>-->
+    <text name="Bierpalette">
+      <de>Bier</de>
+      <en>Bier</en>
+      <fr>Bier</fr>
+    </text>
+    <text name="palettePalette">
+      <de>Leerpaletten</de>
+      <en>Leerpaletten</en>
+      <fr>Leerpaletten</fr>
+    </text>
+    <text name="soymilkPallet">
+      <de>Sojamilch</de>
+      <en>{Sojamilch}</en>
+      <fr>{Sojamilch}</fr>
+    </text>
+    <text name="hmilkPallet">
+      <de>H-Milch</de>
+      <en>{H-Milch}</en>
+      <fr>{H-Milch}</fr>
+    </text>
+    <text name="cheesePallet">
+      <de>Käse</de>
+      <en>Kaese</en>
+      <fr>Kaese</fr>
     </text>
   </l10n>
 </mapconfig>

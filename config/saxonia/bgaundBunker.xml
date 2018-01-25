@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <item name="Bga" locationType="bga" ProdPerHour="1000" position="1619.669 0 -1508.414" showInProduction="true" isSellingPoint="true" >
+    <input name="silage" capacity="50000" factor="360" fillTypes="bunkerFillLevel" showInStorage="false" />
+    <input name="liquidManure" capacity="50000" factor="180" fillTypes="liquidManureFillLevel" showInStorage="false" />
+    <output name="digestate" capacity="800000" factor="87" fillTypes="digestateSiloFillLevel" showInStorage="true" />
+  </item>
+  <item name="BunkerSilo_silo001" locationType="bunker" position="1669 0 -1556" />
+  <item name="BunkerSilo_silo002" locationType="bunker" position="1679 0 -1556" />
+  <item name="BunkerSilo_silo003" locationType="bunker" position="1689 0 -1556" />
+  <item name="BunkerSilo_silo004" locationType="bunker" position="1659 0 -1556" />
+  <item name="BunkerSilo_silo005" locationType="bunker" position="1650 0 -1556" />
+  <!-- Kuhsilo -->
+  <item name="BunkerSilo_cowSilo" locationType="bunker" position="382.647 100 -35.628" />
+  <l10n>
+    <text name="Bga">
+      <en>Biogas Anlage</en>
+      <de>Biogas Anlage</de>
+      <fr>Biogas Anlage</fr>
+    </text>
+    <text name="BunkerSilo_silo001">
+      <en>Fahrsilo BGA 1</en>
+      <de>Fahrsilo BGA 1</de>
+      <fr>Fahrsilo BGA 1</fr>
+    </text>
+    <text name="BunkerSilo_silo002">
+      <en>Fahrsilo BGA 2</en>
+      <de>Fahrsilo BGA 2</de>
+      <fr>Fahrsilo BGA 2</fr>
+    </text>
+    <text name="BunkerSilo_silo003">
+      <en>Fahrsilo BGA 3</en>
+      <de>Fahrsilo BGA 3</de>
+      <fr>Fahrsilo BGA 3</fr>
+    </text>
+    <text name="BunkerSilo_silo004">
+      <en>Fahrsilo BGA 4</en>
+      <de>Fahrsilo BGA 4</de>
+      <fr>Fahrsilo BGA 4</fr>
+    </text>
+    <text name="BunkerSilo_silo005">
+      <en>Fahrsilo BGA 5</en>
+      <de>Fahrsilo BGA 5</de>
+      <fr>Fahrsilo BGA 5</fr>
+    </text>
+    <text name="BunkerSilo_cowSilo">
+      <en>Fahrsilo Kühe</en>
+      <de>Fahrsilo Kühe</de>
+      <fr>Fahrsilo Kühe</fr>
+    </text>
+  </l10n>
+</mapconfig>
