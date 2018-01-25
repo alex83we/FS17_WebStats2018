@@ -95,11 +95,21 @@ PRODUCTION=Výroba
 FACTORY=Továrny
 INFO=Info
 
+//overview.tpl
+VERSION=Verze
+PLAYER=Hráč
+UPTIME=Čas online
+ISADMIN=Admin
+POSITION=Pozice
+INVEHICLE=Ve vozidle
+NOPLAYER=Momentálně není nikdo online.
+
 //commodity.tpl
 DETAILVIEW=podrobný náhled
 CHOOSE_COMMODITY=Vyber komoditu
 PLACE=Umístění skladu
 AMOUNT=Množství
+NO_STOCK=Žádné zásoby
 Menge=Počet
 WHOLE_AMOUNT=celkové skladové zásoby
 DEMAND=Poptávka
@@ -147,6 +157,7 @@ ONLY_PALETTS=Zobrazit pouze palety
 YES=ano
 NO=ne
 SHOW_ZERO_STOCK=Zobrazení nulových zásob
+HIDE_ANIMALS=Hide Animals
 FULL_PRODUCT_STORAGE=Naplnění skladu
 SORT_FULL_PRODUCTS=brát v úvahu při třídění
 IGNORE_FULL_PRODUCTS=ignorovat během třídění

@@ -78,11 +78,21 @@ PRODUCTION=Production
 FACTORY=Usine
 INFO=Info
 
+//overview.tpl
+VERSION=Version
+PLAYER=Player
+UPTIME=Uptime
+ISADMIN=Is admin
+POSITION=Position
+INVEHICLE=In Vehicle
+NOPLAYER=At the moment is no player online.
+
 //commodity.tpl
 DETAILVIEW=Vue détaillée
 CHOOSE_COMMODITY=Choisissez une marchandise
 PLACE=Localisation des entrepots
 AMOUNT=Montant
+NO_STOCK=no stocks
 WHOLE_AMOUNT=Stock total des entrepots
 DEMAND=demande
 WHOLE_DEMAND=demande totale
@@ -131,6 +141,7 @@ ONLY_PALETTS=Afficher seulement les palettes
 YES=oui
 NO=non
 SHOW_ZERO_STOCK=Affichage Zero Stock
+HIDE_ANIMALS=Hide Animals
 FULL_PRODUCT_STORAGE=Stock complet
 SORT_FULL_PRODUCTS=prendre en compte lors du tri
 IGNORE_FULL_PRODUCTS=ignorer lors du tri

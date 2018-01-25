@@ -77,11 +77,20 @@ PRODUCTION=Production
 FACTORY=Factory
 INFO=Info
 
+//overview.tpl
+PLAYER=Player
+UPTIME=Uptime
+ISADMIN=Is admin
+POSITION=Position
+INVEHICLE=In Vehicle
+NOPLAYER=At the moment is no player online.
+
 //commodity.tpl
 DETAILVIEW=detailed view
 CHOOSE_COMMODITY=Select goods
 PLACE=storage location
 AMOUNT=amount
+NO_STOCK=no stocks
 WHOLE_AMOUNT=total warehouse stock
 DEMAND=demand
 WHOLE_DEMAND=Total demand
@@ -131,6 +140,7 @@ TOOLTIP_HELP=The tooltip displays the total stock from all warehouses and produc
 YES=yes
 NO=no
 SHOW_ZERO_STOCK=Displaying Zero Stock
+HIDE_ANIMALS=Hide Animals
 FULL_PRODUCT_STORAGE=Full product storage
 SORT_FULL_PRODUCTS=take into account when sorting
 IGNORE_FULL_PRODUCTS=ignore during sorting
