@@ -380,10 +380,10 @@
 		<output name="zuckerpalette" capacity="5000" factor="1" fillType="zucker" showInStorage="false" />
 	</item>
 	<item name="FabrikScript_Mischfutterstation" locationType="FabrikScript" ProdPerHour="10000" position="603.933 99.7183 1666.86" showInProduction="true">
-		<input name="Stroh" capacity="200000" factor="0.35" fillTypes="straw" showInStorage="false" />
-		<input name="Silage" capacity="200000" factor="0.3" fillTypes="silage" showInStorage="false" />
-		<input name="Gras" capacity="200000" factor="0.35" fillTypes="grass_windrow dryGrass_windrow" showInStorage="false" />
-		<output name="Mischfutter" capacity="300000" factor="0.96" fillType="forage" showInStorage="true" />
+		<input name="Stroh" capacity="500000" factor="0.35" fillTypes="straw" showInStorage="false" /><!-- Volumen erhöht -->
+		<input name="Silage" capacity="500000" factor="0.3" fillTypes="silage" showInStorage="false" /><!-- Volumen erhöht -->
+		<input name="Gras" capacity="500000" factor="0.35" fillTypes="grass_windrow dryGrass_windrow" showInStorage="false" /><!-- Volumen erhöht -->
+		<output name="Mischfutter" capacity="500000" factor="0.96" fillType="forage" showInStorage="true" /><!-- Volumen erhöht -->
 	</item>
 	<item name="FabrikScript_Molkerei" locationType="FabrikScript" ProdPerHour="5000" position="-550 0 335" showInProduction="true">
 		<input name="Tip_RSmilk" capacity="300000" factor="0.75" fillTypes="milk" showInStorage="false" />
@@ -450,7 +450,7 @@
 		<input name="Mischfutter" capacity="500000" factor="1000" fillTypes="forage" showInStorage="false" />
 		<input name="Silage" capacity="500000" factor="1000" fillTypes="silage" showInStorage="false" />
 		<input name="Stroh" capacity="500000" factor="500" fillTypes="straw" showInStorage="false" />
-		<input name="Tip_RSwater" capacity="500000" factor="100" fillTypes="water" showInStorage="false" />
+		<input name="Tip_RSwater" capacity="500000" factor="250" fillTypes="water" showInStorage="false" /><!-- Wasserverbrauch erhöht -->
 		<output name="Rinder" capacity="500" factor="1" fillType="cow" showInStorage="true" />
 		<output name="Guelle" capacity="800000" factor="75" fillType="liquidManure" showInStorage="true" />
 		<output name="Mist" capacity="500000" factor="75" fillType="manure" showInStorage="true" />
@@ -459,7 +459,7 @@
 		<input name="Mischfutter" capacity="500000" factor="1000" fillTypes="forage" showInStorage="false" />
 		<input name="Silage" capacity="500000" factor="1000" fillTypes="silage" showInStorage="false" />
 		<input name="Stroh" capacity="500000" factor="500" fillTypes="straw" showInStorage="false" />
-		<input name="Tip_RSwater" capacity="500000" factor="100" fillTypes="water" showInStorage="false" />
+		<input name="Tip_RSwater" capacity="500000" factor="250" fillTypes="water" showInStorage="false" /><!-- Wasserverbrauch erhöht -->
 		<output name="Rinder" capacity="500" factor="1" fillType="cow" showInStorage="true" />
 		<output name="Guelle" capacity="800000" factor="75" fillType="liquidManure" showInStorage="true" />
 		<output name="Mist" capacity="500000" factor="75" fillType="manure" showInStorage="true" />
@@ -502,7 +502,7 @@
 		<input name="cm_inputFuel" capacity="200000" factor="0.1" fillTypes="fuel" showInStorage="false" />
 		<output name="Sand" capacity="2000000" factor="1" fillType="sand" showInStorage="true" />
 	</item>
-	<item name="FabrikScript_Schlachterei" locationType="FabrikScript" ProdPerHour="50" position="-635 0 -95" showInProduction="true">
+	<item name="FabrikScript_Schlachterei" locationType="FabrikScript" ProdPerHour="60" position="-635 0 -95" showInProduction="true"><!-- Produktion erhöht 1.4 -->
 		<input name="Tier_Anlieferung" capacity="400" factor="0.4" fillTypes="pig cow sheep Rinder" showInStorage="false" />
 		<input name="emptypallet" capacity="260000" factor="3" fillTypes="emptypallet" showInStorage="false" />
 		<input name="palette_karton" capacity="170000" factor="3" fillTypes="karton" showInStorage="false" />
@@ -545,15 +545,15 @@
 		<input name="Hackschnitzel" capacity="500000" factor="0.5" fillTypes="woodChips" showInStorage="false" />
 		<input name="Tip_RSwater" capacity="200000" factor="0.3" fillTypes="water" showInStorage="false" />
 		<input name="emptypallet" capacity="150000" factor="0.25" fillTypes="emptypallet" showInStorage="false" />
-		<output name="palettepapier" capacity="5000" factor="1" fillType="papier" palettArea="-973.0 -853.1 -966.5 -836.7" palettPlaces="22" showInStorage="false" />
-		<output name="palette_karton" capacity="5000" factor="1" fillType="karton" palettArea="-973.0 -830.1 -966.5 -813.8" palettPlaces="22" showInStorage="false" />
+		<output name="palettepapier" capacity="5000" factor="1" fillType="papier" palettArea="-973.0 -853.1 -966.5 -836.7" palettPlaces="29" showInStorage="false" /><!-- Palletensteplatz erhöht auf 29 -->
+		<output name="palette_karton" capacity="5000" factor="1" fillType="karton" palettArea="-973.0 -830.1 -966.5 -813.8" palettPlaces="29" showInStorage="false" /><!-- Palletensteplatz erhöht auf 29 -->
 	</item>
 	<item name="FabrikScript_Zementverkauf" locationType="FabrikScript" ProdPerHour="5000" position="1692.588 0 -940.479" showInProduction="true">
 		<input name="Zement" capacity="100000" factor="1" fillTypes="cement" showInStorage="false" />
 		<output name="Geldkassette" capacity="250000" factor="3" fillType="geld" palettArea="1688 -919.4 1688.3 -919.1" palettPlaces="1" showInStorage="false" />
 	</item>
 	<item name="FabrikScript_Zuckerfabrik" locationType="FabrikScript" ProdPerHour="15000" position="-790 0 -930" showInProduction="true">
-		<input name="Tip_RSzucker" capacity="2000000" factor="1" fillTypes="sugarBeet" showInStorage="false" />
+		<input name="Tip_RSzucker" capacity="5000000" factor="1" fillTypes="sugarBeet" showInStorage="false" /><!-- Volumen erhöht -->
 		<input name="Tip_RSwater" capacity="500000" factor="0.8" fillTypes="water" showInStorage="false" />
 		<output name="zuckerpalette" capacity="5000" factor="0.5" fillType="zucker" palettArea="-774.6 -929.4 -752.4 -925.2" palettPlaces="21" showInStorage="false" />
 	</item>
