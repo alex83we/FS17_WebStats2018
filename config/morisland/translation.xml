@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <l10n>
+    <text name="emptypallet_erasco">
+      <de>Leere Paletten</de>
+      <fr>palettes</fr>
+      <en>palettes</en>
+    </text>
+    <text name="emptypallet2">
+      <de>Leere Paletten</de>
+      <fr>palettes</fr>
+      <en>palettes</en>
+    </text>
+    <text name="flour_erasco">
+      <de>Mehl</de>
+      <en>flour</en>
+      <fr>farine</fr>
+    </text>
+    <text name="reste">
+      <de>Reste</de>
+      <en>scraps</en>
+      <fr>restes</fr>
+    </text>
+    <text name="pigFood_erasco">
+      <en>Pig food</en>
+      <de>Schweinefutter</de>
+      <fr>Aliment pour les cochons</fr>
+    </text>
+    <text name="erasco_erasco">
+      <de>Erasco</de>
+      <en>Erasco</en>
+      <fr>Erasco</fr>
+    </text>
+    <text name="tomato_erasco">
+      <de>Tomaten</de>
+      <en>tomatoes</en>
+      <fr>tomates</fr>
+    </text>
+    <text name="tomatoPallet">
+      <de>Tomaten</de>
+      <en>tomatoes</en>
+      <fr>tomates</fr>
+    </text>
+    <text name="tomatoPallet2">
+      <de>Tomaten</de>
+      <en>tomatoes</en>
+      <fr>tomates</fr>
+    </text>
+    <text name="meat_erasco">
+      <de>Fleisch</de>
+      <en>meat</en>
+      <fr>viande</fr>
+    </text>
+    <text name="onion_erasco">
+      <de>Zwiebeln</de>
+      <en>onion</en>
+      <fr>oignon</fr>
+    </text>
+    <text name="steamedPotato_erasco">
+      <de>gedämpfte Kartoffeln</de>
+      <en>steamed Potato</en>
+      <fr>Pomme de terre à la vapeur</fr>
+    </text>
+    <text name="steamedPotato">
+      <de>gedämpfte Kartoffeln</de>
+      <en>steamed Potato</en>
+      <fr>Pomme de terre à la vapeur</fr>
+    </text>
+    <text name="carrot_erasco">
+      <de>Karotten</de>
+      <en>carrot</en>
+      <fr>carotte</fr>
+    </text>
+    <text name="carrot">
+      <de>Karotten</de>
+      <en>carrot</en>
+      <fr>carotte</fr>
+    </text>
+    <text name="cauliflowerPallet">
+      <de>Blumenkohl</de>
+      <en>cauliflower</en>
+      <fr>choufleur</fr>
+    </text>
+    <text name="cauliflowerPallet2">
+      <de>Blumenkohl</de>
+      <en>cauliflower</en>
+      <fr>choufleur</fr>
+    </text>
+    <text name="lettucePallet">
+      <de>Salat</de>
+      <en>lettuce</en>
+      <fr>salsde</fr>
+    </text>
+    <text name="lettucePallet2">
+      <de>Salat</de>
+      <en>lettuce</en>
+      <fr>salsde</fr>
+    </text>
+    <text name="redCabbagePallet">
+      <de>Rotkohl</de>
+      <en>redCabbage</en>
+      <fr>chou rouge</fr>
+    </text>
+    <text name="redCabbagePallet2">
+      <de>Rotkohl</de>
+      <en>redCabbage</en>
+      <fr>chou rouge</fr>
+    </text>
+    <text name="strawberryPallet">
+      <de>Erdbeere</de>
+      <en>strawberry</en>
+      <fr>fraise</fr>
+    </text>
+    <text name="strawberryPallet2">
+      <de>Erdbeere</de>
+      <en>strawberry</en>
+      <fr>fraise</fr>
+    </text>
+    <text name="raspberryPallet">
+      <de>Himbeere</de>
+      <en>raspberry</en>
+      <fr>framboise</fr>
+    </text>
+    <text name="raspberryPallet2">
+      <de>Himbeere</de>
+      <en>raspberry</en>
+      <fr>framboise</fr>
+    </text>
+    <text name="Output">
+      <en>Liquid manure</en>
+      <de>Gülle</de>
+      <fr>Lisier</fr>
+    </text>
+    <text name="Holz">
+      <de>Holzstämme</de>
+      <en>logs</en>
+      <fr>journaux</fr>
+    </text>
+    <text name="wood">
+      <de>Holzstämme</de>
+      <en>logs</en>
+      <fr>journaux</fr>
+    </text>
+    <text name="Kalkbruch">
+      <de>Kalkbruch</de>
+      <en>Limestone Quarry</en>
+      <fr>carrière de calcaire</fr>
+    </text>
+    <text name="kalkbruch">
+      <de>Kalkbruch</de>
+      <en>Limestone Quarry</en>
+      <fr>carrière de calcaire</fr>
+    </text>
+    <text name="lime">
+      <de>Kalk</de>
+      <en>lime</en>
+      <fr>chaux</fr>
+    </text>
+    <text name="cherry">
+      <de>Kirschen</de>
+      <en>cherry</en>
+      <fr>Cerise</fr>
+    </text>
+    <text name="liquidFertilizer">
+      <de>Flüssigdünger</de>
+      <en>liquid Fertilizer</en>
+      <fr>Engaris liquide</fr>
+    </text>
+    <text name="P_butter">
+      <de>Butter</de>
+      <en>butter</en>
+      <fr>beurre</fr>
+    </text>
+    <text name="butter">
+      <de>Butter</de>
+      <en>butter</en>
+      <fr>beurre</fr>
+    </text>
+    <text name="P_yogurt">
+      <de>Joghurt</de>
+      <en>yogurt</en>
+      <fr>yaourt</fr>
+    </text>
+    <text name="yogurt">
+      <de>Joghurt</de>
+      <en>yogurt</en>
+      <fr>yaourt</fr>
+    </text>
+    <text name="getreide">
+      <de>Getreide</de>
+      <en>Grain</en>
+      <fr>céréales</fr>
+    </text>
+    <text name="Getreide">
+      <de>Getreide</de>
+      <en>Grain</en>
+      <fr>céréales</fr>
+    </text>
+    <text name="grain">
+      <de>Getreide</de>
+      <en>Grain</en>
+      <fr>céréales</fr>
+    </text>
+    <text name="Erd_Himbeeren">
+      <de>Erdbeeren oder Himbeeren</de>
+      <en>Strawberries or raspberries</en>
+      <fr>Fraises ou framboises</fr>
+    </text>
+    <text name="plum">
+      <de>Pflaumen</de>
+      <en>plum</en>
+      <fr>prune</fr>
+    </text>
+    <text name="muesli">
+      <de>Müsli</de>
+      <en>cereal</en>
+      <fr>Muesli (céréale)</fr>
+    </text>
+    <text name="Brennstoffe">
+      <en>Fuel</en>
+      <de>Treibstoff</de>
+      <fr>Carburant</fr>
+    </text>
+    <text name="Baeume">
+      <de>Bäume</de>
+      <en>trees</en>
+      <fr>arbres</fr>
+    </text>
+    <text name="boardPallet">
+      <de>Bretter</de>
+      <en>boards</en>
+      <fr>planches</fr>
+    </text>
+    <text name="boards">
+      <de>Bretter</de>
+      <en>boards</en>
+      <fr>planches</fr>
+    </text>
+    <text name="bread_Pallet">
+      <de>Backwaren</de>
+      <fr>produits de boulangerie</fr>
+      <en>Bakery products</en>
+    </text>
+    <text name="bread">
+      <de>Backwaren</de>
+      <fr>produits de boulangerie</fr>
+      <en>Bakery products</en>
+    </text>
+    <text name="bread_baecker">
+      <de>Backwaren</de>
+      <fr>produits de boulangerie</fr>
+      <en>Bakery products</en>
+    </text>
+    <text name="Sandwich">
+      <de>Sandwich</de>
+      <en>Sandwich</en>
+      <fr>Sandwich</fr>
+    </text>
+    <text name="sandwich">
+      <de>Sandwich</de>
+      <en>Sandwich</en>
+      <fr>Sandwich</fr>
+    </text>
+    <text name="Schweinefutter">
+      <en>Pig food</en>
+      <de>Schweinefutter</de>
+      <fr>Aliment pour les cochons</fr>
+    </text>
+    <text name="Erdfruechten">
+      <de>Erdfrüchte</de>
+      <fr>cultures racines</fr>
+      <en>root crops</en>
+    </text>
+    <text name="Proteine">
+      <de>Proteine</de>
+      <en>proteins</en>
+      <fr>protéines</fr>
+    </text>
+    <text name="Tiere">
+      <de>Tiere</de>
+      <en>animals</en>
+      <fr>animaux</fr>
+    </text>
+    <text name="Fleisch">
+      <de>Fleisch</de>
+      <en>meat</en>
+      <fr>viande</fr>
+    </text>
+    <text name="Wurst">
+      <de>Wurst</de>
+      <en>sausage</en>
+      <fr>saucisse</fr>
+    </text>
+    <text name="grassilage">
+      <en>grassilage</en>
+      <de>Grassilage</de>
+      <fr>ensilage d'herbe</fr>
+    </text>
+    <text name="dryGrass">
+      <en>dry Grass</en>
+      <de>Heu</de>
+      <fr>Foin</fr>
+    </text>
+    <text name="forage_mixing">
+      <en>Forage</en>
+      <de>Mischfutter</de>
+      <fr>Aliments composés</fr>
+    </text>
+    <text name="washedPotato">
+      <de>gewasch. Kartoffeln</de>
+      <en>washed Potato</en>
+      <fr>pomme de terre lavée</fr>
+    </text>
+    <!-- Fabriken -->
+    <text name="Baecker">
+      <de>Bäckerei</de>
+      <en>bakery</en>
+      <fr>boulangerie</fr>
+    </text>
+    <text name="BGA_Tankstelle">
+      <de>BGA Tankstelle</de>
+      <en>BGA gas station</en>
+      <fr>Station d'essence BGA</fr>
+    </text>
+    <text name="BRAUEREI">
+      <de>Brauerei</de>
+      <en>brewery</en>
+      <fr>brasserie</fr>
+    </text>
+    <text name="CompostMaster">
+      <de>Kompostmaster</de>
+      <en>Compost Master</en>
+      <fr>Maître du compost</fr>
+    </text>
+    <text name="Erasco">
+      <de>Erasco</de>
+      <en>Erasco</en>
+      <fr>Erasco</fr>
+    </text>
+    <text name="Fertilizer_Lager_Hof">
+      <de>Düngerlager (Hof)</de>
+      <en>Fertilizer warehouse yard</en>
+      <fr>Entrepôt d'engrais</fr>
+    </text>
+    <text name="Fertilizer_Pro">
+      <de>Dünger</de>
+      <en>Fertilizer</en>
+      <fr>engrais</fr>
+    </text>
+    <text name="Gewaeshaus">
+      <de>Gewächshaus</de>
+      <en>greenhouse</en>
+      <fr>serre</fr>
+    </text>
+    <text name="Gras_Lager">
+      <de>Graslager</de>
+      <en>Grass camp</en>
+      <fr>Camp d'herbe</fr>
+    </text>
+    <text name="Gras_Trockner">
+      <de>Gras Trockner</de>
+      <en>Grass dryer</en>
+      <fr>Sécheur</fr>
+    </text>
+    <text name="Guelle_Lager">
+      <de>Güllelager</de>
+      <en>manure storage</en>
+      <fr>le stockage du fumier</fr>
+    </text>
+    <text name="Hof_Tankstelle">
+      <de>Hoftankstelle</de>
+      <en>Courtyard gas station</en>
+      <fr>Station d'essence Courtyard</fr>
+    </text>
+    <text name="Holzhacker">
+      <de>Holzhacker</de>
+      <en>woodcutter</en>
+      <fr>bûcheron</fr>
+    </text>
+    <text name="Kalk_Lager_Hof">
+      <de>Kalklager (Hof)</de>
+      <en>Lard farm</en>
+      <fr>Ferme de lard</fr>
+    </text>
+    <text name="Kalk_Master5000">
+      <de>Moris Kalkwerk</de>
+      <en>Moris lime works</en>
+      <fr>Moris à la chaux</fr>
+    </text>
+    <text name="Kartoffel_Anlage">
+      <de>Kartoffelanlage</de>
+      <en>potato plant</en>
+      <fr>plante de pomme de terre</fr>
+    </text>
+    <text name="Kirschen_Garden">
+      <de>Kirschgarten</de>
+      <en>cherry Orchard</en>
+      <fr>champ de cerisiers</fr>
+    </text>
+    <text name="Pflaumen_Garden">
+      <de>Pflaumengarten</de>
+      <en>plum garden</en>
+      <fr>jardin de la prune</fr>
+    </text>
+    <text name="liquidFertilizer_Pro">
+      <de>Flüssigdünger</de>
+      <en>liquid fertilizer</en>
+      <fr>engrais liquide</fr>
+    </text>
+    <text name="Milk">
+      <de>Molkerei</de>
+      <en>dairy</en>
+      <fr>produits laitiers</fr>
+    </text>
+    <text name="Mischfutterstation">
+      <de>Mischfutterstation</de>
+      <en>Compound feed station</en>
+      <fr>Station d'alimentation composé</fr>
+    </text>
+    <text name="Muehle">
+      <de>Mühle</de>
+      <en>Mill</en>
+      <fr>moulin</fr>
+    </text>
+    <text name="Muesli">
+      <de>Müsli Mix</de>
+      <en>Muesli mix</en>
+      <fr>Muesli mélange</fr>
+    </text>
+    <text name="Raffinerie">
+      <de>Raffinerie</de>
+      <en>refinery</en>
+      <fr>raffinerie</fr>
+    </text>
+    <text name="Saegewerk">
+      <de>Sägewerk</de>
+      <en>Sawmill</en>
+      <fr>scierie</fr>
+    </text>
+    <text name="Schweinefutterstation">
+      <de>Schweinefutterstation</de>
+      <en>Pig feed station</en>
+      <fr>Station d'alimentation de porc</fr>
+    </text>
+    <text name="Seeds_Lager_Hof">
+      <de>Saatgutlager (Hof)</de>
+      <en>Seed stockyard yard</en>
+      <fr>Parc de stockage de semencess</fr>
+    </text>
+    <text name="Seeds_Pro">
+      <de>Saatgut</de>
+      <en>seeds</en>
+      <fr>graines</fr>
+    </text>
+    <text name="Tischlerei">
+      <de>Tischlerei</de>
+      <en>joinery</en>
+      <fr>menuiserie</fr>
+    </text>
+    <text name="Verwurster">
+      <de>Schlachterei</de>
+      <en>Butchery</en>
+      <fr>boucherie</fr>
+    </text>
+    <text name="Wald_Tankstelle">
+      <de>Wald Tankstelle</de>
+      <en>Forest gas station</en>
+      <fr>Station d'essence forestière</fr>
+    </text>
+    <text name="Wasser_Lager">
+      <de>Wasserlager</de>
+      <en>water storage</en>
+      <fr>stockage de l'eau</fr>
+    </text>
+    <text name="Zucker">
+      <de>Zuckerfabrik</de>
+      <en>sugar factory</en>
+      <fr>usine de sucre</fr>
+    </text>
+    <text name="spelt">
+      <en>spelt</en>
+      <de>Dinkel</de>
+      <fr>épeautre</fr>
+    </text>
+    <text name="triticale">
+      <en>Triticale</en>
+      <de>Triticale</de>
+      <fr>Triticale</fr>
+    </text>
+    <text name="emptypallet">
+      <de>Leere Paletten</de>
+      <fr>palettes</fr>
+      <en>palettes</en>
+    </text>
+    <text name="rye">
+      <de>Roggen</de>
+      <en>rye</en>
+      <fr>seigle</fr>
+    </text>
+    <text name="sugar">
+      <de>Zucker</de>
+      <en>sugar</en>
+      <fr>sucre</fr>
+    </text>
+    <text name="flour">
+      <de>Mehl</de>
+      <en>flour</en>
+      <fr>farine</fr>
+    </text>
+    <text name="hops">
+      <de>Hopfen</de>
+      <en>hops</en>
+      <fr>houblon</fr>
+    </text>
+    <text name="barley_beer">
+      <en>Barley</en>
+      <de>Gerste</de>
+      <fr>Orge</fr>
+    </text>
+    <text name="beer">
+      <de>Bier</de>
+      <en>beer</en>
+      <fr>bière</fr>
+    </text>
+    <text name="compost">
+      <de>Kompost</de>
+      <en>compost</en>
+      <fr>compost</fr>
+    </text>
+    <text name="tomato">
+      <de>Tomaten</de>
+      <en>tomatoes</en>
+      <fr>tomates</fr>
+    </text>
+    <text name="meat">
+      <de>Fleisch</de>
+      <en>meat</en>
+      <fr>viande</fr>
+    </text>
+    <text name="sausage">
+      <de>Wurst</de>
+      <en>sausage</en>
+      <fr>saucisse</fr>
+    </text>
+    <text name="onion">
+      <de>Zwiebeln</de>
+      <en>onion</en>
+      <fr>oignon</fr>
+    </text>
+    <text name="cauliflower">
+      <de>Blumenkohl</de>
+      <en>cauliflower</en>
+      <fr>choufleur</fr>
+    </text>
+    <text name="lettuce">
+      <de>Salat</de>
+      <en>lettuce</en>
+      <fr>salsde</fr>
+    </text>
+    <text name="raspberry">
+      <de>Himbeere</de>
+      <en>raspberry</en>
+      <fr>framboise</fr>
+    </text>
+    <text name="strawberry">
+      <de>Erdbeere</de>
+      <en>strawberry</en>
+      <fr>fraise</fr>
+    </text>
+    <text name="redCabbage">
+      <de>Rotkohl</de>
+      <en>redCabbage</en>
+      <fr>chou rouge</fr>
+    </text>
+    <text name="sand">
+      <de>Sand</de>
+      <en>grid</en>
+      <fr>sable</fr>
+    </text>
+    <text name="Mischfutter">
+      <en>Forage</en>
+      <de>Mischfutter</de>
+      <fr>Aliments composés</fr>
+    </text>
+    <text name="Stroh">
+      <en>Straw</en>
+      <de>Stroh</de>
+      <fr>Paille</fr>
+    </text>
+    <text name="Gras">
+      <en>Grass</en>
+      <de>Gras</de>
+      <fr>Herbe</fr>
+    </text>
+    <text name="Silage">
+      <en>Silage</en>
+      <de>Silage</de>
+      <fr>Ensilage</fr>
+    </text>
+    <text name="oat">
+      <de>Hafer</de>
+      <en>oat</en>
+      <fr>avoine</fr>
+    </text>
+    <text name="millet">
+      <de>Hirse</de>
+      <en>millet</en>
+      <fr>millet</fr>
+    </text>
+  </l10n>
+</mapconfig>

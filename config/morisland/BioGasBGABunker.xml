@@ -3,17 +3,17 @@
   <!-- BGA -->
   <item name="Bga" locationType="bga" ProdPerHour="1000" position="1978.225 0 -1849.737" showInProduction="true" isSellingPoint="true" >
     <input name="silage" capacity="500000" factor="360" fillTypes="bunkerFillLevel" showInStorage="false" />
-    <input name="draGrass_windrow" capacity="&#8734;" factor="360" fillTypes="bunkerFillLevel" showInStorage="false" />
-    <input name="grass_windrow" capacity="&#8734;" factor="360" fillTypes="bunkerFillLevel" showInStorage="false" />
+    <input name="dryGrass_windrow" capacity="500000" factor="360" fillTypes="bunkerFillLevel" showInStorage="false" />
+    <input name="grass_windrow" capacity="500000" factor="360" fillTypes="bunkerFillLevel" showInStorage="false" />
     <output name="digestate" capacity="5000000" factor="87" fillTypes="digestateSiloFillLevel" showInStorage="true" />
   </item>
   <item name="BunkerSilo_silo001" locationType="bunker" position="1993.599 0 -1890.853" />
   <item name="BunkerSilo_silo001_hof" locationType="bunker" position="815.429 0 -917.323" />
   <l10n>
     <text name="Bga">
-      <en>BGA</en>
-      <de>BGA</de>
-      <fr>BGA</fr>
+      <en>biogas plant</en>
+      <de>Biogasanlage</de>
+      <fr>installation de biogaz</fr>
     </text>
     <text name="BunkerSilo_silo001">
       <en>Keilsilo BGA</en>
