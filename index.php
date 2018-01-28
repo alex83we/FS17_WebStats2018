@@ -17,7 +17,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 ini_set ( 'error_reporting', E_ALL );
-ini_set ( 'display_errors', 1 );
+ini_set ( 'display_errors', 0 );
 ini_set ( 'log_errors', 1 );
 ini_set ( 'error_log', 'error.log' );
 
@@ -42,12 +42,14 @@ include ('./include/coockie.php');
 $style = $options ['general'] ['style'];
 
 $smarty = new Smarty ();
-$smarty->debugging = true;
+$smarty->debugging = false;
 $smarty->caching = false;
 $smarty->setTemplateDir ( "./styles/$style/templates" );
-$smarty->assign ( 'webStatsVersion', 'Version 1.4.0 (alpha)' );
+$smarty->assign ( 'webStatsVersion', '1.4.0-917 (28.01.2018)' );
 
 include ('./include/loadConfig.php');
+$smarty->assign ( 'onlineUser', sizeof ( $onlineUser ) );
+$smarty->assign ('hideFooter',$options ['general'] ['hideFooter']);
 
 require ('./include/savegame.php');
 
