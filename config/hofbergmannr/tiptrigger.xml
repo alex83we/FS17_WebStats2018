@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <item name="TipTrigger_ERFURTER_LANDHANDEL_WINDROW" locationType="TipTrigger" position="777.953 0 334.931" isSellingPoint="true" />
+  <item name="TipTrigger_ERFURTER_LANDHANDEL_GRAINS" locationType="TipTrigger" position="743.756 0 345.704" isSellingPoint="true" />
+  <item name="TipTrigger_ERFURTER_LANDHANDEL_PALLET" locationType="TipTrigger" position="769.844 0 408.621" isSellingPoint="true" />
+  <item name="TipTrigger_ELH_SEEDSHEAP" locationType="TipTrigger" position="777.953 0 304.13" isSellingPoint="true" />
+  <item name="TipTrigger_ELH_KALKHEAP" locationType="TipTrigger" position="777.953 0 312.506" isSellingPoint="true" />
+  <item name="TipTrigger_ELH_FERTILIZERHEAP" locationType="TipTrigger" position="777.953 0 320.296" isSellingPoint="true" />
+  <item name="TipTrigger_DAIRY" locationType="TipTrigger" position="-491.735 0 776.848" isSellingPoint="true" />
+  <item name="TipTrigger_DAIRY1" locationType="TipTrigger" position="-479.262 0 759.686" isSellingPoint="true" />
+  <item name="TipTrigger_ERFURTER_VIEHHANDEL_PIGLETS" locationType="TipTrigger" position="-178.721 0 730.413" isSellingPoint="true" />
+  <item name="TipTrigger_ERFURTER_VIEHHANDEL_CHICKS" locationType="TipTrigger" position="-212 0 759.979" isSellingPoint="true" />
+  <item name="TipTrigger_ERFURTER_VIEHHANDEL" locationType="TipTrigger" position="-236.856 0 766.181" isSellingPoint="true" />
+  <item name="TipTrigger_SPINNERY_ERFURT" locationType="TipTrigger" position="-241.751 0 568.94" isSellingPoint="true" />
+  <item name="TipTrigger_RAIFFEISEN_GRAINS" locationType="TipTrigger" position="-505.248 0 469.624" isSellingPoint="true" />
+  <item name="TipTrigger_RAIFFEISEN_WINDROW" locationType="TipTrigger" position="-475.125 0 516.525" isSellingPoint="true" />
+  <item name="TipTrigger_RAIFFEISEN_PALLET" locationType="TipTrigger" position="-455.328 0 439.143" isSellingPoint="true" />
+  <item name="TipTrigger_BIOMASS_HEATING_PLANT_GAS" locationType="TipTrigger" position="-542.16 0 237.465" isSellingPoint="true" />
+  <item name="TipTrigger_BIOMASS_HEATING_PLANT" locationType="TipTrigger" position="-604.088 0 214.487" isSellingPoint="true" />
+  <item name="TipTrigger_MOSTERY" locationType="TipTrigger" position="-46.105 0 -506.89" isSellingPoint="true" />
+  <item name="TipTrigger_FARMER_ALFRED" locationType="TipTrigger" position="-556.461 0 488.61" isSellingPoint="true" />
+  <item name="TipTrigger_FARMER_ALFRED_PIGLETS" locationType="TipTrigger" position="-579.726 0 513.381" isSellingPoint="true" />
+  <item name="TipTrigger_SAWMILL_WOODCHIPS" locationType="TipTrigger" position="102.864 0 -710.227" isSellingPoint="true" />
+  <item name="TipTrigger_KLAERWERK" locationType="TipTrigger" position="704.683 0 206.601" isSellingPoint="true" />
+  <item name="TipTrigger_SNUS_STORE" locationType="TipTrigger" position="-562.451 0 414.711" isSellingPoint="true" />
+  <item name="TipTrigger_SNUS_STORE2" locationType="TipTrigger" position="-562.41 0 395.716" isSellingPoint="true" />
+  <item name="TipTrigger_WASTE_DISPOTAL" locationType="TipTrigger" position="911.031 0 317.438" isSellingPoint="true" />
+  <item name="TipTrigger_FUELSTATION" locationType="TipTrigger" position="-358.233 0 736.644" isSellingPoint="true" />
+  <l10n>
+    <!-- Translation with google.de -->
+    <text name="TipTrigger_ERFURTER_LANDHANDEL_WINDROW">
+      <en>Erfurter country trade straw</en>
+      <de>Erfurter Landhandel Stroh</de>
+      <fr>Paille de commerce pays Erfurter</fr>
+      <cz>Erfurt obchodní země slamě</cz>
+    </text>
+    <text name="TipTrigger_ERFURTER_LANDHANDEL_GRAINS">
+      <en>Erfurter country trade grain</en>
+      <de>Erfurter Landhandel Getreide</de>
+      <fr>Grain de commerce de pays d'Erfurter</fr>
+      <cz>Erfurt země obchodní obilí</cz>
+    </text>
+    <text name="TipTrigger_ERFURTER_LANDHANDEL_PALLET">
+      <en>Erfurter country trade pallets</en>
+      <de>Erfurter Landhandel Paletten</de>
+      <fr>Erfurter palettes de commerce de pays</fr>
+      <cz>Erfurtské obchodní palety</cz>
+    </text>
+    <text name="TipTrigger_ELH_SEEDSHEAP">
+      <en>Erfurter country trade seeds</en>
+      <de>Erfurter Landhandel Saatgut</de>
+      <fr>Graines de commerce pays Erfurter</fr>
+      <cz>Erfurt země obchod semena</cz>
+    </text>
+    <text name="TipTrigger_ELH_KALKHEAP">
+      <en>Erfurter country trade lime</en>
+      <de>Erfurter Landhandel Kalk</de>
+      <fr>Erfurt pays commerce Kalk</fr>
+      <cz>Erfurt země obchodu Kalk</cz>
+    </text>
+    <text name="TipTrigger_ELH_FERTILIZERHEAP">
+      <en>Erfurter country trade Fertilizer</en>
+      <de>Erfurter Landhandel Dünger</de>
+      <fr>Engrais de commerce de pays d'Erfurter</fr>
+      <cz>Erfurt země obchodu Hnojiva</cz>
+    </text>
+    <text name="TipTrigger_DAIRY">
+      <en>Dairy</en>
+      <de>Molkerei</de>
+      <fr>Laitier</fr>
+      <cz>Mléčné výrobky</cz>
+    </text>
+    <text name="TipTrigger_DAIRY1">
+      <en>Dairy 1</en>
+      <de>Molkerei 1</de>
+      <fr>Laitier 1</fr>
+      <cz>Mléčné výrobky 1</cz>
+    </text>
+    <text name="TipTrigger_ERFURTER_VIEHHANDEL_PIGLETS">
+      <en>Erfurt cattle trade piglets</en>
+      <de>Erfurter Viehhandel Ferkel</de>
+      <fr>Erfurt bovins commerce de porcelets</fr>
+      <cz>Erfurt zabíjí selata selat</cz>
+    </text>
+    <text name="TipTrigger_ERFURTER_VIEHHANDEL_CHICKS">
+      <en>Erfurt cattle trade chicks</en>
+      <de>Erfurter Viehhandel Küken</de>
+      <fr>Poussins de commerce de bovins d'Erfurt</fr>
+      <cz>Erfurt obchoduje s kuřaty</cz>
+    </text>
+    <text name="TipTrigger_ERFURTER_VIEHHANDEL">
+      <en>Erfurt cattle trade</en>
+      <de>Erfurter Viehhandel</de>
+      <fr>Commerce de bétail d'Erfurt</fr>
+      <cz>Erfurt obchod s dobytkem</cz>
+    </text>
+    <text name="TipTrigger_SPINNERY_ERFURT">
+      <en>Erfurt spinning mill</en>
+      <de>Erfurter Spinnerei</de>
+      <fr>Filature d'Erfurt</fr>
+      <cz>Erfurtova odstředivka</cz>
+    </text>
+    <text name="TipTrigger_RAIFFEISEN_GRAINS">
+      <en>Raiffeisen Grains</en>
+      <de>Raiffeisen Getreide</de>
+      <fr>Raiffeisen Céréales</fr>
+      <cz>Raiffeisen Zrna</cz>
+    </text>
+    <text name="TipTrigger_RAIFFEISEN_WINDROW">
+      <en>Raiffeisen straw</en>
+      <de>Raiffeisen Stroh</de>
+      <fr>Raiffeisen paille</fr>
+      <cz>Raiffeisen sláma</cz>
+    </text>
+    <text name="TipTrigger_RAIFFEISEN_PALLET">
+      <en>Raiffeisen Pallets</en>
+      <de>Raiffeisen Paletten</de>
+      <fr>Raiffeisen palette</fr>
+      <cz>Raiffeisen Palety</cz>
+    </text>
+    <text name="TipTrigger_BIOMASS_HEATING_PLANT">
+      <en>cogeneration plant</en>
+      <de>Heizkraftwerk</de>
+      <fr>centrale de cogénération</fr>
+      <cz>kogenerační jednotka</cz>
+    </text>
+    <text name="TipTrigger_BIOMASS_HEATING_PLANT_GAS">
+      <en>Cogeneration plant</en>
+      <de>Heizkraftwerk Flüssigstoffe</de>
+      <fr>Centrale de cogénération</fr>
+      <cz>Kogenerační zařízení</cz>
+    </text>
+    <text name="TipTrigger_MOSTERY">
+      <en>Mosterei</en>
+      <de>Mosterei</de>
+      <fr>Mosterei</fr>
+      <cz>Mosterei</cz>
+    </text>
+    <text name="TipTrigger_FARMER_ALFRED">
+      <en>Farmer Alfred</en>
+      <de>Bauer Alfred</de>
+      <fr>Agriculteur Alfred</fr>
+      <cz>Farmář Alfred</cz>
+    </text>
+    <text name="TipTrigger_FARMER_ALFRED_PIGLETS">
+      <en>Farmer Alfred Piglets</en>
+      <de>Bauer Alfred Ferkel</de>
+      <fr>Agriculteur Alfred Porcelets</fr>
+      <cz>Farmář Alfred Prasata</cz>
+    </text>
+    <text name="TipTrigger_SAWMILL_WOODCHIPS">
+      <en>Sawmill wood chips</en>
+      <de>Sägewerk Hackschnitzel</de>
+      <fr>Sciure de bois de scierie</fr>
+      <cz>Pilové dřevěné štěpky</cz>
+    </text>
+    <text name="TipTrigger_KLAERWERK">
+      <en>Sewage Treatment Plant</en>
+      <de>Klärwerk</de>
+      <fr>Stations d'épuration</fr>
+      <cz>Čistírny odpadních vod</cz>
+    </text>
+    <text name="TipTrigger_SNUS_STORE">
+      <en>Snus business</en>
+      <de>Snus Geschäft</de>
+      <fr>Snus affaires</fr>
+      <cz>Snus podnikání</cz>
+    </text>
+    <text name="TipTrigger_SNUS_STORE2">
+      <en>Snus business 1</en>
+      <de>Snus Geschäft 1</de>
+      <fr>Snus affaires 1</fr>
+      <cz>Snus podnikání 1</cz>
+    </text>
+    <text name="TipTrigger_WASTE_DISPOTAL">
+      <en>Waste Dispotal</en>
+      <de>Müllentsorgung</de>
+      <fr>Traitement des déchets</fr>
+      <cz>Nakládání s odpady</cz>
+    </text>
+    <text name="TipTrigger_FUELSTATION">
+      <en>Fuelstation</en>
+      <de>Tankstelle</de>
+      <fr>Station essence</fr>
+      <cz>Palivová stanice</cz>
+    </text>
+  </l10n>
+</mapconfig>

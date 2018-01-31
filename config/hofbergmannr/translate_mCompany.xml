@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <l10n>
+    <text name="mCompanyFactory_slurryPit01">
+      <en>slurry pit - Family Müller</en>
+      <de>Klärgrube - Familie Müller</de>
+    </text>
+    <text name="mCompanyFactory_slurryPit02">
+      <en>slurry pit - Family Schulze</en>
+      <de>Klärgrube - Familie Schulze</de>
+    </text>
+    <text name="mCompanyFactory_slurryPit03">
+      <en>slurry pit - Family Brown</en>
+      <de>Klärgrube - Familie Braun</de>
+    </text>
+    <text name="mCompanyFactory_slurryPit04">
+      <en>slurry pit - Family Newman</en>
+      <de>Klärgrube - Familie Neumann</de>
+    </text>
+    <text name="mCompanyFactory_slurryPit05">
+      <en>slurry pit - Family Grunwald</en>
+      <de>Klärgrube - Familie Grunwald</de>
+    </text>
+    <text name="mCompanyFactory_slurryPit06">
+      <en>slurry pit - Family Austerlitz</en>
+      <de>Klärgrube - Familie Austerlitz</de>
+    </text>
+    <text name="mCompanyFactory_slurryPit07">
+      <en>slurry pit - Local community</en>
+      <de>Klärgrube - Gemeinde Fuchshausen</de>
+    </text>
+    <text name="mCompanyFactory_slurryPit08">
+      <en>slurry pit - Family Krueger</en>
+      <de>Klärgrube - Familie Krüger</de>
+    </text>
+		<text name="mCompanyFactory_appleTree01"> <en>appletree 1</en> <de>Apfelbaum 1</de>	</text>
+		<text name="mCompanyFactory_appleTree02"> <en>appletree 2</en> <de>Apfelbaum 2</de>	</text>
+		<text name="mCompanyFactory_appleTree03"> <en>appletree 3</en> <de>Apfelbaum 3</de>	</text>
+		<text name="mCompanyFactory_appleTree04"> <en>appletree 4</en> <de>Apfelbaum 4</de>	</text>
+		<text name="mCompanyFactory_appleTree05"> <en>appletree 5</en> <de>Apfelbaum 5</de>	</text>
+		<text name="mCompanyFactory_appleTree06"> <en>appletree 6</en> <de>Apfelbaum 6</de>	</text>
+		<text name="mCompanyFactory_appleTree07"> <en>appletree 7</en> <de>Apfelbaum 7</de>	</text>
+		<text name="mCompanyFactory_appleTree08"> <en>appletree 8</en> <de>Apfelbaum 8</de>	</text>
+		<text name="mCompanyFactory_appleTree09"> <en>appletree 9</en> <de>Apfelbaum 9</de>	</text>
+		<text name="mCompanyFactory_appleTree10"> <en>appletree 10</en> <de>Apfelbaum 10</de>	</text>
+		<text name="mCompanyFactory_appleTree11"> <en>appletree 11</en> <de>Apfelbaum 11</de>	</text>
+		<text name="mCompanyFactory_appleTree12"> <en>appletree 12</en> <de>Apfelbaum 12</de>	</text>
+		<text name="mCompanyFactory_appleTree13"> <en>appletree 13</en> <de>Apfelbaum 13</de>	</text>
+		<text name="mCompanyFactory_appleTree14"> <en>appletree 14</en> <de>Apfelbaum 14</de>	</text>
+		<text name="mCompanyFactory_appleTree15"> <en>appletree 15</en> <de>Apfelbaum 15</de>	</text>
+		<text name="mCompanyFactory_appleTree16"> <en>appletree 16</en> <de>Apfelbaum 16</de>	</text>
+		<text name="mCompanyFactory_appleTree17"> <en>appletree 17</en> <de>Apfelbaum 17</de>	</text>
+		<text name="mCompanyFactory_appleTree18"> <en>appletree 18</en> <de>Apfelbaum 18</de>	</text>
+		<text name="mCompanyFactory_appleTree19"> <en>appletree 19</en> <de>Apfelbaum 19</de>	</text>
+		<text name="mCompanyFactory_appleTree20"> <en>appletree 20</en> <de>Apfelbaum 20</de>	</text>
+		<text name="mCompanyFactory_appleTree21"> <en>appletree 21</en> <de>Apfelbaum 21</de>	</text>
+		<text name="mCompanyFactory_appleTree22"> <en>appletree 22</en> <de>Apfelbaum 22</de>	</text>
+		<text name="mCompanyFactory_appleTree23"> <en>appletree 23</en> <de>Apfelbaum 23</de>	</text>
+		<text name="mCompanyFactory_appleTree24"> <en>appletree 24</en> <de>Apfelbaum 24</de>	</text>
+		<text name="mCompanyFactory_appleTree25"> <en>appletree 25</en> <de>Apfelbaum 25</de>	</text>
+		<text name="mCompanyFactory_appleTree26"> <en>appletree 26</en> <de>Apfelbaum 26</de>	</text>
+		<text name="mCompanyFactory_appleTree27"> <en>appletree 27</en> <de>Apfelbaum 27</de>	</text>
+		<text name="mCompanyFactory_appleTree28"> <en>appletree 28</en> <de>Apfelbaum 28</de>	</text>
+		<text name="mCompanyFactory_appleTree29"> <en>appletree 29</en> <de>Apfelbaum 29</de>	</text>
+		<text name="mCompanyFactory_appleTree30"> <en>appletree 30</en> <de>Apfelbaum 30</de>	</text>
+		<text name="mCompanyFactory_appleTree31"> <en>appletree 31</en> <de>Apfelbaum 31</de>	</text>
+		<text name="mCompanyFactory_appleTree32"> <en>appletree 32</en> <de>Apfelbaum 32</de>	</text>
+		<text name="mCompanyFactory_appleTree33"> <en>appletree 33</en> <de>Apfelbaum 33</de>	</text>
+		<text name="mCompanyFactory_appleTree34"> <en>appletree 34</en> <de>Apfelbaum 34</de>	</text>
+		<text name="mCompanyFactory_appleTree35"> <en>appletree 35</en> <de>Apfelbaum 35</de>	</text>
+		<text name="mCompanyFactory_appleTree36"> <en>appletree 36</en> <de>Apfelbaum 36</de>	</text>
+		<text name="mCompanyFactory_appleTree37"> <en>appletree 37</en> <de>Apfelbaum 37</de>	</text>
+		<text name="mCompanyFactory_appleTree38"> <en>appletree 38</en> <de>Apfelbaum 38</de>	</text>
+		<text name="mCompanyFactory_appleTree39"> <en>appletree 39</en> <de>Apfelbaum 39</de>	</text>
+		<text name="mCompanyFactory_appleTree40"> <en>appletree 40</en> <de>Apfelbaum 40</de>	</text>
+		<text name="mCompanyFactory_appleTree41"> <en>appletree 41</en> <de>Apfelbaum 41</de>	</text>
+		<text name="mCompanyFactory_appleTree42"> <en>appletree 42</en> <de>Apfelbaum 42</de>	</text>
+		<text name="mCompanyFactory_appleTree43"> <en>appletree 43</en> <de>Apfelbaum 43</de>	</text>
+		<text name="mCompanyFactory_appleTree44"> <en>appletree 44</en> <de>Apfelbaum 44</de>	</text>
+		<text name="mCompanyFactory_appleTree45"> <en>appletree 45</en> <de>Apfelbaum 45</de>	</text>
+		<text name="mCompanyFactory_appleTree46"> <en>appletree 46</en> <de>Apfelbaum 46</de>	</text>
+	    <text name="mCompanyFactory_butterMaker"> <en>Butter Maker</en> <de>Butter Maschine</de> </text>
+		<text name="mCompanyFactory_biogasPlant"> <en>Biogas Plant</en> <de>Biogasanlage</de> </text>
+		<text name="biodieselHomePlant"> <en>Biodiesel Raffinerie</en> <de>Biodiesel Raffinerie</de> </text>
+		<text name="farmFuelDepot"> <en>Farm Fuel Depot</en> <de>Hof Tankstelle</de> </text>
+		<text name="farmFuelDepot2"> <en>Fuel Depot (biodiesel)</en> <de>Biodiesel Lager</de> </text>
+		<text name="mCompanyFactory_cabbageField01"> <en>Redcabbage - Field 01</en> <de>Rotkohl - Feld 1</de> </text>
+		<text name="mCompanyFactory_cabbageField02"> <en>Redcabbage - Field 02</en> <de>Rotkohl - Feld 2</de> </text>
+		<text name="mCompanyFactory_cabbageField03"> <en>Redcabbage - Field 03</en> <de>Rotkohl - Feld 3</de> </text>
+		<text name="mCompanyFactory_cabbageMaster"> <en>CabbageMaster</en> <de>Cabbage Master</de> </text>
+		<text name="mCompanyFactory_compostMaster"> <en>Compost Master</en> <de>Kompostieranlage</de> </text>
+		<text name="mCompanyFactory_cheeseChamber"> <en>cheese chamber</en> <de>Käsekammer</de> </text>
+		<text name="mCompanyFactory_seedMaster"> <en>SeedMaster</en> <de>SeedMaster</de> </text>
+		<text name="mCompanyFactory_waterStorage1"> <en>water storage (farm)</en> <de>Wasserlager (Hof)</de> </text>
+		<text name="mCompanyFactory_waterStorage2"> <en>water storage (plantage)</en> <de>Wasserlager (Plantage)</de> </text>
+		<text name="mCompanyFactory_waterStorage3"> <en>water storage (greenfarm)</en> <de>Wasserlager (Gemüseanbau)</de> </text>
+		<text name="mCompanyFactory_slurrySeparator"> <en>slurry separator</en> <de>Gülle Separator</de> </text>
+		<text name="mCompanyFactory_grainMill"> <en>grain mill</en> <de>Getreide Mühle</de> </text>
+		<text name="mCompanyFactory_pigFoodStar"> <en>PigFood Star</en> <de>PigFood Star</de> </text>
+		<text name="kuenzelGrainMaster"> <en>Kuenzel GrainMaster</en> <de>Künzel GrainMaster</de> </text>
+		<text name="mCompanyFactory_cheeseMaker"> <en>Cheese Maker</en> <de>Käse Herstellung</de> </text>
+		<text name="mCompanyFactory_hayDryer"> <en>Agrifrigor Hay Dryer</en> <de>Agrifrigor Heutrockner</de> </text>
+		<text name="flieglBeetHacker">	<en>Fliegl BeetHacker</en> <de>Fliegl BeetHacker</de> </text>
+		<text name="mCompanyFactory_pigParkingZone"> <en>pig parking zone</en> <de>Abstellplatz (Schweine)</de> </text>	  
+		<text name="mCompanyFactory_waterCollectionPoint02"> <en>water point (farm)</en> <de>Wasserstelle (Hof)</de> </text>
+		<text name="mCompanyFactory_geeseHusbandry"> <en>geese husbandry</en> <de>Gänsestall</de> </text>
+		<text name="mCompanyFactory_cowPasture01"> <en>cow pasture No.1</en> <de>Kuhweide Nr.1</de> </text>
+		<text name="mCompanyFactory_cowPasture02"> <en>cow pasture No.2</en> <de>Kuhweide Nr.2</de> </text>
+		<text name="mCompanyFactory_cowPasture03"> <en>cow pasture No.3</en> <de>Kuhweide Nr.3</de> </text>
+		<text name="mCompanyFactory_liquidFertilizerStorage"> <en>liquid fertilizer storage</en> <de>Flüssigdünger Lagertank</de> </text>
+		<text name="mCompanyFactory_eggIncubator01"> <en>Incubator No.1</en> <de>Brutschrank Nr.1</de> </text>
+		<text name="mCompanyFactory_eggIncubator02"> <en>Incubator No.2</en> <de>Brutschrank Nr.2</de> </text>
+		<text name="mCompanyFactory_eggIncubator03"> <en>Incubator No.3</en> <de>Brutschrank Nr.3</de> </text>
+		<text name="mCompanyFactory_donkeyPasture"> <en>donkey Pasture</en> <de>Eselweide</de> </text>
+		<text name="mCompanyFactory_ponyHusbandry"> <en>Pony Ranch</en> <de>Pony Ranch</de> </text>
+		<text name="mCompanyFactory_tomatoGreenhouse01"> <en>Tomato - Greenhouse 1</en> <de>Tomaten - Gewächshaus 1</de> </text>
+		<text name="mCompanyFactory_tomatoGreenhouse02"> <en>Tomato - Greenhouse 2</en> <de>Tomaten - Gewächshaus 2</de> </text>
+		<text name="mCompanyFactory_tomatoGreenhouse03"> <en>Tomato - Greenhouse 3</en> <de>Tomaten - Gewächshaus 3</de> </text>
+		<text name="mCompanyFactory_tomatoGreenhouse04"> <en>Tomato - Greenhouse 4</en> <de>Tomaten - Gewächshaus 4</de> </text>
+		<text name="mCompanyFactory_cowMilkStorageTank"> <en>milkstorage</en> <de>Milchtank</de> </text>
+		<text name="mCompanyFactory_cucumberGreenhouse01"> <en>Cucumber - Greenhouse 1</en> <de>Gurken - Gewächshaus 1</de> </text>
+		<text name="mCompanyFactory_cucumberGreenhouse02"> <en>Cucumber - Greenhouse 2</en> <de>Gurken - Gewächshaus 2</de> </text>
+		<text name="mCompanyFactory_cucumberGreenhouse03"> <en>Cucumber - Greenhouse 3</en> <de>Gurken - Gewächshaus 3</de> </text>
+		<text name="mCompanyFactory_fermentingMaster"> <en>Fermenting Master</en> <de>Fermenting Master</de> </text>
+		<text name="mCompanyFactory_fertiMax"> <en>FertiMax</en> <de>FertiMax</de> </text>
+		<text name="mCompanyFactory_fieldWaterHydrant01"><en>field water hydrant 1</en> <de>Feldwasser Hydrant 1</de> </text>
+		<text name="mCompanyFactory_fieldWaterHydrant02"><en>field water hydrant 2</en> <de>Feldwasser Hydrant 2</de> </text>
+		<text name="mCompanyFactory_forageKing"> <en>ForageKing</en> <de>Forage King</de> </text>
+		<text name="mCompanyFactory_trashBags01"> <en>Waste disposal 1</en> <de>Müllentsorgung 1</de> </text>
+		<text name="mCompanyFactory_trashBags02"> <en>Waste disposal 2</en> <de>Müllentsorgung 2</de> </text>
+		<text name="mCompanyFactory_trashBags03"> <en>Waste disposal 3</en> <de>Müllentsorgung 3</de> </text>
+		<text name="mCompanyFactory_trashBags04"> <en>Waste disposal 4</en> <de>Müllentsorgung 4</de> </text>
+		<text name="mCompanyFactory_trashBags05"> <en>Waste disposal 5</en> <de>Müllentsorgung 5</de> </text>
+		<text name="mCompanyFactory_trashBags06"> <en>Waste disposal 6</en> <de>Müllentsorgung 6</de> </text>
+		<text name="mCompanyFactory_trashBags07"> <en>Waste disposal 7</en> <de>Müllentsorgung 7</de> </text>
+		<text name="mCompanyFactory_trashBags08"> <en>Waste disposal 8</en> <de>Müllentsorgung 8</de> </text>
+		<text name="mCompanyFactory_trashBags09"> <en>Waste disposal 9</en> <de>Müllentsorgung 9</de> </text>
+		<text name="mCompanyFactory_trashBags10"> <en>Waste disposal 10</en> <de>Müllentsorgung 10</de> </text>
+		<text name="mCompanyFactory_trashBags11"> <en>Waste disposal 11</en> <de>Müllentsorgung 11</de> </text>
+		<text name="mCompanyFactory_trashBags12"> <en>Waste disposal 12</en> <de>Müllentsorgung 12</de> </text>
+		<text name="mCompanyFactory_trashBags13"> <en>Waste disposal 13</en> <de>Müllentsorgung 13</de> </text>
+		<text name="mCompanyFactory_trashBags14"> <en>Waste disposal 14</en> <de>Müllentsorgung 14</de> </text>
+		<text name="mCompanyFactory_trashBags15"> <en>Waste disposal 15</en> <de>Müllentsorgung 15</de> </text>
+		<text name="mCompanyFactory_trashBags16"> <en>Waste disposal 16</en> <de>Müllentsorgung 16</de> </text>
+		<text name="mCompanyFactory_trashBags17"> <en>Waste disposal 17</en> <de>Müllentsorgung 17</de> </text>
+		<text name="mCompanyFactory_trashBags18"> <en>Waste disposal 18</en> <de>Müllentsorgung 18</de> </text>
+		<text name="mCompanyFactory_trashBags19"> <en>Waste disposal 19</en> <de>Müllentsorgung 19</de> </text>
+		<text name="mCompanyFactory_trashBags20"> <en>Waste disposal 20</en> <de>Müllentsorgung 20</de> </text>
+		<text name="mCompanyFactory_trashBags21"> <en>Waste disposal 21</en> <de>Müllentsorgung 21</de> </text>
+		<text name="mCompanyFactory_trashBags22"> <en>Waste disposal 22</en> <de>Müllentsorgung 22</de> </text>
+		<text name="mCompanyFactory_trashBags23"> <en>Waste disposal 23</en> <de>Müllentsorgung 23</de> </text>
+		<text name="mCompanyFactory_trashBags24"> <en>Waste disposal 24</en> <de>Müllentsorgung 24</de> </text>
+		<text name="mCompanyFactory_trashBags25"> <en>Waste disposal 25</en> <de>Müllentsorgung 25</de> </text>
+		<text name="mCompanyFactory_trashBags26"> <en>Waste disposal 26</en> <de>Müllentsorgung 26</de> </text>
+		<text name="mCompanyFactory_lambParkingZone"> <en>lamb parking zone</en> <de>Abstellplatz (Lämmer)</de> </text>
+		<text name="mCompanyFactory_lettuceGreenhouse01"> <en>Lettuce - Greenhouse 1</en> <de>Kopfsalat - Gewächshaus 1</de> </text>
+		<text name="mCompanyFactory_lettuceGreenhouse02"> <en>Lettuce - Greenhouse 2</en> <de>Kopfsalat - Gewächshaus 2</de> </text>
+		<text name="mCompanyFactory_lettuceGreenhouse03"> <en>Lettuce - Greenhouse 3</en> <de>Kopfsalat - Gewächshaus 3</de> </text>
+		<text name="mCompanyFactory_lettuceGreenhouse04"> <en>Lettuce - Greenhouse 4</en> <de>Kopfsalat - Gewächshaus 4</de> </text>
+		<text name="mCompanyFactory_waterTreatment"> <en>Water Treatment</en> <de>Klärwerk</de> </text>
+		<text name="sheepBreed"> <en>sheep breed</en> <de>Schafstall</de> </text>
+		<text name="chickenFarm"> <en>Chicken at Home</en> <de>Hühner am Hof</de> </text>
+		<text name="mCompanyFactory_packingStation01"> <en>egg packing station</en> <de>Eier Packstation</de> </text>
+  </l10n>
+</mapconfig>

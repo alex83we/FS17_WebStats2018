@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapconfig>
+  <item name="Storage_FarmSilo" locationType="storage" position="190 0 -5" />
+  <item name="Storage_FarmSilo2" locationType="storage" position="20 0 -164" />
+  <item name="Storage_liquidManureStorage" locationType="storage" position="-35.912 0 -60.307" />
+  <item name="Storage_heapStorage" locationType="storage" position="160.335 0 309.599" />
+  <item name="Storage_strawBarn" locationType="storage" position="54 0 -38" />
+  <l10n>
+    <text name="Storage_FarmSilo">
+      <en>Hofsilo</en>
+      <de>Hofsilo</de>
+    </text>
+    <text name="Storage_FarmSilo2">
+      <en>Hofsilo 2</en>
+      <de>Hofsilo 2</de>
+    </text>
+    <text name="Storage_liquidManureStorage">
+      <en>Manure/digestate storage</en>
+      <de>Gülle/Gärreste Lager</de>
+    </text>
+    <text name="Storage_heapStorage">
+      <en>Potato / sugar stock</en>
+      <de>Kartoffel-/Zuckerrübenlager</de>
+    </text>
+    <text name="Storage_strawBarn">
+      <en>Straw / hay</en>
+      <de>Stroh-/Heulager</de>
+    </text>
+  </l10n>
+</mapconfig>

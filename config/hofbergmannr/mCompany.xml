@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+  <item name="mCompanyFactory_waterTreatment" locationType="FabrikScript" ProdPerHour="20000" position="-11.4118 2.06 -2.26521" showInProduction="true">
+    <input name="waterTreatment_input" capacity="500000" factor="1" fillTypes="liquidManure digestate" showInStorage="false" showInProduction="true"/>
+    <output name="waterTreatment_output" capacity="250000" factor="0.8" fillType="water" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_compostMaster" locationType="FabrikScript" ProdPerHour="50000" position="-44.5924 99.8495 -127.62" showInProduction="true">
+    <input name="cm_inputWaste" capacity="50000" factor="0.065" fillTypes="compost potato sugarBeet chaff silage grass grass_windrow dryGrass_windrow woodChips manure straw beetPulp piglet chick redCabbage lettuce sugarCane" showInStorage="false"/>
+    <input name="cm_inputFuel" capacity="30000" factor="0.002" fillTypes="fuel biogas biodiesel" showInStorage="false"/>
+    <output name="cm_outputCompost" capacity="100000" factor="1" fillType="compost" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_fermentingMaster" locationType="FabrikScript" ProdPerHour="10000" position="-5.4063 2.647 23.0435" showInProduction="true">
+    <input name="fermentingMaster_input" capacity="500000" factor="0.9" fillTypes="grass grass_windrow chaff" showInStorage="false"/>
+    <input name="fermentingMaster_input2" capacity="8000" factor="0.1" fillTypes="silageAdditive" showInStorage="false"/>
+    <output name="fermentingMaster_output" capacity="500000" factor="1" fillType="silage" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_seedMaster" locationType="FabrikScript" ProdPerHour="5000" position="283.404 91.8858 -110.068" showInProduction="true">
+    <input name="grain_sm" capacity="10000" factor="1" fillTypes="wheat barley maize rape" showInStorage="false"/>
+    <input name="fertilizer_sm" capacity="10000" factor="0.1" fillTypes="liquidFertilizer" showInStorage="false"/>
+    <output name="seeds_sm" capacity="10000" factor="1" fillType="seeds" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_waterStorage1" locationType="FabrikScript" ProdPerHour="999999999" position="191.295 0 40.291" showInProduction="true">
+    <input name="water_waterStorage" capacity="200000" factor="1" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="water_waterStorage" capacity="200000" factor="1" fillType="water" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_biogasPlant" locationType="FabrikScript" ProdPerHour="5000" position="158.128 116.052 -429.867" showInProduction="true">
+    <input name="bga_biomasse" capacity="250000" factor="1" fillTypes="silage grass_windrow dryGrass_windrow straw woodChips manure potato sugarBeet wheat rape maize barley chaff beddingMaterial beetPulp sugarCane" showInStorage="false"/>
+    <output name="bga_digestate" capacity="250000" factor="0.7" fillType="digestate" showInStorage="true"/>
+    <output name="bga_biogas" capacity="250000" factor="0.3" fillType="biogas" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurrySeparator" locationType="FabrikScript" ProdPerHour="20000" position="152.32 115.988 -464.798" showInProduction="true">
+    <input name="liquidManureSSEP" capacity="200000" factor="1" fillTypes="liquidManure" showInStorage="false"/>
+    <output name="beddingMaterialSSEP" capacity="74000" factor="0.7" fillType="beddingMaterial" showInStorage="true"/>
+    <output name="digestateSSEP" capacity="126000" factor="0.3" fillType="digestate" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_grainMill" locationType="FabrikScript" ProdPerHour="8300" position="-245.955 0 446.345" showInProduction="true">
+    <input name="grains_grainMill" capacity="200000" factor="1" fillTypes="wheat barley maize wholeGrain" showInStorage="false"/>
+    <output name="wholeGrain_grainMill" capacity="200000" factor="1" fillType="wholeGrain" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_pigFoodStar" locationType="FabrikScript" ProdPerHour="2000" position="193.336 89.9605 -38.5354" showInProduction="true">
+    <input name="potatoPFSTAR" capacity="10000" factor="1" fillTypes="potato" showInStorage="false"/>
+    <input name="waterPFSTAR" capacity="10000" factor="0.45" fillTypes="water" showInStorage="false"/>
+    <input name="wholeGrainPFSTAR" capacity="10000" factor="1" fillTypes="wholeGrain" showInStorage="false"/>
+    <output name="pigFoodPFSTAR" capacity="20000" factor="2" fillType="pigFood" showInStorage="true"/>
+  </item>
+  <item name="kuenzelGrainMaster" locationType="FabrikScript" ProdPerHour="5000" position="244.042 89.9542 -102.743" showInProduction="true">
+    <input name="kuenzelGrainMaster_grains" capacity="10000" factor="1" fillTypes="wheat barley maize wholeGrain" showInStorage="false"/>
+    <output name="kuenzelGrainMaster_wholeGrain" capacity="500" factor="1" fillType="wholeGrain" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_waterStorage2" locationType="FabrikScript" ProdPerHour="999999999" position="-767.967 0 663.727" showInProduction="true">
+    <input name="water_waterStorage" capacity="200000" factor="1" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="water_waterStorage" capacity="200000" factor="1" fillType="water" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_appleTree01" locationType="FabrikScript" ProdPerHour="25" position="-796.79 105.123 634.547" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-801.66 630.05 -793.817 638.325" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree02" locationType="FabrikScript" ProdPerHour="25" position="-885.966 109.02 617.337" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-889.501 613.332 -882.286 621.694" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree03" locationType="FabrikScript" ProdPerHour="25" position="-825.574 106.912 633.369" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-830.935 629.721 -820.371 639.487" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree04" locationType="FabrikScript" ProdPerHour="25" position="-850.304 108.307 632.654" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-854.078 628.969 -847.118 635.562" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree05" locationType="FabrikScript" ProdPerHour="25" position="-865.559 108.826 632.203" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-867.673 629.311 -860.471 637.508" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree06" locationType="FabrikScript" ProdPerHour="25" position="-780.792 104.103 616.129" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-785.618 610.599 -773.727 622.291" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree07" locationType="FabrikScript" ProdPerHour="25" position="-764.1 104.498 634.916" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-768.662 629.481 -760 640.263" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree08" locationType="FabrikScript" ProdPerHour="25" position="-886.209 108.928 631.552" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-890.55 629.293 -883.359 635.799" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree09" locationType="FabrikScript" ProdPerHour="25" position="-867.268 109.063 617.385" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-869.53 613.585 -861.892 621.039" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree10" locationType="FabrikScript" ProdPerHour="25" position="-848.995 108.43 616.827" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-854.022 613.319 -845.911 621.68" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree11" locationType="FabrikScript" ProdPerHour="25" position="-885.765 109.487 600.007" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-892.244 594.182 -883.988 605.315" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree12" locationType="FabrikScript" ProdPerHour="25" position="-779.793 104.609 635.4" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-786.176 629.721 -775.229 639.827" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree13" locationType="FabrikScript" ProdPerHour="25" position="-763.531 103.933 617.109" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-767.772 610.225 -758.514 621.149" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree14" locationType="FabrikScript" ProdPerHour="25" position="-810.643 105.96 635.61" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-816.209 629.721 -804.723 639.487" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree15" locationType="FabrikScript" ProdPerHour="25" position="-836.652 107.552 633.736" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-841.755 630.986 -833.029 640.17" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree16" locationType="FabrikScript" ProdPerHour="25" position="-795.802 104.875 616.261" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-800.67 611.258 -790.038 622.032" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree17" locationType="FabrikScript" ProdPerHour="25" position="-828.547 106.991 615.924" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-832.438 612.564 -822.307 621.429" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree18" locationType="FabrikScript" ProdPerHour="25" position="-764.594 103.161 597.218" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-769.327 591.875 -760.864 600.303" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree19" locationType="FabrikScript" ProdPerHour="25" position="-812.029 105.868 615.755" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-817.751 611.483 -806.755 620.795" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree20" locationType="FabrikScript" ProdPerHour="25" position="-849.15 108.291 596.948" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-853.245 593.159 -845.648 603.596" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree21" locationType="FabrikScript" ProdPerHour="25" position="-831.281 107.123 596.542" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-835.529 593.401 -827.398 602.45" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree22" locationType="FabrikScript" ProdPerHour="25" position="-802.464 104.98 595.898" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-807.153 593.473 -797.713 602.196" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree23" locationType="FabrikScript" ProdPerHour="25" position="-868.287 109.148 597.727" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-873.314 593.977 -865.305 604.213" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree24" locationType="FabrikScript" ProdPerHour="25" position="-777.764 103.449 597.168" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-782.355 592.577 -772.911 601.939" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree25" locationType="FabrikScript" ProdPerHour="25" position="-790.238 104.116 596.895" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-795.355 592.32 -784.13 602.18" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree26" locationType="FabrikScript" ProdPerHour="25" position="-817.995 106.124 596.42" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-821.23 592.635 -812.472 602.864" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree27" locationType="FabrikScript" ProdPerHour="25" position="-857.829 108.912 617.339" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-863.084 613.216 -855.123 622.91" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree28" locationType="FabrikScript" ProdPerHour="25" position="-838.666 107.702 616.001" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-844.789 611.461 -835.38 621.979" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree29" locationType="FabrikScript" ProdPerHour="25" position="-839.75 107.728 597.355" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-844.138 593.516 -836.384 603.257" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree30" locationType="FabrikScript" ProdPerHour="25" position="-857.572 108.718 597.87" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-862.228 593.967 -853.681 604.363" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree31" locationType="FabrikScript" ProdPerHour="25" position="-857.527 108.669 632.367" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-861.281 629.311 -855.347 635.054" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree32" locationType="FabrikScript" ProdPerHour="25" position="-876.642 109.411 598.896" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-882.128 594.425 -873.985 604.984" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree33" locationType="FabrikScript" ProdPerHour="25" position="-875.432 108.717 632.671" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-878.963 630.742 -871.92 637.508" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree34" locationType="FabrikScript" ProdPerHour="25" position="-876.166 109.131 616.528" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-880.099 613.332 -872.937 621.039" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree35" locationType="FabrikScript" ProdPerHour="25" position="-765.646 102.393 581.951" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-770.434 577.707 -761.095 585.428" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree36" locationType="FabrikScript" ProdPerHour="25" position="-777.706 102.797 582.436" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-781.817 577.707 -773.515 586.613" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree37" locationType="FabrikScript" ProdPerHour="25" position="-800.794 104.533 582.032" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-805.02 577.27 -796.268 585.333" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree38" locationType="FabrikScript" ProdPerHour="25" position="-823.775 106.446 581.476" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-827.975 577.729 -819.906 585.579" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree39" locationType="FabrikScript" ProdPerHour="25" position="-837.6 107.507 581.958" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-841.624 577.642 -833.726 585.449" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree40" locationType="FabrikScript" ProdPerHour="25" position="-876.676 109.073 583.898" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-882.404 579.963 -874.092 587.181" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree41" locationType="FabrikScript" ProdPerHour="25" position="-860.665 108.525 583.212" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-865.237 578.317 -857.585 586.903" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree42" locationType="FabrikScript" ProdPerHour="25" position="-884.967 109.331 584.193" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-891.086 579.794 -883.538 587.826" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree43" locationType="FabrikScript" ProdPerHour="25" position="-868.405 108.803 583.504" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-874.092 578.774 -865.237 586.938" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree44" locationType="FabrikScript" ProdPerHour="25" position="-849.851 108.063 582.66" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-854.542 578.464 -846.345 585.199" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree45" locationType="FabrikScript" ProdPerHour="25" position="-812.341 105.531 581.703" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-816.082 577.937 -808 586" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_appleTree46" locationType="FabrikScript" ProdPerHour="25" position="-788.527 103.383 581.479" showInProduction="true">
+    <input name="appleTree_water" capacity="100" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <input name="appleTree_manure" capacity="100" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <output name="appleTree_apples" capacity="50" factor="1" fillType="apple" palettArea="-793.049 577.619 -784.203 586.613" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_hayDryer" locationType="FabrikScript" ProdPerHour="10000" position="155.097 89.9961 -65.6914" showInProduction="true">
+    <input name="hayDryer_input" capacity="20000" factor="1" fillTypes="grass grass_windrow dryGrass_windrow" showInStorage="false"/>
+    <output name="hayDryer_output" capacity="250000" factor="1" fillType="dryGrass_windrow" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurryPit01" locationType="FabrikScript" ProdPerHour="100" position="-450.085 87.6881 394.274" showInProduction="true">
+    <input name="slurryPit_fakeInput" capacity="5000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="liquidManure" capacity="5000" factor="1" fillType="liquidManure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurryPit02" locationType="FabrikScript" ProdPerHour="100" position="-583.596 98.7296 396.506" showInProduction="true">
+    <input name="slurryPit_fakeInput" capacity="5000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="liquidManure" capacity="5000" factor="1" fillType="liquidManure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurryPit03" locationType="FabrikScript" ProdPerHour="100" position="-649.426 98.9719 514.349" showInProduction="true">
+    <input name="slurryPit_fakeInput" capacity="5000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="liquidManure" capacity="5000" factor="1" fillType="liquidManure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurryPit04" locationType="FabrikScript" ProdPerHour="150" position="-676.187 98.8131 383.545" showInProduction="true">
+    <input name="slurryPit_fakeInput" capacity="6000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="liquidManure" capacity="6000" factor="1" fillType="liquidManure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurryPit05" locationType="FabrikScript" ProdPerHour="450" position="-633.677 98.8771 492.688" showInProduction="true">
+    <input name="slurryPit_fakeInput" capacity="4000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="liquidManure" capacity="4000" factor="1" fillType="liquidManure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurryPit06" locationType="FabrikScript" ProdPerHour="450" position="-660.339 99.5507 431.474" showInProduction="true">
+    <input name="slurryPit_fakeInput" capacity="4000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="liquidManure" capacity="4000" factor="1" fillType="liquidManure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurryPit07" locationType="FabrikScript" ProdPerHour="500" position="-522.197 94.5225 412.924" showInProduction="true">
+    <input name="slurryPit_fakeInput" capacity="8000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="liquidManure" capacity="8000" factor="1" fillType="liquidManure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_slurryPit08" locationType="FabrikScript" ProdPerHour="150" position="-474.169 91.2696 333.333" showInProduction="true">
+    <input name="slurryPit_fakeInput" capacity="6000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="liquidManure" capacity="6000" factor="1" fillType="liquidManure" showInStorage="true"/>
+  </item>
+  <item name="flieglBeetHacker" locationType="FabrikScript" ProdPerHour="10000" position="122.242 90.3143 -196.147" showInProduction="true">
+    <input name="flieglBeetHacker_beets" capacity="10000" factor="1" fillTypes="sugarBeet beetPulp" showInStorage="false"/>
+    <output name="flieglBeetHacker_beetPulp" capacity="10000" factor="1" fillType="beetPulp" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_pigParkingZone" locationType="FabrikScript" ProdPerHour="1000" position="409.847 6.96634 314.25" showInProduction="true">
+    <input name="pigs" capacity="200" factor="0" fillTypes="pig" showInStorage="false"/>
+    <output name="pigs" capacity="200" factor="0" fillType="pig" showInStorage="false" showInProduction="false"/>
+  </item>
+  <item name="farmFuelDepot" locationType="FabrikScript" ProdPerHour="999999999" position="293.659 91.9494 -153.457" showInProduction="true">
+    <input name="fuelIN_ffs" capacity="80000" factor="1" fillTypes="fuel" showInStorage="false" showInProduction="false"/>
+    <output name="fuelOUT_ffs" capacity="80000" factor="1" fillType="fuel" showInStorage="true"/>
+  </item>
+  <item name="biodieselHomePlant" locationType="FabrikScript" ProdPerHour="2000" position="169.421 115.989 -397.525" showInProduction="true">
+    <input name="biodieselHomePlant_grain" capacity="30000" factor="1" fillTypes="rape sunflower soybean" showInStorage="false"/>
+    <output name="biodieselHomePlant_biodiesel" capacity="100000" factor="1" fillType="biodiesel" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_waterCollectionPoint02" locationType="FabrikScript" ProdPerHour="999999999" position="242.41 89.784 -114.993" showInProduction="true">
+    <input name="waterCollectionPoint_moneyInput" capacity="100000" factor="0.2" fillTypes="money" showInStorage="false" showInProduction="false"/>
+    <output name="waterCollectionPoint2_water" capacity="100000" factor="1" fillType="water" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_geeseHusbandry" locationType="FabrikScript" ProdPerHour="20" position="111.095 90.062 -58.7397" showInProduction="true">
+    <input name="geeseHusbandry_straw" capacity="12000" factor="0.2" fillTypes="straw beddingMaterial" showInStorage="false"/>
+    <input name="geeseHusbandry_grains" capacity="5000" factor="0.2" fillTypes="wheat barley maize geeseFeed" showInStorage="false"/>
+    <input name="geeseHusbandry_water" capacity="10000" factor="0.3" fillTypes="water" showInStorage="false"/>
+    <output name="goose_out" capacity="200" factor="0.01" fillType="goose" showInStorage="true"/>
+    <output name="geeseHusbandry_manure" capacity="10000" factor="0.3" fillType="manure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_cowPasture01" locationType="FabrikScript" ProdPerHour="200" position="379.202 105.982 -386.282" showInProduction="true">
+    <input name="cows" capacity="200" factor="0" fillTypes="cow" showInStorage="false"/>
+    <input name="cowPasture_water" capacity="10000" factor="5" fillTypes="water" showInStorage="false"/>
+    <input name="cowPasture_hey" capacity="4000" factor="1.5" fillTypes="dryGrass_windrow" showInStorage="false"/>
+    <input name="cowPasture_battery" capacity="130000" factor="20" fillTypes="mAh" showInStorage="false"/>
+    <output name="cowPasture_rawMilk" capacity="10000" factor="3" fillType="rawMilk" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cowPasture02" locationType="FabrikScript" ProdPerHour="200" position="653.498 112.996 596.523" showInProduction="true">
+    <input name="cows" capacity="200" factor="0" fillTypes="cow" showInStorage="false"/>
+    <input name="cowPasture_water" capacity="10000" factor="5" fillTypes="water" showInStorage="false"/>
+    <input name="cowPasture_hey" capacity="4000" factor="1.5" fillTypes="dryGrass_windrow" showInStorage="false"/>
+    <input name="cowPasture_battery" capacity="130000" factor="20" fillTypes="mAh" showInStorage="false"/>
+    <output name="cowPasture_rawMilk" capacity="10000" factor="3" fillType="rawMilk" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cowPasture03" locationType="FabrikScript" ProdPerHour="200" position="-589.602 135.137 -531.759" showInProduction="true">
+    <input name="cows" capacity="100" factor="0" fillTypes="cow" showInStorage="false"/>
+    <input name="cowPasture_water" capacity="10000" factor="5" fillTypes="water" showInStorage="false"/>
+    <input name="cowPasture_hey" capacity="4000" factor="1.5" fillTypes="dryGrass_windrow" showInStorage="false"/>
+    <input name="cowPasture_battery" capacity="130000" factor="20" fillTypes="mAh" showInStorage="false"/>
+    <output name="cowPasture_rawMilk" capacity="10000" factor="3" fillType="rawMilk" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_liquidFertilizerStorage" locationType="FabrikScript" ProdPerHour="999999999" position="292.596 91.9154 -124.143" showInProduction="true">
+    <input name="liquidFertilizer_liquidFertilizerStorage" capacity="80000" factor="1" fillTypes="liquidFertilizer" showInStorage="false" showInProduction="false" />
+    <output name="liquidFertilizer_liquidFertilizerStorage" capacity="80000" factor="1" fillType="liquidFertilizer" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_eggIncubator01" locationType="FabrikScript" ProdPerHour="50" position="748.757 0 678.703" showInProduction="true">
+    <input name="layedEgg_input" capacity="600" factor="1" fillTypes="layedEgg" showInStorage="false"/>
+    <output name="chick_output" capacity="50" factor="1" fillType="chick" palettArea="747.19 678.325 750.342 679.448" palettPlaces="12" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_eggIncubator02" locationType="FabrikScript" ProdPerHour="50" position="745.54 0 678.703" showInProduction="true">
+    <input name="layedEgg_input" capacity="600" factor="1" fillTypes="layedEgg" showInStorage="false"/>
+    <output name="chick_output" capacity="50" factor="1" fillType="chick" palettArea="743.854 678.318 747.099 679.392" palettPlaces="12" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_eggIncubator03" locationType="FabrikScript" ProdPerHour="50" position="742.269 0 678.703" showInProduction="true">
+    <input name="layedEgg_input" capacity="600" factor="1" fillTypes="layedEgg" showInStorage="false"/>
+    <output name="chick_output" capacity="50" factor="1" fillType="chick" palettArea="740.331 678.268 743.854 679.329" palettPlaces="12" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_donkeyPasture" locationType="FabrikScript" ProdPerHour="100" position="65.3461 93.928 -115.505" showInProduction="true">
+    <input name="donkeyPasture_hey" capacity="4000" factor="1" fillTypes="dryGrass_windrow" showInStorage="false"/>
+    <output name="donkeyPasture_gold" capacity="100" factor="1" fillType="water" showInStorage="true" showInProduction="true"/>
+  </item>
+  <item name="mCompanyFactory_ponyHusbandry" locationType="FabrikScript" ProdPerHour="250" position="666.525 112.996 699.094" showInProduction="true">
+    <input name="ponys" capacity="100" factor="0" fillTypes="pony" showInStorage="false"/>
+    <input name="ponyHusbandry_straw" capacity="16000" factor="0.5" fillTypes="straw beddingMaterial" showInStorage="false"/>
+    <input name="ponyHusbandry_water" capacity="15000" factor="0.8" fillTypes="water" showInStorage="false"/>
+    <input name="ponyHusbandry_hey" capacity="4000" factor="0.5" fillTypes="dryGrass_windrow" showInStorage="false"/>
+    <output name="foals" capacity="200" factor="0.001" fillType="foal" showInStorage="true"/>
+    <output name="ponyHusbandry_manure" capacity="20000" factor="1" fillType="manure" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_waterStorage3" locationType="FabrikScript" ProdPerHour="999999999" position="-587.449 0 -873.36" showInProduction="true">
+    <input name="water_waterStorage" capacity="200000" factor="1" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="water_waterStorage" capacity="200000" factor="1" fillType="water" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_tomatoGreenhouse01" locationType="FabrikScript" ProdPerHour="80" position="-749.322 134.246 -820.491" showInProduction="true">
+    <input name="tomatoGreenhouse_manure" capacity="4000" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <input name="tomatoGreenhouse_water" capacity="8000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="tomatoGreenhouse_tomato" capacity="1000" factor="1" fillType="tomato" palettArea="-742.997 -819.232 -740.401 -816.76" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_tomatoGreenhouse02" locationType="FabrikScript" ProdPerHour="80" position="-749.322 134.246 -838.85" showInProduction="true">
+    <input name="tomatoGreenhouse_manure" capacity="4000" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <input name="tomatoGreenhouse_water" capacity="8000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="tomatoGreenhouse_tomato" capacity="1000" factor="1" fillType="tomato" palettArea="-742.997 -837.555 -739.873 -834.919" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_tomatoGreenhouse03" locationType="FabrikScript" ProdPerHour="80" position="-749.322 134.246 -857.168" showInProduction="true">
+    <input name="tomatoGreenhouse_manure" capacity="4000" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <input name="tomatoGreenhouse_water" capacity="8000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="tomatoGreenhouse_tomato" capacity="1000" factor="1" fillType="tomato" palettArea="-742.997 -855.867 -739.873 -853.18" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_tomatoGreenhouse04" locationType="FabrikScript" ProdPerHour="80" position="-749.322 134.246 -874.808" showInProduction="true">
+    <input name="tomatoGreenhouse_manure" capacity="4000" factor="0.5" fillTypes="manure compost" showInStorage="false"/>
+    <input name="tomatoGreenhouse_water" capacity="8000" factor="0.5" fillTypes="water" showInStorage="false"/>
+    <output name="tomatoGreenhouse_tomato" capacity="1000" factor="1" fillType="tomato" palettArea="-742.997 -873.499 -739.873 -870.711" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_lettuceGreenhouse01" locationType="FabrikScript" ProdPerHour="10" position="-720.289 134.246 -874.471" showInProduction="true">
+    <input name="lettuceGreenhouse_manure" capacity="4000" factor="0.32" fillTypes="manure compost" showInStorage="false"/>
+    <input name="lettuceGreenhouse_water" capacity="8000" factor="0.56" fillTypes="water" showInStorage="false"/>
+    <output name="lettuceGreenhouse_lettuce" capacity="92" factor="1" fillType="lettuce" palettArea="-718.475 -875.63 -716.675 -873.523" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_lettuceGreenhouse02" locationType="FabrikScript" ProdPerHour="10" position="-720.289 134.246 -857.165" showInProduction="true">
+    <input name="lettuceGreenhouse_manure" capacity="4000" factor="0.32" fillTypes="manure compost" showInStorage="false"/>
+    <input name="lettuceGreenhouse_water" capacity="8000" factor="0.56" fillTypes="water" showInStorage="false"/>
+    <output name="lettuceGreenhouse_lettuce" capacity="92" factor="1" fillType="lettuce" palettArea="-718.475 -858.283 -716.675 -856.112" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_lettuceGreenhouse03" locationType="FabrikScript" ProdPerHour="10" position="-720.289 134.246 -838.865" showInProduction="true">
+    <input name="lettuceGreenhouse_manure" capacity="4000" factor="0.32" fillTypes="manure compost" showInStorage="false"/>
+    <input name="lettuceGreenhouse_water" capacity="8000" factor="0.56" fillTypes="water" showInStorage="false"/>
+    <output name="lettuceGreenhouse_lettuce" capacity="92" factor="1" fillType="lettuce" palettArea="-718.475 -839.669 -716.675 -837.907" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_lettuceGreenhouse04" locationType="FabrikScript" ProdPerHour="10" position="-720.289 134.246 -820.201" showInProduction="true">
+    <input name="lettuceGreenhouse_manure" capacity="4000" factor="0.32" fillTypes="manure compost" showInStorage="false"/>
+    <input name="lettuceGreenhouse_water" capacity="8000" factor="0.56" fillTypes="water" showInStorage="false"/>
+    <output name="lettuceGreenhouse_lettuce" capacity="92" factor="1" fillType="lettuce" palettArea="-718.475 -821.232 -716.675 -819.086" palettPlaces="1" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cucumberGreenhouse01" locationType="FabrikScript" ProdPerHour="50" position="-683.49 134.259 -826.87" showInProduction="true">
+    <input name="cucumberGreenhouse_manure" capacity="4000" factor="5" fillTypes="manure compost" showInStorage="false"/>
+    <input name="cucumberGreenhouse_water" capacity="8000" factor="8" fillTypes="water" showInStorage="false"/>
+    <output name="cucumberGreenhouse_cucumber" capacity="100" factor="1" fillType="cucumber" palettArea="-695.005 -833.046 -672.281 -824.094" palettPlaces="9" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cucumberGreenhouse02" locationType="FabrikScript" ProdPerHour="50" position="-683.49 134.259 -847.484" showInProduction="true">
+    <input name="cucumberGreenhouse_manure" capacity="4000" factor="5" fillTypes="manure compost" showInStorage="false"/>
+    <input name="cucumberGreenhouse_water" capacity="8000" factor="8" fillTypes="water" showInStorage="false"/>
+    <output name="cucumberGreenhouse_cucumber" capacity="900" factor="1" fillType="cucumber" palettArea="-694.847 -854.073 -671.386 -845.279" palettPlaces="9" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cucumberGreenhouse03" locationType="FabrikScript" ProdPerHour="50" position="-683.49 134.259 -866.797" showInProduction="true">
+    <input name="cucumberGreenhouse_manure" capacity="4000" factor="5" fillTypes="manure compost" showInStorage="false"/>
+    <input name="cucumberGreenhouse_water" capacity="8000" factor="8" fillTypes="water" showInStorage="false"/>
+    <output name="cucumberGreenhouse_cucumber" capacity="900" factor="1" fillType="cucumber" palettArea="-694.965 -872.772 -671.135 -864.095" palettPlaces="9" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cabbageField01" locationType="FabrikScript" ProdPerHour="100" position="-636.156 134.853 -828.991" showInProduction="true">
+    <input name="cabbageField_saplings" capacity="98" factor="0.12" fillTypes="redCabbageSaplings" showInStorage="false"/>
+    <input name="cabbageField_water" capacity="10000" factor="0.88" fillTypes="water" showInStorage="false"/>
+    <output name="cabbageField_redCabbage" capacity="1" factor="1" fillType="redCabbage" palettArea="-652.313 -837.629 -618.185 -820.437" palettPlaces="98" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cabbageField02" locationType="FabrikScript" ProdPerHour="100" position="-636.156 135 -850.98" showInProduction="true">
+    <input name="cabbageField_saplings" capacity="98" factor="0.12" fillTypes="redCabbageSaplings" showInStorage="false"/>
+    <input name="cabbageField_water" capacity="10000" factor="0.88" fillTypes="water" showInStorage="false"/>
+    <output name="cabbageField_redCabbage" capacity="1" factor="1" fillType="redCabbage" palettArea="-652.313 -860.097 -618.185 -842.338" palettPlaces="98" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cabbageField03" locationType="FabrikScript" ProdPerHour="100" position="-636.156 135.008 -873.676" showInProduction="true">
+    <input name="cabbageField_saplings" capacity="98" factor="0.12" fillTypes="redCabbageSaplings" showInStorage="false"/>
+    <input name="cabbageField_water" capacity="10000" factor="0.88" fillTypes="water" showInStorage="false"/>
+    <output name="cabbageField_redCabbage" capacity="1" factor="1" fillType="redCabbage" palettArea="-652.313 -882.578 -618.185 -864.829" palettPlaces="98" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags01" locationType="FabrikScript" ProdPerHour="25" position="250.89 90.0011 -60.5492" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="250.21 -61.909 252.507 -58.635" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags02" locationType="FabrikScript" ProdPerHour="25" position="734.742 99.5097 359.582" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="1000" factor="0.3" fillType="trash" palettArea="735.076 358.919 741.592 362.05" palettPlaces="10" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags03" locationType="FabrikScript" ProdPerHour="25" position="-236.989 88.9018 423.645" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-238.036 421.61 -235.376 425.664" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags04" locationType="FabrikScript" ProdPerHour="25" position="-173.145 89.9888 517.906" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="1000" factor="0.3" fillType="trash" palettArea="-176.241 517.981 -172.756 524.86" palettPlaces="10" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags05" locationType="FabrikScript" ProdPerHour="25" position="-225.508 89.2625 566.029" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-226.812 564.3 -223.675 567.053" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags06" locationType="FabrikScript" ProdPerHour="25" position="-190.732 84.7384 683.111" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="1000" factor="0.3" fillType="trash" palettArea="-192.669 683.475 -190.108 690.212" palettPlaces="10" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags07" locationType="FabrikScript" ProdPerHour="25" position="-471.138 88.9322 826.286" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-471.789 824.202 -469.406 827.11" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags08" locationType="FabrikScript" ProdPerHour="25" position="-396.947 85.0907 389.096" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-398.87 388.355 -396.009 390.532" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags09" locationType="FabrikScript" ProdPerHour="25" position="-502.107 85.6965 494.653" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="1000" factor="0.3" fillType="trash" palettArea="-502.755 493.667 -495.724 497.869" palettPlaces="10" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags10" locationType="FabrikScript" ProdPerHour="25" position="-421.704 85.5672 403.586" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-422.934 402.754 -420.247 405.379" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags11" locationType="FabrikScript" ProdPerHour="25" position="-478.256 91.9103 351.21" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-479.084 349.508 -476.058 353.471" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags12" locationType="FabrikScript" ProdPerHour="25" position="-520.064 95.266 380.645" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-522.723 379.82 -518.836 383.185" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags13" locationType="FabrikScript" ProdPerHour="25" position="-562.073 96.2344 405.952" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="1000" factor="0.3" fillType="trash" palettArea="-568 402 -550 412" palettPlaces="10" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags14" locationType="FabrikScript" ProdPerHour="25" position="-587.682 99.2729 426.361" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-589.869 425.489 -585.877 428.401" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags15" locationType="FabrikScript" ProdPerHour="25" position="-634.174 99.5831 398.018" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-636.52 396.588 -632.587 398.982" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags16" locationType="FabrikScript" ProdPerHour="25" position="-621.293 99.2488 491.832" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-623.169 490.806 -619.983 492.248" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags17" locationType="FabrikScript" ProdPerHour="25" position="-633.6 99.1062 500.687" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-636.327 498.179 -632.738 503.397" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags18" locationType="FabrikScript" ProdPerHour="25" position="-650.332 99.4568 475.806" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-651.258 474.091 -647.965 476.918" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags19" locationType="FabrikScript" ProdPerHour="25" position="-656.625 99.7861 447.682" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-658.604 445.807 -655.444 448.507" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags20" locationType="FabrikScript" ProdPerHour="25" position="-650.353 99.6348 428.109" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-651.6 427.018 -648.349 430.519" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags21" locationType="FabrikScript" ProdPerHour="25" position="-656.709 99.3647 382.034" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-658.727 380.661 -655.393 384.368" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags22" locationType="FabrikScript" ProdPerHour="25" position="-609.738 98.978 378.89" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-612 376 -605 381" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags23" locationType="FabrikScript" ProdPerHour="25" position="-589.871 98.2393 378.336" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-593 376 -587 381" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags24" locationType="FabrikScript" ProdPerHour="25" position="-51.6645 99.9765 -498.136" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="-56.073 -499.577 -47.397 -497.293" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags25" locationType="FabrikScript" ProdPerHour="25" position="683.284 99.7043 200.779" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="681.514 198.253 684.105 202.931" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_trashBags26" locationType="FabrikScript" ProdPerHour="25" position="133.469 101.177 -714.866" showInProduction="true">
+    <input name="empty" capacity="2000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="trash_output" capacity="500" factor="0.3" fillType="trash" palettArea="132.162 -717.531 134.699 -712.315" palettPlaces="5" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cowMilkStorageTank" locationType="FabrikScript" ProdPerHour="1000" position="201.751 89.9333 -114.237" showInProduction="true">
+    <input name="milk_milkStorage" capacity="10000000" factor="1" fillTypes="milk" showInStorage="false" showInProduction="false"/>
+    <output name="milk_milkStorage" capacity="10000000" factor="1" fillType="milk" showInStorage="true"/>
+  </item>
+  <item name="sheepBreed" locationType="FabrikScript" ProdPerHour="250" position="-589.424 95.994 323.697" showInProduction="true">
+    <input name="sheep_in" capacity="100" factor="0" fillTypes="sheep" showInStorage="false"/>
+    <input name="sheepBreed_straw" capacity="16000" factor="0.4" fillTypes="straw beddingMaterial" showInStorage="false"/>
+    <input name="sheepBreed_food" capacity="20000" factor="1" fillTypes="grass grass_windrow dryGrass_windrow beetPulp" showInStorage="false"/>
+    <input name="sheepBreed_water" capacity="10000" factor="0.6" fillTypes="water" showInStorage="false"/>
+    <output name="sheepBreed_lambs" capacity="10" factor="0.001" fillType="lamb" showInStorage="true"/>
+    <output name="sheepBreed_manure" capacity="16000" factor="0.2" fillType="manure" showInStorage="true"/>
+    <output name="sheepBreed_milk" capacity="6000" factor="0.09" fillType="milk" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_lambParkingZone" locationType="FabrikScript" ProdPerHour="1000" position="-607.423 95.7799 336.002" showInProduction="true">
+    <input name="lambs" capacity="100" factor="0" fillTypes="lamb" showInStorage="false"/>
+    <output name="lambs" capacity="100" factor="0" fillType="lamb" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_cheeseMaker" locationType="FabrikScript" ProdPerHour="250" position="-542.785 0 319.338" showInProduction="true">
+    <input name="inputSheepMilk" capacity="1000" factor="1" fillTypes="milk rawMilk" showInStorage="false"/>
+    <input name="inputLab" capacity="30" factor="0.01" fillTypes="lab" showInStorage="false"/>
+    <output name="outputCheeseMaker" capacity="250" factor="1" fillType="cheeseYoung" palettArea="-545.131 310.883 -540.884 311.685" palettPlaces="4" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_cheeseChamber" locationType="FabrikScript" ProdPerHour="250" position="-542.785 0 319.338" showInProduction="true">
+    <input name="inputCheese" capacity="6750" factor="1" fillTypes="cheeseYoung" showInStorage="false"/>
+    <output name="outputCheese" capacity="250" factor="1" fillType="cheeseMatured" palettArea="-547.946 323.07 -537.148 327.582" palettPlaces="27" showInStorage="false"/>
+  </item>
+  <item name="chickenFarm" locationType="FabrikScript" ProdPerHour="10" position="212.873 89.9786 -45.3861" showInProduction="true">
+    <input name="chickenFarm_grains" capacity="1000" factor="0.7" fillTypes="wheat barley maize chickenFeed" showInStorage="false"/>
+    <input name="chickenFarm_water" capacity="100" factor="0.3" fillTypes="water" showInStorage="false"/>
+    <output name="chickenFarm_out" capacity="200" factor="0.05" fillType="chicken" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_butterMaker" locationType="FabrikScript" ProdPerHour="250" position="228.288 0 -166.018" showInProduction="true">
+    <input name="inputMilk" capacity="1000" factor="1" fillTypes="milk rawMilk" showInStorage="false"/>
+    <output name="outputButter" capacity="3750" factor="1" fillType="butter" palettArea="227.211 -163.347 229.705 -169.683" palettPlaces="14" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_fieldWaterHydrant01" locationType="FabrikScript" ProdPerHour="999999999" position="-629.088 135.305 -787.169" showInProduction="true">
+    <input name="fieldWaterHydrant_fakeInput" capacity="5000000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="fieldWaterHydrant_water" capacity="500000" factor="1" fillType="water" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_fieldWaterHydrant02" locationType="FabrikScript" ProdPerHour="999999999" position="-746.059 99.5291 490.764" showInProduction="true">
+    <input name="fieldWaterHydrant_fakeInput" capacity="5000000" factor="0" fillTypes="water" showInStorage="false" showInProduction="false"/>
+    <output name="fieldWaterHydrant_water" capacity="500000" factor="1" fillType="water" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_cabbageMaster" locationType="FabrikScript" ProdPerHour="300" position="-589.805 135.264 -856.374" showInProduction="true">
+    <input name="cabbageMaster_input" capacity="500" factor="1" fillTypes="redCabbage" showInStorage="false"/>
+    <output name="cabbageMaster_output" capacity="92" factor="1" fillType="redCabbage" palettArea="-587.643 -857.746 -576.336 -854.638" palettPlaces="4" showInStorage="false"/>
+  </item>
+  <item name="mCompanyFactory_forageKing" locationType="FabrikScript" ProdPerHour="10000" position="192.897 90.475 -182.289" showInProduction="true">
+    <input name="straw_forageking" capacity="10000" factor="0.2" fillTypes="straw" showInStorage="false"/>
+    <input name="grass_forageking" capacity="10000" factor="0.4" fillTypes="dryGrass_windrow" showInStorage="false"/>
+    <input name="silage_forageking" capacity="10000" factor="0.4" fillTypes="silage" showInStorage="false"/>
+    <output name="forage_forageking" capacity="90000" factor="1" fillType="forage" showInStorage="true"/>
+  </item>
+  <item name="farmFuelDepot2" locationType="FabrikScript" ProdPerHour="999999999" position="207.259 115.769 -394.66" showInProduction="true">
+    <input name="fuelIN_ffs2" capacity="80000" factor="1" fillTypes="biodiesel" showInStorage="false" showInProduction="false"/>
+    <output name="fuelOUT_ffs2" capacity="80000" factor="1" fillType="biodiesel" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_fertiMax" locationType="FabrikScript" ProdPerHour="2000" position="286.42 91.8461 -136.014" showInProduction="true">
+    <input name="water_fertimax" capacity="8000" factor="1" fillTypes="water" showInStorage="false"/>
+    <input name="nitram_fertimax" capacity="600" factor="0.075" fillTypes="nitram" showInStorage="false"/>
+    <output name="liquidFertilizer_fertimax" capacity="8000" factor="1" fillType="liquidFertilizer" showInStorage="true"/>
+  </item>
+  <item name="mCompanyFactory_packingStation01" locationType="FabrikScript" ProdPerHour="1000" position="785.7 0 669.498" showInProduction="true" >
+    <input name="carton_input" capacity="1600" factor="0.01" fillTypes="carton" showInStorage="false" />
+    <input name="layedEgg_input" capacity="2900" factor="1" fillTypes="layedEgg" showInStorage="false" />
+    <input name="packingStation_water" capacity="12000" factor="0.1" fillTypes="water" showInStorage="false" />
+    <output name="egg_output" capacity="4200" factor="1" fillType="egg" palettArea="788.494 669.625 794.982 674.205 " palettPlaces="35" showInStorage="false" />
+  </item>
+  <item name="chickenBreed01" locationType="FabrikScript" ProdPerHour="20" position="886.753 0 606.446" showInProduction="true" >
+    <input name="chicken_in" capacity="200" factor="0.002" fillTypes="chicken" showInStorage="false" />
+    <input name="chickenBreed_beddingMaterial" capacity="12000" factor="0.4" fillTypes="straw beddingMaterial" showInStorage="false" />
+    <input name="chickenBreed_water" capacity="10000" factor="0.8" fillTypes="water" showInStorage="false" />
+    <input name="chickenBreed_grains" capacity="8000" factor="0.6" fillTypes="wheat barley maize chickenFeed" showInStorage="false" />
+    <output name="chickenBreed_manure" capacity="20000" factor="1.2" fillType="manure" showInStorage="true" />
+    <output name="chickenBreed_eggs" capacity="800" factor="1" fillType="layedEgg" palettArea="877.478 620.254 879.03 626.482" palettPlaces="16" showInStorage="false" />
+  </item>
+  <item name="chickenBreed02" locationType="FabrikScript" ProdPerHour="20" position="886.753 0 606.446" showInProduction="true" >
+    <input name="chicken_in" capacity="200" factor="0.002" fillTypes="chicken" showInStorage="false" />
+    <input name="chickenBreed_beddingMaterial" capacity="12000" factor="0.4" fillTypes="straw beddingMaterial" showInStorage="false" />
+    <input name="chickenBreed_water" capacity="10000" factor="0.8" fillTypes="water" showInStorage="false" />
+    <input name="chickenBreed_grains" capacity="8000" factor="0.6" fillTypes="wheat barley maize chickenFeed" showInStorage="false" />
+    <output name="chickenBreed_manure" capacity="20000" factor="1.2" fillType="manure" showInStorage="true" />
+    <output name="chickenBreed_eggs" capacity="800" factor="1" fillType="layedEgg" palettArea="828.039 649.606 829.616 655.88" palettPlaces="16" showInStorage="false" />
+  </item>
+  <item name="chickenBreed03" locationType="FabrikScript" ProdPerHour="20" position="886.753 0 606.446" showInProduction="true" >
+    <input name="chicken_in" capacity="200" factor="0.002" fillTypes="chicken" showInStorage="false" />
+    <input name="chickenBreed_beddingMaterial" capacity="12000" factor="0.4" fillTypes="straw beddingMaterial" showInStorage="false" />
+    <input name="chickenBreed_water" capacity="10000" factor="0.8" fillTypes="water" showInStorage="false" />
+    <input name="chickenBreed_grains" capacity="8000" factor="0.6" fillTypes="wheat barley maize chickenFeed" showInStorage="false" />
+    <output name="chickenBreed_manure" capacity="20000" factor="1.2" fillType="manure" showInStorage="true" />
+    <output name="chickenBreed_eggs" capacity="800" factor="1" fillType="layedEgg" palettArea="765.076 586.477 766.36 592.791" palettPlaces="16" showInStorage="false" />
+  </item>
+</mapconfig>
